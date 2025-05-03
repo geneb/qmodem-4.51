@@ -1,0 +1,2 @@
+cd \qmodem\dl
+pause

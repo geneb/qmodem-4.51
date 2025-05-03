@@ -1,0 +1,1152 @@
+!Width 80
+!Topic 1 Whoops!
+!NoIndex
+
+             Somehow, a Help Topic was left out of the file!
+
+Please report this to Mustang Software along with the exact keystrokes used
+to reproduce this message and the number in the lower right corner of the
+screen.
+
+For an INDEX of all Help Topics, press F1 again, or press Esc to exit.
+!Topic 32 þ Dialing another System      þ
+!Index 3
+
+Alt-D is used to pop up the Dialing Directory (commonly called the Phone
+Book).  From here, you can Insert, Revise, Delete entries, attach Notes to
+specific entries, and yes, actually dial out!
+
+See also : 26 Dialing Directory (Alt-D)
+!Topic 5 File Allocation Window (FAW)
+!NoIndex
+
+The File Allocation Window is a common entry point in Qmodem for various
+operations that require you to enter/change a filename.  (called FAW for
+short).  It uses a simple line editor similar to the one used in the Batch
+Entry Window (BEW).
+
+When you have the FAW open, you should type a valid filename in the form:
+DRIVE:\PATH\FILENAME.EXT
+
+Editing Commands:
+
+  ^Left arrow  -  Previous Word        ^Right arrow -  Next Word
+   Left arrow  -  Left One Character    Right arrow -  Right One Character
+   Home        -  Beginning of Line     End         -  End of Line
+   Ins         -  Insert/Overwrite      Del         -  Delete Char at cursor
+   Backspace   -  Delete Char Left      Enter       -  End Editing
+   ESC         -  Cancel and Exit
+
+NOTE 1: File/directory defaults followed by an * in the Alt-N configuration
+menus can be overridden temporarily in the FAW.  These overrides will remain
+in effect until:
+
+   1.  Qmodem is stopped and restarted.
+   
+   2.  A new default is specified with the Alt-N function.  For additional
+       information, see the help screens for the Alt-N/D and Alt-N/F
+       commands.
+
+NOTE 2: Batch Download Protocols do NOT require file names.  By definition,
+only a DRIVE:\PATH\ specification is required for batch downloads.
+!Topic 10 Function Key Macros
+!Noindex
+
+The Alt-J Window will display up to 8 characters of all 48 function key
+(FKeys) combinations.  Sort of like a Quick Overview of all your FKeys.
+Depending on shift state, each function key may hold up to four values.  The
+data contained in each FKey combination may be a set of standard keystrokes
+such as name, password, or the special commands such as @HELP, @SCRIPT,
+@EDIT, @DIAL, @SHELL, @SHELLX and @STAMP.  
+
+Whenever a function key is pressed, the associated data is sent as if it had
+been typed on the keyboard, or the command or function associated with it is
+executed.
+
+Qmodem supports multiple FKey assignment files.  A new file may be loaded
+or created by pressing L while in the FKey display window.
+
+Pressing a number from 1 to 4 will allow editing of the Fkey values, as
+follows:
+
+    1 Normal Fkeys   2 Shift FKeys   3 Ctrl FKeys   4 Alt FKeys
+
+Pressing Esc will return Qmodem to terminal mode.
+!Page
+
+NOTE: To access all 48 FKey definitions requires an enhanced keyboard with 12
+function keys.  Only 40 definitions are available for keyboards with 10
+function keys.
+!Topic 11 Function Key Edit
+!NoIndex
+
+The Function key edit window is displayed after the desired FKey
+combination has been selected from the FKey display window.
+
+To edit the value of an FKey combination, use the Up/Dn arrows to move to
+the desired key definition.  Within the definition field, standard editing
+functions are available and are displayed at the bottom of the screen.
+
+Three special characters can be used in the FKey text:
+
+   ^M  Generates a CR (carriage return or Enter key)
+
+   ^~  Generates a half-second delay.
+
+   |   When used as the last character, this will allow trailing spaces
+       to be included.  The last | character is stripped before sending.
+
+When the desired FKey entry changes are complete, F10 will save the new
+definitions.  Pressing Esc cancels the Edit function and returns to the
+FKey display window.  
+!Page
+
+The reserved words @HELP, @DIAL, @EDIT, @SCRIPT, @SHELL, @SHELLX
+and @STAMP can be used in FKey definitions as follows:
+
+       @HELP          Invoke the Help System (you are in now)
+       @DIAL x y z    Dial Directory entries x y z
+       @EDIT          Invoke the internal/external editor (see Alt-N/F/V)
+       @SCRIPT cmd    Execute Script "cmd"
+       @SHELL cmd     Shell to DOS and execute "cmd"
+                         (prompts for key-press before returning to Qmodem)
+       @SHELLX cmd    Shell to DOS and execute "cmd"
+                         (returns immediately to Qmodem)
+       @STAMP         Add time/date stamp to the LOG file
+!Topic 12 Download Protocols (PgDn)
+When selecting the File Download function with the PgDn command, Qmodem
+first displays the Protocol Selection Window.  The protocol is the method of
+transfer of data between the sending and receiving computers.  The same
+protocol must be selected in both computers or errors will result and the
+transfer will abort.
+
+Qmodem has fixed internal protocols and allows up to 10 external protocols.
+External protocols require setup and are described in more detail in the
+Qmodem manual and their own documentation.  The following Internal protocols
+are available:
+
+A ASCII - This is the simplest and least reliable protocol.  Data received
+is not verified.  This protocol is used for text transfers and cannot be
+used for binary file transfers such as .COM. .EXE, and .ZIP files.
+
+X Xmodem Checksum - This is the most popular protocol for binary file
+transfers because of its universal support.  This protocol performs basic
+error-detection and recovery and has a 97% probability of error-free
+transfers.  Xmodem transfers data in 128-byte blocks.
+
+C Xmodem CRC - This protocol, similar to Xmodem, uses a better error
+detection and recovery technique and is more effective under poor line
+conditions, with a 99.7% probability of error-free transfer.
+
+R Xmodem Relaxed - This protocol is almost identical to the standard
+Xmodem, but error detection timing is delayed to insure proper operation with
+online services such as CompuServe.
+
+O Xmodem-1k - This protocol transmits data in 1024-byte blocks.  Under
+normal conditions, it will transmit 10% faster than Xmodem.
+
+Y Ymodem (batch) - This "TRUE" Ymodem protocol allows multiple file
+transfers in a single operation.  Most batch protocols contain file
+information and do not require that a filename be specified on the receiving
+computer.
+
+F Xmodem-1K/G - Use of this protocol requires an error-correcting modem, or
+direct attachment of the computers with a null-modem cable.  This protocol
+assumes that Flow Control between the two computers will be performed with
+computer-to-modem hardware handshake.
+
+G Ymodem/G (batch) - This is the non error-correcting version of the Ymodem
+Batch protocol.  This protocol carries the same hardware flow control
+requirements as the F protocol.
+
+NOTE: Xmodem-1K/G and Ymodem/G will only appear in your menu if you have the
+Alt-N/M/T/C (CTS Signal toggle) set ON.
+
+Z Zmodem (batch) - This is the popular Zmodem error correcting protocol
+that is sweeping the nation.  It supports Crash Recovery and does not require
+an external protocol driver like previous versions!
+
+NOTE: Qmodem features "Automatic Zmodem Download" if the Alt-N/P/T/Z (AutoZ
+Flag) is set to ON.  In AUTOZ mode, Qmodem will recognize the Zmodem download
+header record and will immediately start a Zmodem download. 
+!Topic 13 Entries Commands 
+!NoIndex
+
+^SP/SP - Tag-P/Tag-Untag  Pressing the space bar marks the current entry 
+-- a tag character will appear to the left of the name field --.  Entries
+must be tagged before certain commands, as described later.  Any number of
+entries may be tagged at the same time.  If ^Space is used to tag the
+entry, a P tag will be displayed, indicating that any embedded Dial Prefix
+modifiers will be ignored when the number is dialed.
+
+I - Insert New Entry  Use this command to Insert a blank entry at the
+current Scrollbar position.  All entries from the Scrollbar on are pushed
+down and the last blank entry in the FON file is removed.
+
+^D/D - Delete Tagged/Bar  Used to remove directory entries and/or the notes
+attached to them.  A sub-menu is displayed when this command is issued, with
+online help available.  Using ^D deletes all tagged entries, while D only
+Deletes the current entry.  After an entry is deleted, the entries below it
+are "pulled up" to fill in the gap.
+
+^R/R - Revise Tagged/Bar  Allows editing of Dialing Directory information.
+If ^R is pressed, all tagged entries will be edited, while pressing R
+will only revise the current entry.  To save the revisions to disk, press
+F10.
+
+T - Tag Multiple  Tags entries based on number, number range, or contents.
+Prefix codes may be inserted or changed on the fly.  See 103Tag Multiple for more help.
+
+U - Untag All  All tags are immediately removed.
+
+Q - QuickLearn  A QuickLearn tagged entry causes Qmodem to create a custom
+Logon Script for that entry.  The linked script is played back automatically
+thereafter, eliminating the manual logon.
+!Topic 14 Upload Protocols (PgUp)
+
+When selecting the File Upload function with the PgUp command, Qmodem first
+displays the Protocol Selection Window.  A protocol is the set of rules
+which govern the transfer of data between the sending and receiving
+computers.  The SAME protocols must be selected in both computers, otherwise
+errors will result, and the file transfer will likely fail.
+
+Qmodem has fixed internal protocols and allows up to 10 external protocols.
+External protocols require setup and are described in more detail in the
+Qmodem manual and their own documentation.  The Internal protocols available
+are the same as the 12 Download Protocols .
+
+In addition, the internal protocols Ymodem, Ymodem/G and Zmodem have a
+different filename entry screen called the Batch Entry Window.  For more
+information on the BEW, see also: 89 Batch Entry Window 
+!Topic 15 Adding Linefeeds (Shift-Tab)
+
+Some bulletin boards and online services do not add linefeed characters to
+carriage returns, which cause lines of data displayed on your screen to be
+overwritten.
+
+                Another scenario is when text seems to
+
+                be displayed Double Spaced
+
+                on your screen...
+
+
+What do they have in common?  Both of these are controlled by the
+Linefeeds (or lack thereof) in the text.  The Shift-Tab toggle can be
+turned ON to correct the first problem.  If it is set ON and does not need
+to be, then turning it back OFF corrects the second problem.
+!Topic 16 Script QuickLearn (Alt-Q)
+
+QuickLearn is Qmodem's automated Script Recorder.  A Script is a program
+written in Qmodem Script Language, used to perform repetitive functions such
+as log on, file transfers or other utility functions.  
+
+While in QuickLearn mode, Qmodem captures data as it is received from the
+remote system, as well as the corresponding local keyboard responses.  The
+data is then used to build a Script File which, when executed, exactly
+replicates the interaction between the two systems as it took place
+originally.
+
+Alt-Q starts QuickLearn mode with a prompt for the name of the Script File
+to be created.  Any DOS file name is valid, and Qmodem will automatically
+append the required .SCR extension to the script's file name.  Script
+recording will then start.  When the desired functions have been performed,
+pressing Alt-Q a second time will terminate the script recording and save
+the script file.
+
+The script just created can be executed with the Alt-F command.
+!Topic 17 Directory Display (Alt-W)
+
+Alt-W produces a sorted list of the current directory similar to the DOS
+DIR/P display.  The default DIR argument is *.*, which displays all files. 
+This argument may be changed and may include partial file names as well as
+the wildcard characters * and ?.
+
+Next, a DIR window will open with subdirectories and filenames listed.
+Subdirectory entries are always shown in upper-case and filename entries in
+lower-case.  You can use the cursor movement keys to scroll the window.
+Selecting a <dir> entry that is highlighted by the scrollbar will move you
+into that subdirectory and show any files that match the argument (commonly
+called a file mask).  The entry .. refers to the parent directory.
+
+If you have a large list of files, you can quickly locate an entry by using
+Speed Characters.  Just type the letters of the filename and the scrollbar
+will move to the filename that matches the characters entered.  The lower
+left border of the window will show you the currently matching Speed
+Characters.  If you enter more characters than match any entry, the Speed
+Characters are erased so you can start over.
+
+Pressing Esc removes the DIR window and returns you back to the Mask
+window so you can change the mask or include a different drive letter.
+!Topic 18 Duplex Toggle (Alt-E)
+
+The Alt-E duplex mode, controls the display of local keystrokes on the
+local terminal.  An incorrect echo setting will cause keystrokes to be
+displayed twice like HHEELLLLOO, or not to be displayed at all.  In Full
+Duplex mode, the remote computer echoes keystrokes and local echo is not
+required.
+!Topic 19 Dos Shell (Alt-R)
+
+Shelling or Dropping to DOS temporarily suspends Qmodem and causes the
+standard DOS prompt to be displayed.  Any valid DOS command can then be
+invoked such as DIR, COPY, FORMAT and so on.  Sufficient memory must be
+available in the system to allow this process since a second copy of
+COMMAND.COM must be activated to process the commands.  
+ 
+To return to Qmodem, type EXIT and press Enter.
+
+NOTE: While in DOS Shell mode, DO NOT INVOKE RESIDENT PROGRAMS (TSR) such as
+ProKey, Sidekick, etc...
+!Topic 20 Screen Dump (Alt-T)
+
+The Screen Dump function copies the screen contents to a filename specified
+in the Alt-N/F menu.  Screen text is added to the end of the file and
+includes Date and Time stamps.
+
+If the file does not exist, a prompt will be displayed to create it.
+
+Upon completion of the screen dump, Qmodem will display a completion status
+window.
+!Topic 21 Delete a File (Alt-Y)
+
+This function will delete a file that you specify.  A valid DOS filename
+must be entered in response to the file deletion prompt.
+
+After the file name to be deleted has been verified by Qmodem, the complete
+path/filename is displayed, as well as an opportunity to cancel the request.
+
+Replying N to the confirmation prompt will cancel the deletion request and
+return Qmodem to terminal mode.
+
+Replying Y to the confirmation prompt will proceed with the file deletion.
+
+This is a powerful and unforgiving command and caution should be exercised
+or permanent loss of the file could result.  If the file was deleted by
+mistake, it may be recovered with special programs such as Norton's
+Utilities, Mace Utilities, etc.
+!Topic 22 Scroll Back Toggle (Alt-U)
+
+The ScrollBack toggle controls the storage of data in the ScrollBack buffer,
+accessible with the Up-Arrow key.
+
+By default, Qmodem starts with the ScrollBack feature active.
+!Topic 23 Invoice for Ordering (Alt-I)
+
+Alt-I displays an invoice form which may be used to register your copy of
+Qmodem.  Should you experience any problems with Qmodem, send a message to
+the Mustang Software and include this information.
+
+Registration provides the best support possible, and enables Mustange
+Software to constantly improve Qmodem.
+!Topic 25 Communication Parameters (Alt-P)
+
+Serial parameters include speed, parity, data bits and stop bits.  Default
+serial communications parameters are set via Alt-N/M/C.  In addition, the
+default parameters can be overridden in each entry in the Qmodem dialing
+directory.
+
+While in the COM parameter window, parameters are changed by typing the
+letter corresponding to the desired change.  The current combination,
+displayed on the window's top line, will reflect the change immediately.
+
+Pressing Enter will implement the changed parameters immediately. 
+Pressing Esc will restore the previous parameters and return Qmodem to
+terminal mode.
+
+CAUTION: Communication parameters can be changed while offline or online.
+Online changes should only be attempted if the current parameters are known
+to be incorrect, unreadable characters are displayed on the screen, or the
+connection cannot be established properly.
+!Topic 27 Change COM Port (Alt-K)
+
+Qmodem can immediately switch between any one of eight communication ports
+on computers so equipped.  The standard COM1 and COM2 ports are Qmodem
+defaults; port definitions beyond COM2 must be specified with the Alt-N/M/P
+configuration menu.
+
+If you have defined additional COM ports, your menu may look something like
+this:
+
+                   ีอออออออออ Set COM Port ออออออออออธ
+                   ณ Active COM Port is COM1         ณ
+                   ณ                                 ณ
+                   ณ 1  COM1  Base(03F8) Irq(04)     ณ
+                   ณ 2  COM2  Base(02F8) Irq(03)     ณ
+                   ณ 3  COM3  Base(03E8) Irq(04)     ณ
+                   ณ                                 ณ
+                   ณ Your choice : _                 ณ
+                   ิอออออออออออออออออออออออออออออออออพ
+
+To select a new serial port, type the desired number from the displayed
+list.
+!Topic 38 Change Drive (Alt-L)
+
+Any valid DOS drive letter (A-Z) can be entered in response to the Alt-L
+command.  The current drive is shown in the drive selection window.
+
+To change drive, type the desired drive letter.  The window will close if you
+have selected a valid drive.  Press Esc if you do not wish to change the
+default drive.
+
+See also: 24 Change Directory (Alt-O) 
+!Topic 29 Exit Qmodem
+!NoIndex
+
+               ***** YOU HAVE REQUESTED EXIT FROM QMODEM *****
+
+                  Three options are available at this time:
+
+    N  DO NOT EXIT Qmodem.  Select this option if Alt-X was pressed in
+    error.  Qmodem will return to terminal mode.
+
+    Y  Exit Qmodem.  Qmodem will close the Session Capture and Log files,
+    if opened, and exit to DOS.  Qmodem returns to the default drive and
+    directory active at the time the program was started.  If a connection
+    was active, it will be immediately terminated.
+
+    X  Terminate Qmodem without disconnecting the phone line.  This option
+    can be used to run another program, re-boot the computer, or when not
+    enough free memory is available to use the Alt-R Shell to DOS command.
+!Topic 30 Translate Tables (Alt-A)
+
+Strip/Replace is more commonly known as character translation.  Translation
+may be necessary when communicating with another computer whose ASCII codes
+do not match those used by your PC.
+
+Incoming and outgoing ASCII characters can be changed to other ASCII
+characters by editing the appropriate translate table.  Unwanted characters
+can be eliminated or substituted to meet your specific requirements.
+
+Binary file transfers and Xon/Xoff flow control are not affected by
+translate table settings.
+
+See also: 4 Translate Table Selection 
+!Topic 31 Split Screen Mode (Alt-S)
+
+In Split-Screen mode, the screen is divided into two windows.  The bottom
+window displays data entered locally, while the top windows displays data
+received from the remote system.  Due to its method of operation, Split
+Screen Mode does not support terminal emulation and forces Qmodem to operate
+in TTY mode.
+
+While in Split Screen mode, local keystrokes are accumulated and are not
+transmitted until a carriage return is typed.  Accumulated keystrokes are
+displayed in the lower window.
+
+NOTE: The characters ^M are used in place of the Enter key to produce a
+carriage return if you want to enter more than one sentence before
+transmitting the Buffer.
+
+To return to full screen operation, press Alt-S a second time.  Qmodem
+automatically restores the terminal emulation to its previous setting.
+!Topic 33 Script File Execution (Alt-F)
+
+Script Files are programs written in Qmodem's Script Language.  They are
+used to automate or facilitate repetitive tasks such as logon, file
+transfers, etc...
+
+Type the desired Script file name in response to the first prompt, and any
+required script parameters in response to the second prompt.  Press Enter
+in response to the second prompt if the script requires no parameters.
+
+The script will be loaded and will start executing following the second
+prompt response.
+!Topic 34 Terminal Emulation (Alt-G)
+
+Terminal emulations allow Qmodem to imitate several popular stand-alone
+video terminals.  Terminal emulation is usually required for communications
+with minicomputers or mainframes.  The type of terminal emulation required
+is determined by the Host computer.
+
+The Alt-G command displays a Terminal Emulation window which allows the
+selection of a new video terminal emulation.
+
+To change emulation mode, type the letter corresponding to the desired
+terminal type.  The screen will be cleared and the new emulation mode will
+be displayed on the Status Line at the bottom of the screen.
+
+ NOTES: TTY Emulation is forced while in Split-Screen mode.  Qmodem restores
+        the previous terminal emulation upon exit from split-screen mode.
+
+        ANSI is recommended if the remote computer supports ANSI Color
+        Graphics.  (Such as the Forbin BBS)
+
+        Qmodem's ANSI emulation is internal and does not require the
+        DEVICE=ANSI.SYS command in the CONFIG.SYS file.
+!Topic 35 Hang Up (Alt-H)
+
+A Hangup window will open to confirm you really meant to hangup. (accidents
+do happen)  Pressing Y or Enter will do the Hangup, while N or Esc
+will cancel the Hangup request.
+
+The Hangup command causes the modem to go On Hook and disconnect from the
+phone line immediately.  The hangup command for the Hayes Smartmodem and
+compatibles is: 
+
+                  ^~^~^~+++^~^~^~ATH^M
+
+Most modems can recognize the dropping of the DTR (Data Terminal Ready)
+signal as a way of disconnecting from the phone line.  Modems can be set to
+hold the DTR signal active High at all times.  In this case, Qmodem cannot
+drop DTR to hang up.  The good news is that usually a modem command such as:
+
+                  AT&D2&W
+
+or a DIP switch can changed to allow the modem to use the more effective
+DTR method.
+
+NOTE: This command does nothing if you are already OFFLINE.
+!Topic 36 Function Keys (Alt-J)
+
+Repetitive keystrokes can be stored into Function Keys in each of four shift
+states, yielding up to 48 possible combinations depending on keyboard type.
+Keystrokes can be recalled instantly by pressing the FKey (or FKey
+combination) into which it was stored.
+
+In addition, Function Keys can be programmed to start a Script, invoke the
+internal Full Screen Editor or even run external programs.
+
+The Alt-J command allows the editing of the FKeys and loading new FKey files.
+
+NOTE: FKeys are only active in terminal mode.  When issuing most Alt- or
+Ctrl- commands, only the F1 HELP key is active.
+
+See also : 10 Function Key Macros 
+!Topic 37 Change COM Port (Alt-K)
+!Noindex
+
+Qmodem can operate on any of eight communications ports defined in Alt-
+N/M/P.
+
+COM1 and COM2 come pre-defined.  COM3 thru COM8 must be defined before they
+can be selected.  If you are using any port above COM2, refer to your
+Internal modem manual or Serial Port card for the correct settings.
+!Topic 40 Script Parameters (Alt-F)
+
+Following the verification of the script file name, Qmodem will issue a
+Script Parameter prompt.  Script parameters are startup values passed to the
+script, similar in purpose to DOS command-line parameters and switches.
+
+Some scripts require parameters while others do not.  The need for parameters
+and their format, if required, should be indicated in that specific script's
+documentation.
+
+If no parameters are required, press Enter and the script will start
+executing.  If parameters are required, type them as documented and press
+Enter.  The parameters will be passed to the script, and the script will
+start.
+
+NOTE: The script may be cancelled by pressing Esc then the A key.  Script
+cancellation will return Qmodem to terminal mode in the environment set by
+the script.
+!Topic 42 Deleting Tagged Entries and/or Notes
+!NoIndex
+
+Deleting entries previously tagged completely erases the entries and leaves
+their contents blank.  Since Note files can be attached to directory entries,
+this command has two options:
+
+Notes Only - This will delete all notes attached to the tagged entries.
+
+Entries and Notes - This will delete the entries as well as the notes
+attached to them.  Pressing Esc will cancel the Delete request and return
+to the Dialing Directory display.
+
+CAUTION: Unlike directory entries, Note files are not backed-up when changed.
+As a result, Notes are deleted permanently and cannot be restored with the
+^U Undo command.
+!Topic 43 Dialing Commands
+!NoIndex
+
+ENTER - Start Dial  If entries are tagged, they will be dialed in the order
+in which they were tagged. After a successful connection, that entry's tag
+will be removed. If no entries were tagged, the current entry will be dialed.
+
+M - Manual Dial  Use this command to dial a number which is not in the
+directory.  You will be prompted for the number to be dialed. Manual dialing
+is done outside the dial window and you will return to terminal mode after
+this command.
+
+Esc - Cancel/Exit  Exits the Alt-D window and returns to terminal mode.
+!Topic 44 Xon/Xoff Toggle (Alt-Z)
+
+Xon/Xoff are software-controlled transmit/receive signals which control the
+flow of text or data.  While active, ^S will stop the flow of data and ^Q
+will restart it.
+
+Xon/Xoff is generally used to control text viewed on the screen or preventing
+a data buffer overflow.
+!Topic 45 Exit Qmodem (Alt-X)
+
+The Alt-X command is used to terminate Qmodem and exit back to DOS.
+
+Three Exit options are available:
+
+            Y - Exit Qmodem and Hangup
+            N - Return to Qmodem terminal mode
+            X - Exit Qmodem and DO NOT disconnect the call
+!Topic 46 Clear Screen (Alt-C)
+
+Alt-C erases the screen and resets colors to their default values.
+
+Default screen colors are not restored automatically if they were changed
+during the execution of a script file.
+
+NOTE: If a script has reset the physical screen dimensions, pressing Alt-C a
+second time will also reset the screen to full size.
+!Topic 47 View a File (Alt-V)
+
+Alt-V is a Gateway to DOS, used to display or edit a file.
+
+The default DOS program or command invoked with Alt-V is specified with the
+Setup command Alt-N/F/V.  As is the case with the Alt-R DOS Shell, enough
+memory must be available to load the desired program or execute the DOS
+command.
+
+The default program name shown in the displayed prompt may be changed, or any
+valid DOS command may be typed.  When the program or command is completed,
+Qmodem displays:
+
+                        (Press any key to continue)
+!Topic 48 Beeps & Bells Toggle (Alt-B)
+
+Beeps and Bells are used by Qmodem to signal a given event such as a
+successful connection or the end of a file transfer.
+
+The default setting for this feature is specified in Alt-N/O/T/B.  The pitch
+of the connect, download, or upload tones can be changed from the same menu.
+
+Alt-B toggles this feature On or Off.
+!Topic 3 Editing
+!NoIndex
+
+E - Edit Prefixes  Letters A through J may be used in conjunction with
+phone numbers to define additional information such as calling service
+account numbers or even alternate Modem dialing commands.  The desired
+prefix and/or suffix letter is included within the entry's telephone number:
+   
+    A555-1212
+
+In addition, prefixes may be used as Alternate Dialing Commands, if the
+prefix itself is preceded by an end quote character `.  For further
+information on alternate dialing commands, see ^^^Revise Prefix.
+
+N - Edit Note  Qmodem allows text notes to be attached to each directory
+entry.  Notes are stored in standard text files with a QMODEM.xxx filename
+where xxx is a number from 1-200. This command allows creation/edit of the
+note file for the current directory entry.
+
+V - Edit Linked Script  This command allows editing of the script linked to
+the selected entry.
+
+NOTE: The N and V edit commands above invoke Qmodem's built-in text
+editor.  While editing a note or script, the editor's online help is
+available by pressing F1.
+!Topic 50 ANSI Music Toggle (Alt-M)
+
+Qmodem recognizes extended ANSI Music commands and will play it through the
+system's speaker if the following conditions are met:
+
+1 - ANSI terminal emulation is active (Alt-G).
+
+2 - The music toggle is ON (Alt-M).  Extended ANSI Encoded Music strings
+are in the following format:
+
+      ESC[M.....music codes......^N
+!Topic 51 FON Commands
+!NoIndex
+
+F - Find Text  Use this command to search the dialing directory and
+Attached Notes for a specific text string.  The first matching entry will
+become the current entry.
+
+A - Repeat Find  Repeats the last Find command.  The search will resume
+with the entry immediately following the current entry.
+
+NOTE: If the matching text is found in an Attached Note, Qmodem will display
+a status window to that effect. The N command may then be used to view the
+contents of the note where the match was found.
+
+L - Load  Load an Alternate Dialing Directory.  If the current Directory
+has been modified, but has not been saved, a prompt will be displayed
+allowing the current Directory to be saved.
+
+NOTE: The extension of .FON is required to insure compatibility with future
+versions of Qmodem.
+
+O - Other Info  Directory Information Display toggle.  This command
+alternates displayed data to allow complete viewing of entry information.
+
+
+^P/P - Print 132/80  Produces a listing of the Dialing Directory on a
+selected device or to a file.  Pressing ^P will print all directory fields
+using 132 columns, while P will print selected fields using an 80-column
+format.  To print the listing, reply PRN or LPT1 to the displayed prompt. To
+direct the listing to disk, enter a valid DOS filename.  Entries with blank
+Name fields will not be listed.
+
+S - Sort  Directory entries may be sorted by Name or Number in ascending
+sequence or by Total Calls in descending sequence.  A Total Call sort causes
+the most frequently called numbers to appear at the top of the directory.
+
+NOTE: The phone directory is sorted intelligently in case-insensitive
+alphabetic order.  Entries starting with an UPPER CASE letter will be sorted
+before entries with the same lower-case letter.  Entries which do not start
+with a letter will be sorted in standard ASCII sequence.
+
+^U - Undo  Restores the Dialing Directory backup file which was created
+before the last major directory change.  If a backup file does not exist, an
+appropriate error message will be displayed.  Only the LAST major change can
+be undone.  If you wish to experiment with various changes, consider making
+multiple copies of the QMODEM.FON file for backup purposes.
+!Topic 52 Movement Commands
+!NoIndex
+
+Movement in the Phone Book is accomplished with the following keys:
+
+Up Arrow  Moves the Scroll-bar UP one line.  This will wrap around to the
+last entry if currently on Entry #1.
+
+Down Arrow  Moves the Scroll-bar DOWN one line.  This will wrap around to
+the Entry #1 if currently on the last entry.
+
+PgUp  Displays the PREVIOUS page.
+
+PgDn  Displays the NEXT page.
+
+Ctrl-PgUp  Moves the Scroll-bar to the FIRST entry.
+
+Ctrl-PgDn  Moves the Scroll-bar to the LAST entry.
+!Topic 53 Pick List Windows
+!Noindex
+
+Many of the various windows use a Pick List format.  This allows more
+information to be displayed than can fit in the windows physical dimensions.
+
+You can select an item by several methods:
+
+    1.  Using the cursor keys to move the Scroll Bar and pressing Enter.
+    2.  Speed Selection by typing in the lead-in character(s).
+!Topic 73 Upload a File (PgUp)
+!Noindex
+
+PgUp initiates a file Upload to the remote system.
+
+Qmodem will display the upload protocol window, from which a file transfer
+protocol must be selected.  Up to ten external file transfer protocols, if
+implemented, are displayed at the bottom of the window.
+
+Select the letter corresponding to the desired protocol.  The same protocol
+must be used by the sending and receiving programs.
+
+The remote computer should be ready to receive the file before starting the
+upload.  The protocol selection window will be replaced by the File
+Allocation and Upload Status windows.
+
+Qmodem automatically scans the screen text from the bottom up looking for the
+first valid file name meeting the FILENAME.EXT search criteria.  If found,
+the name is inserted into the upload file allocation window.  If the match
+was incorrect or none was found, the name must be entered or edited manually.
+
+When the filename is correct, press Enter to start the transfer.
+!Topic 81 Download a File (PgDn)
+!Noindex
+
+PgDn initiates a file Download from the remote system.
+
+Qmodem will display the download protocol window, from which a file transfer
+protocol must be selected.  Up to ten 10 external file transfer protocols are
+displayed at the bottom of the window. Select the letter corresponding to the
+desired protocol.
+
+The same protocol must be used by the sending and receiving computers; make
+sure that the remote computer is ready to send a file with the selected
+protocol before starting the process on your end. The protocol selection
+window will be replaced by the File Allocation and Download Status windows.
+
+Qmodem automatically scans the screen text from the bottom up looking for the
+first valid file name meeting the FILENAME.EXT search criteria.  If found,
+the name is inserted into the download file allocation window.  If the match
+was incorrect or none was found, the name must be entered or edited manually.
+When the filename is correct, press Enter to start the transfer.
+!Topic 117 Send BREAK Signal (^End)
+
+The BREAK is a special modem signal used to notify the other computer that it
+is to interrupt its current activity.  Certain online services can recognize
+the BREAK signal and will respond to it appropriately.   When ^End is
+pressed, Qmodem displays <<BREAK>> on the screen.  The timing can be set
+via Alt-N/O/D/B.
+
+NOTE: BREAK is a function implemented by the modem.  Qmodem only controls the
+timing of this function.
+!Topic 84 Setup - The top menu (Alt-N)
+
+The Alt-N command invokes the online configuration program QINSTALL. 
+Because Qmodem is extremely configurable, there are many options and
+parameters that can be set to your preference.  If you are confused about any
+of the Menu selections, be sure to use the F1 Help key!
+
+Qinstall and Alt-N are used interchangeably.  If you are running Qmodem, then
+pressing Alt-N will run Qinstall transparently.  If you are at the DOS
+prompt, typing QINSTALL and pressing enter brings up the Setup Menu and
+allows you to change the QMODEM.CNF file only.
+
+The Alt-N Setup menu will look like this:
+
+  ีอออออออออออออออออออออออออออออ Setup Menu อออออออออออออออออออออออออออออธ
+  ณ Video    Modem    Dirs   Host   Protocols   Files    Options    Exit ณ
+  ิออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออพ
+
+
+To learn more about each command, select one from this list:
+
+ 83 Video   78 Modem   70 Dirs   69 Host   68 Protocols   63 Files   62 Options   56 Exit 
+!Topic 83 Setup/Video
+!Noindex
+
+The Alt-N Video Menu has 7 options, 5 of which are preset color combinations.
+
+The 82 Alt-N/V/C  Custom Color option allows total flexibility in the
+assignment of screen colors.
+
+The Blue, Red, Purple, Monochrome and LCD Laptop options are combinations
+favoring these shades.
+
+The 85 Alt-N/V/T  Toggles menu allows you to change things such as
+Terminal Emulation, BIOS Video mode, Snow Checking and Growing Windows, to
+name a few.
+!Topic 85 Setup/Video/Toggles
+!Noindex
+
+BIOS Video - When set ON, all video I/O is done through the computer's
+BIOS.  Some multitasking systems require programs to write to the BIOS to
+handle the video correctly.  You should leave this set OFF unless you notice
+a bleed-through problem.  Setting this ON will slow the video considerably.
+
+Linefeed after CR   When ON, causes Qmodem to add a linefeed (LF) after
+each carriage return (CR) character.  This toggle should be ON if text lines
+are overwritten on the screen.  This toggle can be changed with the Shift-
+Tab command.
+
+Snow Checking - If you have an old original CGA video adapter, you may need
+to set this ON to prevent the screen from "sparkling".  Any video adapter
+other than a CGA can leave this set to OFF.
+
+Growing Windows - When ON, windows that are opened give the appearance of
+"growing" to full size.  This is purely for asthetics (commonly called a
+Whistle or Bell).
+!Page
+
+Status Line - When ON, a Status Line is always shown on the last line of
+the screen.  When OFF, the Status Line is only present when one of the
+internal commands needs to convey command options to you.  The shortcut
+toggle from Terminal mode is Alt-.
+
+Destructive Backspace - When ON, the backspace will erase the character to
+the left of the cursor before moving left.  When OFF, the cursor moves left
+without blanking out characters.
+
+Line Wrap - Controls wrapping of text when the cursor reaches the last
+column on the screen.  When ON, the cursor wraps to the next line when a
+character is written in the last column.  When OFF, the cursor stays in the
+last column after a character is written.
+
+NOTE: This Toggle only affects the ANSI, VT100 and AVATAR terminal
+emulations.
+
+Video Restore - When ON, the video mode in effect before Qmodem is started
+is saved and restored when you exit.  When OFF, whatever video mode you are
+in when you exit Qmodem is left active.
+
+
+Jump Scroll - When OFF, internal code is used to scroll the screen.  When
+ON, the BIOS is used to scroll the screen.  Usually the ON setting is
+smoother visually.
+
+92Emulation - The default terminal type Qmodem should emulate.  When the
+cursor is located in this field, pressing Enter will open a Pick List of
+available emulations. TTY or ANSI modes are the most common, while VT100
+emulation may be required if connected to a Host computer.
+
+Strict Color - In ANSI and VT100 emulation, there is a question on
+how the default colors should be set.  Both ANSI and VT100 use the
+Esc[m and Esc[0m command to reset to a color.  By the books, this
+color is white on black.  In the past, these Esc codes were set to
+whatever the default Screen Text color was as set in the Custom
+Colors section.  But, depending on the system called, this may result
+in an incorrect display of either ANSI or VT100 if the designer relied
+on the white on black colors.
+
+Alt-N/V/T/C (Strict Color) will control what color is selected when
+Esc[m or Esc[0m is executed.  When set ON, the color becomes "white on
+black".  When set OFF, it becomes the color set by "Screen Text" in
+Custom Colors.  If you have this set OFF and some screen does not look
+right, it might if you turned this ON.  To remain compatible with
+previous versions of Qmodem, the default is OFF.
+!Topic 87 Setup/Video/B|P|R|M|L 
+!NoIndex
+
+The Selections BLUE, PURPLE, RED, MONOCHROME and LCD LAPTOP are
+predefined color schemes that favor their respective colors.
+
+The last two are basically monochrome (i.e.. black and white) with LCD being a
+variation that seems to be easier to read on certain types of Laptop
+displays.  (your mileage may vary)
+
+Selecting one of the predefined color sets puts them into effect immediately.
+If this is not what you intended to do, simply exit Setup WITHOUT saving and
+then restart.
+
+The color set that comes up when you first start Qmodem/Qinstall is the
+author's favorite setup and is not listed in the menu.  (smile)
+!Topic 82 Setup/Video/Custom Colors
+!Noindex
+
+Custom Colors may be assigned to screen displays such as window text and
+border, screen border, primary and secondary screen text, full screen editor
+standard and highlighted text.
+
+To assign a color combination, select the desired element by using the Up and
+Down Arrow key and pressing Enter.
+
+See Also:  80 Changing the Colors 
+!Topic 80 Changing the Colors
+!NoIndex
+
+Select the item you want to change the color of by scrolling through the list
+and pressing Enter.
+
+Next, a color selection chart will appear along with a Sample Screen so you
+can see what effects your changes will make.
+
+ See also :   79 Color Chart Selection     53 Pick List Windows 
+!Topic 79 Color Chart Selection
+!Noindex
+
+Use the Arrow keys to move the Select Square to the color you like.  The
+Sample Screen window on the right will update with the movement.
+
+Press Enter to Save the change made, or press Esc to restore the original
+color.
+!Topic 78 Setup/Modem
+!Noindex
+
+This option allows you to configure Qmodem for type and brand of modem you
+are using.
+
+Menu options are:   77 Communication Parameters       
+     
+                    76 Modem Commands 
+
+                    74 Port Addresses                 
+
+                    71 Quick Modem Config 
+
+                    86 Toggles 
+
+TIP: To get up and running quickly, select the COM port your modem is
+connected to (or configured as with internals) to via Alt-N/M/C/J.  Then run
+your modem through Alt-N/M/Q (Quick Modem Config) selecting your modem from
+the list.
+
+If your modem is NOT in the list, Mustang Software would appreciate you
+sending us a copy of your modem manual so we can update the MDF file for you!
+!Topic 77 Setup/Modem/Comm Parameters
+!Noindex
+
+This Menu allows the setting of the following communications parameters:
+
+Default Baud Rate (A) - The speed at which Qmodem will open the default
+serial communication port.  This value should match the modem's speed.
+Supported speeds are 110, 300, 1200, 2400, 4800, 9600, 19200, 38400, 57600
+and 115200.  The default baud rate is 1200.  This is also the speed of which
+the Host Mode is reset to between callers.
+
+Default Data Bits (B) - Data bit values are usually 8 or 7, with 8 being
+the most common.  This setting must match that of the software operating on
+the remote computer.  Most PC Bulletin Board Systems (BBS) operate with 8
+data bits, the default value.
+
+Default Parity (C) - The parity scheme used to insure the reliability of
+the data being received.  Parity values are NONE, EVEN, or ODD.  This value
+must also match that used by the computer being called.  Most BBS systems use
+a parity of NONE, the default value.
+
+Default Stop Bits (D) - Stop bits are used to separate characters.  Again,
+this value must match the remote computer's setting.  Most BBS systems use 1
+stop bit, the default value.
+
+Command Before & After Baud Chg (E&F) - These two strings are sent to the
+modem before and after the serial speed is changed.  The default values are
+blank.  Non-standard modems may require special commands.
+
+Cycle Delay (G) - The number of seconds Qmodem must wait to redial
+following a failed connection, such as a BUSY signal.  The default value is
+45 seconds.
+
+Timeout Delay (H) - The number of seconds Qmodem will wait for a connect
+after dialing a number.  When this period has expired, Qmodem will instruct
+the modem to hang up.  The default value is 60 seconds.  Also, most modems
+have an internal timeout value which may be different from the one assigned.
+
+Modem Command Delay (I) - The number of milliseconds delay between
+characters in modem commands.  The default is 0.  Some high-speed modems may
+require a delay (1-25) value if commands are not recognized and do not return
+an OK message.
+
+Serial Port (J) - The address (1-8) of the communication port to which the
+modem is attached.  The default is 1.  Port addresses higher than 2 must be
+configured separately via Alt-N/M/P.
+!Page
+
+Script SEND PACE= delay (K) - This controls the addition of the PACE=
+parameter to Script SEND commands.  If this is greater than 0, QuickLearn
+will add the PACE=xxxx parameter to the end of the SEND command.  The value
+of xxxx will be be set to this option's value.
+!Topic 76 Setup/Modem/Modem Commands
+!Noindex
+
+These are special parameters and commands used to control Qmodem's
+interaction with the modem.
+
+Initialization Command - Default: ATE1Q0M1X1V1S7=60^M.  This it the modem
+command that is first sent when Qmodem starts.  It should setup the modem for
+proper operation.  If you have run your modem through the Quick Modem Config,
+then the proper Init command has been set for you.  This command may vary
+depending on the modem; consult the modem owner's manual.
+
+Prefix Dial Command - Default: ATDT.  Used to tone-dial a number on Hayes
+and compatible modems.  This also varies depending on modem brand. Pulse-
+dialing requires this to be changed to ATDP.  You can also toggle DTR by
+having just DTR as the Prefix Dial command.
+
+TIP: Adding *70 after the ATDT dial command can be used to disable call-
+waiting on some tone-dialing phone systems.  Adding 1170 after the ATDP
+dial command can be used on some pulse-dialing phone systems.
+
+Suffix Dial Command - Default: ^M, a Carriage Return.  This command
+immediately follows the number to be dialed.
+!Page
+
+Connect Message - Default: CONNECT.  This is the message returned by the
+modem when a successful connection has been established.  Most modems will
+also return the baud rate, e.g. CONNECT 2400.  Do NOT include the baud rate
+as part of this message.  Doing so will only allow connecting at that speed!
+
+Error Messages 1-4 - Default: NO CARRIER, BUSY, NO DIAL TONE and VOICE.
+These are messages returned by the modem when the connection was
+unsuccessful.  Refer to your modem manual for the messages for your modem.
+
+Abort Dial Command - Default: ^M.  This string will be sent to the modem
+when a dial request is cancelled.  Most modems accept ^M.  Using the command
+DTR is the most effective method if the modem supports dropping DTR as a
+disconnect method.  Consult the modem manual for information on this.
+
+Hangup Command - Default: ^~^~^~+++^~^~^~ATH0^M.  This command forces a 1.5
+second pause, then sends the +++ to get the modem's attention, another pause
+and then the command to hang up.  Specifying DTR is a more effective method
+if the modem supports dropping DTR as a disconnect method.
+!Page
+
+Redial Cancel Text - Default: RING.  The string sent by the modem which
+causes the dialer to stop.  If your phone line is used for both outgoing and
+incoming calls, and you wish an incoming call to cancel dialing in progress,
+use the word "RING" in this field.
+!Topic 74 Setup/Modem/Port Addresses
+!Noindex
+
+Qmodem supports default assignments for two serial ports, COM1: and COM2:.
+For PC, AT and compatibles, equipped with IBM-standard adapters, port address
+and IRQ assignments need not be changed.
+
+IBM PS/2 units also support the COM3 and COM4 ports with the following
+assignments:
+                    Port #    Address   IRQ
+                    ------------------------
+                    COM3       3220      3
+                    COM4       3228      3
+
+
+On non-PS/2 machines, port assignments for COM3 and COM4 are non-standard.
+Refer to the adapter or internal modem's documentation for specific hardware
+information.  We have found, however, that the following setting usually work
+fine:
+                    Port #    Address   IRQ
+                    ------------------------
+                    COM3       03E8      4
+                    COM4       02E8      3
+!Page
+
+NOTE: It is imperative that ALL serial ports be defined in this section, not
+just those that have modems connected to them.  The reason is Qmodem may need
+to disable other devices to allow the selected modem to function.  An example
+will speak volumes...
+
+You have an internal modem set for COM3:, Base 03E8, IRQ 4.  You also have a
+new mouse that you have connected to COM1:, Base 03F8, IRQ 4.  Notice that
+both ports share the same IRQ.  In a non MCA or EISA bus computer, this can
+cause problems.  Qmodem gets around this by turning the mouse port off while
+using the internal modem.
+!Topic 71 Setup/Modem/Quick Modem Config
+!Noindex
+
+This is the feature you all have been waiting for!  Quick Modem Config
+(QMC) allows you to select your modem from the Pick List for quick, painless
+installation.  Under most circumstances, you only need set the serial port
+with Alt-N/M/C/J and then your modem here and you are ready to go!
+
+Depending on the modem you select, you may be prompted to change dip switches
+or jumpers.  Be sure to follow the directions given!  Some features of the
+modem may not function correctly otherwise.
+
+Then, you may be shown a list of modem commands that QMC wants to send to the
+modem.  These are also important for correct modem operations.  Reply Y to
+send them or N to skip this step.  (Again, we STRONGLY urge you to execute
+these commands.)
+
+And lastly, you will probably be shown a closing message about any special
+features of the modem that were enabled.
+
+In all, you should be able to breeze through this in less than 5 minutes!
+!Page
+
+One last comment.  If by chance your modem does NOT appear in the QMC list,
+we would like to ask you a favor.  Please send us a photocopy of your modem's
+manual so we can add it to the QMODEM.MDF file.  We can then post a new copy
+on our BBS for you and others to download with support for your modem! 
+!Topic 70 Setup/Directories
+!Noindex
+
+The following default directory paths can be defined to Qmodem:
+
+Upload - The drive/directory path which will be searched for files being
+uploaded to the remote computer.
+
+Download - The drive/directory into which downloaded files will be stored.
+
+Scripts - The drive/directory path which will be searched for Qmodem script
+files.
+
+NOTE: These are DEFAULT directories.  These defaults can be overridden at the
+time of an upload, download, or when a script is invoked.
+
+SWAP - The drive/directory path which will be used for the Optimum Shell
+(Alt-N/O/R/O) if EMS cannot be used.  If this is left blank, the current
+drive/directory is used.
+
+NOTE: This may create a SWAP file in excess of 500K.  Be sure to avoid trying
+to a 360K floppy!
+!Page
+
+1st Batch   2nd Batch   3rd Batch - Three directories that can be pre-
+defined for use in the Batch Upload Window.  Any or all can be defined, and
+overridden in the new window.  This allows another level of convenience for
+those that routinely do batch transfers from multiple subdirectories.
+
+AltW Pick - The drive:\directory\mask which will be used for the Alt-W
+command.  The default is blank.  Previous releases used the *.* as the
+default.  
+
+HINT: You might want to define this as your Upload or Download directory!
+!INCLUDE QMHELP.IN1
+!INCLUDE QMHELP.IN2

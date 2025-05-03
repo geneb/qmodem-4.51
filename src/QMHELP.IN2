@@ -1,0 +1,977 @@
+!Topic 55 ş Moving around in the INDEX  ş
+!Index 2
+
+The Index is like a large 53 Pick List .  You can use the four arrow keys,
+and the PgUp and PgDn keys.
+
+To select a new Topic, just highlight the entry and press Enter.
+
+If you want to return to the previous Topic, just press the Alt-F1 key.
+!TOPIC 119 Capture File Toggle (^Home)
+
+This allows you to open a Capture File to save all the text displayed on
+your screen to a file on a disk.
+
+The first time you press ^Home, you will be prompted for a filename to save
+the data to.  Any valid DOS filename will do nicely.  When you are done
+capturing data, just press ^Home a second time to close the file.
+!Topic 4 Translate Table Selection (Alt-A)
+!Noindex
+
+Qmodem maintains two separate tables; Input for incoming characters, and
+Output for outgoing characters.
+
+Choose the translate table you wish to modify, or press ESC to return to
+Terminal Mode.
+
+See also: 7 Editing Characters in the Table 
+!Topic 7 Editing Characters in the Table
+!NoIndex
+The Edit Window for both tables is the same.  Across the top of the window
+you have a display of the currently selected entry showing the original
+character and what it will be replaced with.
+
+Below that is the actual table.  Because Qmodem supports changing all 256
+characters, only half of each table is shown at a time.  The current
+character is highlighted and boxed in with the [ and ] characters.  As
+you use the Arrow keys, this will move to select a different character to
+change.
+
+If you have already changed one or more characters, you will notice that they
+too are highlighted.  This is a visual cue to quickly show you which ones
+have been changed.
+
+The Status Line shows the following options:
+
+[] Movement   Arrow keys that move the Box Cursor around.
+
+[S] Swap   Swaps the screen for the hidden half of the character set.
+
+[Spacebar] Change   This prompt for the new Character value (in decimal)
+
+[F10] Save   A very important key!  You must use this to save any
+changes you make!
+
+[ESC] Exit   Leave the screen.
+
+
+Changing an Entry
+
+Move the half-box cursor to the desired ASCII value/character you want to
+strip or replace.  The number to the left is the original ASCII value; the
+number on the right is the translated character.
+
+Press the Spacebar once.  A prompt like this will appear:
+
+          Enter new value for 0 >  0°°
+
+To strip the character, replace the value with a 0 (zero).  Any other value
+acts as a translation.
+
+Press ENTER to complete the change.  Don't forget to use F10 to save
+the changes you make!
+!Topic 8 Edit Prefixes (Alt-D/E)
+!Noindex
+
+Qmodem allows up to 10 Prefix codes, lettered A-J, to be defined.  Each
+Prefix can store up to 30 characters.  
+
+The term Prefix can be a little misleading.  Prefix characters can be used
+at the beginning or end of phone numbers and anywhere in between to add
+standard and repetitive dialing information to the numbers as they are
+dialed.
+
+A Prefix may be as simple as Dial 9 to get out, or it may hold a 7-digit
+Sprint or MCI local access number.  When the Prefix is stored at the end of a
+number, it may be used to store a PBX Access code.  In one special case, it
+can even be used to store an alternate Modem Dial Prefix (Alt-N/M/M/P)
+command.
+
+The window uses a 9 Multi-Field Editor .  You do not need to select the
+entry before you start making changes.  Just use the Up/Down arrow keys (or
+the Enter key) to move down the list.  When you are finished making changes,
+press F10 to save them to the QMODEM.PRE file, or ESC to abort any
+changes made.
+
+TIP: One of the most asked- questions about the dialing directory is how to
+get an MNP modem to switch modes on-the-fly when dialing entries.  Here's how
+you do it!
+
+For this example, the USRobotics Courier HST Dual Standard will be used.  The
+HST uses the &M command to control whether or not MNP is used.
+
+   Step 1:  Set Alt-N/M/M/P to AT&M4DT.  This makes the default mode to
+            use MNP data compression for every call.
+
+   Step 2:  Define a Prefix character (we will use A in this example) 
+            to AT&M0DT.  This will be used with the special Prefix
+            modifier character ` (left tick mark) to tell the Redialer
+            NOT to use the default Alt-N/M/M/P string.
+
+   Step 3:  For every number in your phone book that you do NOT want to
+            use MNP, you will add `A as a Prefix in the number field.
+            This is how you override the default.
+
+   Done!
+
+This technique can be used for just about any modem command, and is not
+limited to the setting of MNP.  Turning on and off the Modem Speaker is
+another popular command that fits this scenario.  Just add the extra commands
+between the AT and the DT in both strings.  The possibilities are endless.
+!Topic 9 Using Multi-Field Editor Windows
+!NoIndex
+
+Multi-Field Windows are those that have multiple fields defined in a data-
+entry format.  You do not have to select the field before you make a change
+to it.  Technically speaking, all fields are being edited as a group.
+
+The type of data that goes in a field is usually Character based, but some
+windows do make use of numeric-only fields.  To make it easier to explain the
+commands, we will define the two types of fields as either SE for String
+Editor and NE for Numeric Editor.  These terms will become apparent as you
+read through the command list.
+
+
+COMMAND                KEYSTROKES
+!Line
+---------------------------------------------------------------------------
+!Line
+Left                   <Left>,<^S>
+!Line
+SE: Cursor left one character.  If the cursor is at the beginning of a field,
+it is moved to the end of the previous field.
+!Line
+NE: Move cursor to previous field.
+
+Right                  <Right>,<^D>
+!Line
+SE: Cursor right one character.  If the cursor is at the end of a field, it
+is moved to the beginning of the next field.
+!Line
+NE: Move cursor to next field.
+
+Word Left              <^Left>,<^A>
+!Line
+SE: Cursor left one word.  If the cursor is at the beginning of the first
+word in a field, it is moved to the beginning of the last word in the
+previous field.  A "word" is any series of non-blank characters followed by
+one or more blanks.
+!Line
+NE: Mode cursor to last word in previous field.
+
+Word Right             <^Right>,<^F>
+!Line
+SE: Cursor right one word.  If the cursor is at the end of a field, it is
+moved to the beginning of the first word in the next field.
+!Line
+NE: Move cursor to first word in the next field.
+
+Home                   <Home>,<^Q><S>
+!Line
+SE,NE: Cursor to the beginning of the field.
+
+End                    <End>,<^Q><D>
+!Line
+SE,NE: Cursor to the end of the field.
+
+Del                    <Del>,<^G>
+!Line
+SE,NE: Delete character at cursor.
+
+BackSpace              <Backspace>,<^H>,<^Backspace>
+!Line
+SE: Delete the character to the left of the cursor.
+NE: Delete the character under the cursor.
+
+Clear Field            <^Y>
+!Line
+SE,NE: Clear the entire field.
+
+Clear to EOL           <^End>,<^Q><Y>
+!line
+SE: Delete from cursor to the End of the field.
+
+Clear from BOL         <^Home>
+!Line
+SE: Delete from the beginning of the field to the cursor.
+
+Delete Word            <^T>
+!Line
+SE: Delete the word to the right of the cursor.
+
+Insert                 <Ins>
+!Line
+SE,NE: Toggle insert mode on and off.  A Block cursor indicates insert mode,
+and a thin cursor indicates overtype mode.
+
+Control Characters     <^P>
+!Line
+SE: Insert Control Character.  For example, to insert a ^G, you would enter
+<^P><^G>.
+
+Restore                <^R>,<^Q><L>
+!Line
+SE,NE: Restores the original contents of the field and continues editing.
+
+Help                   <F1>
+SE,NE: You're reading it!
+!Topic 41 Setup/Protocols/Toggles
+!Noindex
+
+The Protocol toggles control various actions in uploading and downloading.
+
+The first two toggles, Overwrite Files and Auto-Increment Filename work
+in tandem to control how downloaded files are treated.  The rules are not
+that complicated and will be discussed in detail.  One of the combinations
+will be the right one for you.
+
+NOTE: To keep confusion to a minimum, the exception to the rule is the Zmodem
+protocol and will be discussed at the end.  (smile)
+
+When you are prompted for a filename in one of the download protocols, a
+check is made to see if the file already exists.  If it does, the Auto-
+Increment flag is checked.  If it is set ON, then the filename entered gets
+incremented (see 88 Filename Increment Rules  for more details) and the
+transfer begins.
+
+If the Auto-Increment flag is set OFF, then the Overwrite Files flag is
+checked.  If this is set ON, the existing file is deleted and the transfer
+begins.  If it is set OFF, then you will be prompted for a different
+filename before the transfer can begin.
+!Page
+
+The exception to the rule:
+
+When downloading using any protocol except Zmodem (yes, there is always an
+exception to the rule), the Auto-Increment flag is checked first, and then
+the Overwrite flag.  With Zmodem, there is another possibility called Crash
+Recovery.  This will override the above mentioned flags under certain
+specific conditions.
+
+First we need to explain the Save Partials flag.  A Partial is created when
+the Save Partials flag is set ON and a download aborts. The portions that
+have been received successfully are not deleted.  If it is set OFF, then any
+partially downloaded file is erased when the transfer aborts.
+
+If the file you are downloading already exists and the file on disk is
+smaller than the one being downloaded, there is a possibility that the file
+on disk is a Partial.  Zmodem then attempts to use Crash Recovery to pick up
+where the you left off.
+
+If it turns out that the two files are not the same, then the original
+rules apply.  IE. A check of the Auto-Increment flag, and then the Overwrite
+if Auto-Increment is OFF.  If Overwrite is also OFF, the file is SKIPPED by
+the Zmodem download.
+
+Whew...  That should cover all the possibilities.
+
+Clear Batch Screen  This is the only toggle that deals with Uploads.  All
+the others affect Downloads.  One of the new features in Qmodem is support
+for Batch Uploads.  The Batch Entry Window (BEW) has the ability to retain
+the entered information so you can do the same batch upload to several
+different systems without retyping the entire BEW screen.
+
+When a Batch upload completes, this flag is checked to see if the BEW
+information should be cleared.  The default is ON.  Even if you leave this
+set OFF, you can still clear the old information in the BEW with a press of
+the F4 key.
+
+Zmodem Autostart When this parameter is ON, Zmodem file downloads are
+started automatically whenever a Zmodem download transfer header is received.
+If this parameter is OFF, Zmodem downloads must be started manually with the
+PgDn command.
+!Topic 88 Filename Increment Rules
+!Noindex
+When it is necessary to increment the filename, the following rules are
+applied:
+                 FILENAME.EXT
+                 ---+---- -+-
+                    |      |
+          NAME -----+      +--- EXTENSION
+
+TOP OF THE TESTS:
+!Line
+The NAME portion is first checked to see if all 8 characters have been
+declared.  If the length is less than 8 characters, a 0 is added to the
+NAME portion, the new filename is checked to see if one exists, and if so a
+loops back to the top of the tests.
+
+If the NAME portion has all 8 characters defined, the last character is
+incremented and another test to see if the new filename is unique.  If not,
+then back to the top again.
+
+Now, if all the characters are exhausted by twiddling the 8th character, the
+7th character is twiddled, then the 6th, the 5th and so on....  Eventually, a
+unique filename WILL be generated!
+!Topic 6 Full Screen Editor (FSE)
+
+The Full Screen Editor (FSE) can be configured by the user with the
+EDINSTAL.EXE program included with Qmodem.  The following screens document
+the editor's default command configuration.  If you have changed any of the
+defaults, they will not be shown here.
+
+   Function                   Primary Keystrokes    Secondary
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Character left             P: <CtrlS>            S: <Lft>
+   Character right            P: <CtrlD>            S: <Rgt>
+   Word left                  P: <CtrlA>            S: <CtrlLft>
+   Word right                 P: <CtrlF>            S: <CtrlRgt>
+   Line up                    P: <CtrlE>            S: <Up>
+   Line down                  P: <CtrlX>            S: <Dn>
+   Scroll up                  P: <CtrlW>            S:
+   Scroll down                P: <CtrlZ>            S:
+   Page up                    P: <CtrlR>            S: <PgUp>
+   Page down                  P: <CtrlC>            S: <PgDn>
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Cursor to left side        P: <CtrlQ><CtrlS>     S: <Home>
+   Cursor to right side       P: <CtrlQ><CtrlD>     S: <End>
+   Top of screen              P: <CtrlQ><CtrlE>     S: <CtrlHome>
+   Bottom of screen           P: <CtrlQ><CtrlX>     S: <CtrlEnd>
+   Top of window              P: <CtrlQ><CtrlR>     S: <CtrlPgUp>
+   Bottom of window           P: <CtrlQ><CtrlC>     S: <CtrlPgDn>
+   Top of block               P: <CtrlQ><CtrlB>     S:
+   Bottom of block            P: <CtrlQ><CtrlK>     S:
+   Previous cursor position   P: <CtrlQ><CtrlP>     S:
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   New line                   P: <CtrlM>            S: <CtrlM>
+   Insert line                P: <CtrlN>            S:
+   Toggle insert mode         P: <CtrlV>            S: <Ins>
+   Delete line                P: <CtrlY>            S:
+   Delete line right          P: <CtrlQ><CtrlY>     S:
+   Delete right word          P: <CtrlT>            S:
+   Delete current character   P: <CtrlG>            S: <Del>
+   Delete left character      P: <CtrlBks>          S: <CtrlH>
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Begin block                P: <CtrlK><CtrlB>     S: <F7>
+   End block                  P: <CtrlK><CtrlK>     S: <F8>
+   Mark current word          P: <CtrlK><CtrlT>     S:
+   Toggle block display       P: <CtrlK><CtrlH>     S:
+   Copy block                 P: <CtrlK><CtrlC>     S:
+   Move block                 P: <CtrlK><CtrlV>     S:
+   Delete block               P: <CtrlK><CtrlY>     S:
+   Read file into window      P: <CtrlK><CtrlR>     S:
+   Write block to file        P: <CtrlK><CtrlW>     S:
+   Print marked block         P: <CtrlK><CtrlP>     S:
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Set marker 0               P: <CtrlK>0           S:
+   Set marker 1               P: <CtrlK>1           S:
+   Set marker 2               P: <CtrlK>2           S:
+   Set marker 3               P: <CtrlK>3           S:
+   Jump to marker 0           P: <CtrlQ>0           S:
+   Jump to marker 1           P: <CtrlQ>1           S:
+   Jump to marker 2           P: <CtrlQ>2           S:
+   Jump to marker 3           P: <CtrlQ>3           S:
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Find pattern               P: <CtrlQ><CtrlF>     S:
+   Find and replace           P: <CtrlQ><CtrlA>     S:
+   Find next                  P: <CtrlL>            S:
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Tab                        P: <CtrlI>            S:
+   Toggle autoindent mode     P: <CtrlQ><CtrlI>     S:
+   Toggle fixed tabs          P: <CtrlO><CtrlT>     S:
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Exit editor                P: <CtrlK><CtrlD>     S:
+   Restore line               P: <CtrlQ><CtrlL>     S:
+   Insert control char        P: <CtrlP>            S:
+
+
+Refer to the documentation for the EDINSTAL program for a more complete
+description of each of these commands.
+!Topic 24 Change Directory (Alt-O)
+
+Alt-O allows you to change the current directory or PATH that you are in.
+When selected, Alt-O displays a window that will look something like this:
+
+ ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ Z:\*.* ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+ ³ ..\            LOGO\          QPRO\          VCS\                    ³
+ ³ DL\            PRINTDOC\      QMXX\          YAKCOM\                 ³
+ ³ HOSTDIR\       QMEDIT\        SCRIPTS\                               ³
+ ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+The top of the window will show you the current directory you are in when you
+selected the Alt-O command.  In the window is a scrollbar that lets you move
+around to select a new path.
+
+To select a new path, press Enter to update the window with that path as
+the default.  The top line of the window will change to show the current
+potential default directory.  It's not official till F10 is pressed.
+
+When the top directory is where you want to be, press F10.  This will be
+the new default directory.   If at any time you decide not to change the
+default, press Esc and the original default will be restored and the
+window will close.
+!Topic 130 Status Line Toggle (Alt-Minus)
+
+Alt-Minus toggles the Status Line on and off.  This is most useful when
+used in combination with the 131 Doorway Keyboard Emulation .
+
+If you turn the status line off, the current terminal emulation in effect has
+one additional line to work with.  This can be the difference between a
+perfect display and one that seems to self-destruct.
+!Topic 131 Doorway Keyboard Emulation (Alt-Equal)
+
+Doorway mode is a special keyboard emulation.  Instead of sending sets of
+ESC codes to tell the remote what you want to do, the entire PC Keyboard Scan
+Code set is used.  These are the same codes that a normal program running on
+the PC would see.  If the remote system is capable of translating these "scan
+codes", then you have the keyboard emulator!
+
+On the PC side, there is a program called DOORWAY.EXE that is bundled with
+the Qmodem Host mode.  This program gives the host a method of dropping to
+DOS and running any program (in text mode) from remote!  With Qmodem (in
+DoorWay mode) and the remote running the DOORWAY program, you can do all
+sorts of things that would take hundreds of dollars to do with commercial
+software!
+
+In some cases, remote software may already be "Doorway Aware" but not support
+the enhanced 101 key keyboard extended E0 codes.  These can be disabled in
+Qmodem with the Alt-N/O/T/0 Setup switch.  If you see a funny à code
+while running in Doorway mode, then set this switch OFF.
+
+NOTE:  The only key that cannot be pressed in DoorWay mode, is the Alt-= key.
+This is the toggle for Doorway mode.
+!Topic 89 Batch Entry Window (BEW)
+
+The Batch Entry Window (BEW), used when uploading with a Batch Protocol, is
+divided into three groups, each group comprising a PATH and 25 FILES
+cells.  It may look something like this:
+
+ ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ Batch Upload File Entry ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+ ³PATH : C:\QMODEM\DOWNLOAD\°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ ³
+ ³FILES: °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°
+ ³       °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°
+ ³
+ ³PATH : C:\QMODEM\UPLOAD\°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ ³
+ ³FILES: °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°
+ ³       °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°
+ ³
+ ³PATH : C:\TEMP\ZIPFILES\°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+ ³
+ ³FILES: °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°
+ ³       °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°°  °°°°°°°°°°°
+ ³
+ ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍF1 HelpÍ
+                                                                           
+
+The 3 different PATH fields are automatically initialized to the values
+defined by the Alt-N/D/1, Alt-N/D/2 and Alt-N/D/3 in the Setup.  The FILES
+cells are blank.  In the above example, the FILES rows have been shortened.
+The real screen will have 5 rows of cells in each group.
+
+The three groups work independently of each other.  By this, we mean that you
+could specify files in the 1st and 3rd groups without having to specify any
+in the 2nd group.  Maybe you only want to send from the 2nd group, and that
+is fine too.
+
+The PATH cells are like the FILES cells in that they can be changed
+within the window before uploading.  You may decide to leave one of the 3
+default paths blank, just in case you frequently upload from several
+different directories depending on who you call.  This would save time
+clearing a PATH field all the time.
+
+Each FILES cell can contain exactly one filename specification.  8
+characters for the NAME, the ., and 3 characters for the EXTENSION.  You do
+not have to use all 12 characters, however.  Filenames such as YEAREND.WKS,
+REPORT.DOC, and SOURCE.C are all valid.  
+
+To really make them functional, each cell could include multiple wildcard
+characters.  The wildcard characters * and ? can allow each cell to
+specify a group of files.  Filenames such as MONTH??.WKS, *.PAS, and
+even *.* are valid!  In these cases, all files matching the wildcard
+specification would be uploaded in the batch transfer.  
+
+Caution should be used to avoid duplication when using wildcards within the
+same group of cells.  There is no checking done to see if a file matches one
+or more of the cells with wildcards.  You could be sending the same file more
+than once in the same batch upload.  If the 3 examples were placed in the
+save cell group, all the files matching the first two would be sent twice
+because the 3rd example, *.*, will send them all again.
+
+
+FUNCTION KEY OPTIONS
+!Line
+--------------------
+!Line
+
+The status line at the bottom of the screen lists these options if you
+entered the BEW with the PgUp key:
+
+ F2-Pick List   F3-Last Found   F4-Clear   F10-Upload   ESC-Exit
+
+If you used the Alt-6 Key, you will see this:
+
+ F2-Pick List   F3-Last Found   F4-Clear   F10-Save to Disk   ESC-Exit
+
+
+F2-Pick List  When the cursor is in a FILES cell, you can press F2 to
+open a Pick List.  If the cell is blank, a default of *.* is used, showing
+all the available files in that PATH group.  If the cell contains a filename
+with wildcard characters, such as *.PAS, then all the files that end in
+.PAS are shown in the Pick List.  With the Pick List open, just move the
+scrollbar to the entry you want in that cell and press Enter.  The cell is
+then filled in with that filename.
+
+F3-Last Found  This will scan the underlying screen for the last valid
+filename (right to left, bottom to top) and place it in the current cell. 
+You might use this when you have a file to upload, and you have just told the
+remote system about the file.  As long as it is on the underlying screen, you
+do not have to type the filename in again.
+
+F4-Clear  This clears all fields in the BEW and resets the three PATH cells
+to the defaults specified in Alt-N/D.
+
+F10-Upload  When you have pressed PgUp and selected either Y, G or
+Z, and you have 1 or more files defined, this will begin the upload.
+
+F10-Save to Disk  This will write out a file called QMODEM.BEW in the
+directory where the QMODEM.CNF file was found.  It contains all of the
+information in the BEW.  The BEW window will then close.  The next time the
+BEW is opened, the QMODEM.BEW file is searched for and loaded back in if
+found.
+
+ESC-Exit  Exits the BEW and aborts any changes made.
+
+See also: 9 Multi Field Edit Windows 
+!Topic 2 Revising an Entry
+!Noindex
+
+Revising a FON entry is a now a lot easier!  The window no longer makes it
+tedious to revise entries by using a multi-field editor.  Simply use the
+arrows to move to the field you want to change, and make the change.
+
+If you make a mistake, press ESC to abort all the changes made and restore
+the original.
+
+Press F10 to save all of your changes.
+
+
+See also: 9 Multi Field Edit Windows 
+!Topic 126 Status Line Info Toggle (Alt-7)
+
+Currently, there are two possible running status lines available.  One shows
+the current working configuration of Qmodem and looks something like this:
+
+ ANSI   Offline 38400 8N1  [Home]=Menu   FDX 8 LF X B M CP LG  PR  09:54pm
+ ÄÂÄÄ
+  ³
+  ÀÄÄ This is the current terminal emulation in effect.  You can change
+       it in a couple different ways:
+
+       1. Alt-G - Terminal Emulation
+
+       2. In a Script with the GRAPHICS keyword.
+
+       3. In Alt-N/V/T/E (but you have to exit Qmodem and restart for this
+          one to take effect)
+
+(Press PgDn for more)
+!Page
+
+Currently, there are two possible running status lines available.  One shows
+the current working configuration of Qmodem and looks something like this:
+
+ ANSI   Offline 38400 8N1  [Home]=Menu   FDX 8 LF X B M CP LG  PR  09:54pm
+        ÄÄÄÂÄÄÄ
+  ÚÄÄÄÄÄÄÄÄÙ
+  ÀÄÄ This shows whether you are Offline, ONLINE, or in DoorWay mode.
+
+       If this ALWAYS says ONLINE when you really aren't, your modem is
+       forcing the Carrier Detect signal ON all the time.  Read the Qmodem
+       manual under Questions & Answers on how to fix this one.
+
+       When you are using DoorWay mode (Alt-=), if it all uppercase
+       (DOORWAY), then you are Online, if it is in all lowercase (doorway),
+       you are Offline.
+
+(Press PgDn for more)
+!Page
+
+Currently, there are two possible running status lines available.  One shows
+the current working configuration of Qmodem and looks something like this:
+
+ ANSI   Offline 38400 8N1  [Home]=Menu   FDX 8 LF X B M CP LG  PR  09:54pm
+                ÄÄÄÄÂÄÄÄÄ
+  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+  ÀÄÄ This is the current Serial Port Speed and parameters.
+
+(Press PgDn for more)
+!Page
+
+Currently, there are two possible running status lines available.  One shows
+the current working configuration of Qmodem and looks something like this:
+
+ ANSI   Offline 38400 8N1  [Home]=Menu   FDX 8 LF X B M CP LG  PR  09:54pm
+                           ÄÄÄÄÄÂÄÄÄÄÄ
+  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+  ÀÄÄ Telling you to press the Home key to get the Main Menu
+
+(Press PgDn for more)
+!Page
+
+Currently, there are two possible running status lines available.  One shows
+the current working configuration of Qmodem and looks something like this:
+
+ ANSI   Offline 38400 8N1  [Home]=Menu   FDX 8 LF X B M CP LG  PR  09:54pm
+                                         ÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄ
+  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+  ÀÄÄ These are the keyboard toggles.  When shown in the Status line
+       Primary color, the toggle is ON.  When in the secondary color,
+       the toggle is OFF.  From left to right, they are: 
+       
+          FDX Duplex   (Alt-E)       M   Music      (Alt-M)
+          8   8-Bit    (Alt-8)       CP  Capture    (^Home)
+          LF  AddLF    (ShiftTab)    LG  Log File   (Alt-0)
+          X   Xon/Xoff (Alt-Z)          ScrollBack (Alt-U)
+          B   Beeps    (Alt-B)       PR  Print Echo (Alt-9)
+
+(Press PgDn for more)
+!Page
+
+Currently, there are two possible running status lines available.  One shows
+the current working configuration of Qmodem and looks something like this:
+
+ ANSI   Offline 38400 8N1  [Home]=Menu   FDX 8 LF X B M CP LG  PR  09:54pm
+                                                                    ÄÄÄÂÄÄÄ
+  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+  ÀÄÄ Shows either the current time (when Offline) or a running counter of 
+       elapsed Online time.
+
+(Press PgDn for more)
+!Page
+
+The Alternate Status line looks something like this:
+
+
+ Name:                               Number:                        09:54pm
+ ÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+      ³
+      ÀÄ Displays the current or last Entry in the FON book you made a
+          connection with.  Otherwise this is blank.
+
+(Press PgDn for more)
+!Page
+
+The Alternate Status line looks something like this:
+
+
+ Name:                               Number:                        09:54pm
+                                     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄ
+      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+      ÀÄ Displays the current or last Number in the FON book you made a
+          connection with.  Otherwise this is blank.
+
+(Press PgDn for more)
+!Page
+
+The Alternate Status line looks something like this:
+
+
+ Name:                               Number:                        09:54pm
+                                                                    ÄÄÄÂÄÄÄ
+      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ   
+      ÀÄ Shows either the current time (when Offline) or a running
+          counter of elapsed Online time.
+!Topic 72 Scroll Back (UpArrow)
+
+While in scrollback mode, the following keys are active:
+
+    Up Arrow  - up one line       Down Arrow  - down one line
+    PgUp      - up one page       PgDn        - down one page
+    Home      - top of scroll     End         - bottom of scroll
+    S         - save to disk      C           - clear scrollback buffer
+    Esc       - exit scrollback
+
+Appropriate messages are displayed when the top or bottom of the scrollback
+buffer are reached.
+!Topic 129 Log File Toggle (Alt-0)
+
+Qmodem activity can be recorded in a disk file with the LOG File feature. 
+Events such as: FON Entries called, time and duration of call, are just a few
+of the things recorded in the Log file.  
+
+Each Log entry is Time and Date stamped.   If the Log file is closed, a
+prompt will be issued to override the default Log file name and start
+recording.  If Log recording is active, the recording will stop and the Log
+file will be closed.
+
+Here is sample of the log:
+
+   15:07:56  05/10/90  Connected With  : The Forbin Project BBS
+   15:07:56  05/10/90  ++ Phone Number : 1-319-266-0540
+   15:07:56  05/10/90  ++ Comm Speed   : 38400-8-N-1
+   15:07:56  05/10/90  Online Timer Started.
+   15:10:47  05/10/90  Elapsed Online 00:02:50
+   15:10:48  05/10/90  Hangup Command entered.
+!Topic 120 Backspace <> DEL Toggle (Alt-1)
+
+The Backspace key can be programmed to send either the IBM-PC standard ^H
+character (hex 08), or it can send the VT100 standard DEL character (hex
+7F).  While online, if your Backspace key does not seem to function
+correctly, try toggling this.
+
+NOTE: Holding down the Ctrl key and pressing Backspace will generate the
+opposite code.
+!Topic 121 Video 25-Line Mode (Alt-2)
+
+If you have an EGA, or greater video card, this will switch the screen into
+80x25 mode.  You may want this in case you use the Alt-4 command and decide
+it is not as readable.
+
+It should be noted, that you are not limited to just Alt-2 and Alt-4.  If
+your video card supports SuperEGA or SuperVGA and can be programmed into one
+of a dozen different display modes, just do it before starting up Qmodem! 
+The current video mode detected at startup will be used automatically!
+!Topic 122 Debug Status Window (Alt-3)
+!NoIndex
+
+
+
+
+
+
+
+        If you're wondering what this does, then register your copy
+        and give us a call!
+!Topic 123 Video 43/50-Line mode (Alt-4)
+
+If you have an EGA, or greater video card, this will switch the screen into
+80x43 (EGA) or 80x50 (VGA, MCGA) mode.  The advantages are that you will have
+a larger screen to view.  
+
+Some operations in Qmodem will also take advantage of the larger screen size;
+for instance, the Alt-D will display twice as many entries, filename Pick
+Lists will be taller, and much more.
+
+It should be noted, that you are not limited to just Alt-2 and Alt-4.  If
+your video card supports SuperEGA or SuperVGA and can be programmed into one
+of a dozen different display modes, just do it before starting up Qmodem! 
+The current video mode detected at startup will be used automatically!
+!Topic 124 Host Mode (Alt-5)
+
+The Alt-5 command activates the built-in Host mode.  Effectively, Host mode
+turns Qmodem into a mini Bulletin Board System, complete with Electronic
+Mail, File Transfers, and Sysop Chat capabilities.  The Host provides simple
+features and is not intended to compete with full-featured BBS software
+packages such as Wildcat!.
+
+The Host requires setup of additional parameters with the Alt-N function,
+including system type, user time allowance, Sysop passwords, host-specific
+modem commands, and up/download file directories. External files for Host
+Menus, Online Help Files and User Passwords are also required and can be
+created with the Full Screen Editor or your favorite ASCII text editor.
+
+Please refer to the Qmodem documentation for complete details on setting up
+and using the Host.  This is out of the scope of this Help Entry.
+!Topic 127 8th Bit Toggle (Alt-8)
+
+The 8th Bit toggle is used to decide whether or not to strip the 8th data bit
+of incoming text data.  Each byte has 8 bits, and the 8th bit is used by some
+systems as the PARITY bit.  
+
+If you were to call a mainframe system that was set up as 7-E-1, and your
+modem was set for 8-N-1, the text from the mainframe may display as
+gobbledegook.  This is because the 8th bit from the mainframe is being used
+as a parity bit, but your PC thinks all 8 bits are to be used as valid data.
+When a system is set for 7-E-1 (or 7-O-1 too), only the first 7 bits are used
+to form valid data.
+
+So, if this parity problem arises, you have two choices:
+
+1.  Hang up, reset your phone book entry to 7-E-1 (or whatever the other
+system thinks you should be using).   -or-
+
+2.  Hit the Alt-8 combination to tell Qmodem to strip the 8th bit (the parity
+bit) before trying to make sense out of the data.  This will allow the text
+to display normally.
+!Page
+
+NOTE: Ideally, the first option should be used.  While Qmodem is fully
+capable of stripping the 8th bit on incoming data, this does NOT mean that
+the 8th bit is converted correctly going out.  Only by correctly matching all
+the parameters (Data bits, Parity and Stop bits) are you assured of a clean
+session.
+!Topic 128 Printer Echo Toggle (Alt-9)
+
+Alt-9 toggles the printer echo.  When ON, all screen data is sent to the
+current default printer (usually LPT1:).  
+
+Prior to using this command, make SURE the printer is connected and ready. 
+If not, the system will display the "Retry, Ignore or Fail" error window.  
+
+If Alt-9 was pressed by accident, reply "F" to cancel the DOS print request. 
+If the printer was not connected or was not ready, correct the problem and
+reply "R" to start printing.
+!Topic 93 Filename Pick List
+!NoIndex
+
+This Pick List window allows you to move the Scrollbar to select a filename
+for the preceding function.
+
+In addition, you can use Speed Search.  Speed Search is as easy as typing
+in characters of the target filename.  As you type, the Pick List searches
+for the first filename that matches what you have entered so far.  The lower
+left corner of the window border will keep track of the characters you have
+entered.  When a character is entered that no longer can match any files, the
+Speed Search buffer is flushed.
+
+The status line has the following options:
+
+Arrows-Scroll  Means you can use the Arrow keys to move the Scrollbar to
+select the filename.
+
+Alpha-Search  The Speed Search we just discussed.
+
+Enter-Selects  Press the Enter key to select the filename in the
+Scrollbar.
+
+ESC-Exit  Closes the Filename Pick List window without selecting a
+filename.
+
+If the Search window allows choosing a different subdirectory, the following
+option will also show on the status line:
+
+<dir>-Change Directory  This allows changing the current search directory
+to a new directory on the same Drive.  It does not allow moving to a
+different drive. (not yet anyway)
+!Topic 94 Baud Rate Selection
+!Noindex
+
+Use the Up/Down Arrow keys to move the scrollbar to the desired baud rate.
+
+Press Enter to select, or ESC to exit the Pick Window.
+!Topic 95 CR handling
+!Noindex
+
+Use the Up/Down Arrow keys to move the scrollbar to the desired action to be
+taken when handling the CR character.
+
+NONE  Exactly that...  nothing happens.
+
+STRIP  The CR character is stripped from the data stream.  As if it never
+existed.
+
+ADD LF  After the CR, a LINEFEED (LF) will be added to the data stream.
+
+Press Enter to select, or ESC to exit the Pick Window.
+!Topic 96 LINEFEED (LF) Handling
+!Noindex
+
+Use the Up/Down Arrow keys to move the scrollbar to the desired action to be
+taken when handling the LF character.
+
+NONE  Exactly that...  nothing happens.
+
+STRIP  The LF character is stripped from the data stream.  As if it never
+existed.
+
+ADD LF  Before the LF, a Carriage Return (CR) will be added to the data
+stream.
+
+Press Enter to select, or ESC to exit the Pick Window.
+!Topic 97 Sort Selection
+!Noindex
+
+There are 3 possible ways to Sort the FON book:
+
+1 - Name (ascending)  This sorts all entries by the NAME field in ascending
+order.  Ascending is from A to Z.  This is not case sensitive.
+
+2 - Number (ascending)  This sorts by the NUMBER field.  Again, in
+ascending order.
+
+3 - Total Calls (descending)  This sorts by the Total calls field.  By
+sorting in descending order, the entries you call most frequently will
+float to the top of the list.  Thus, next time you press Alt-D, your 10
+most called entries are right there!  (The author's personal favorite.)
+
+To select one, either move the scrollbar with the arrow keys, or press 1,2 or
+3 and then press ENTER.  ESC to exit the Pick Window and not sort the FON
+book.
+
+Remember, you can always use the ^U Undo command if you really didn't want
+to sort the FON book.
+!Topic 98 Stop Bits Selection 
+!Noindex
+
+Use the Up/Down Arrow keys to move the scrollbar to the desired Stop Bits.
+
+Press Enter to select, or ESC to exit the Pick Window.
+
+NOTE: Unless explicitly told otherwise, you should use a value of 1.
+!Topic 99 Data Bits Selection
+!Noindex
+
+Use the Up/Down Arrow keys to move the scrollbar to the desired Data Bits.
+
+Press Enter to select, or ESC to exit the Pick Window.
+
+NOTE: It is a good idea to change the Parity to NONE if you are using 8 data
+bits and to either EVEN or ODD if you select 7 data bits.
+!Topic 100 Parity Selection
+!Noindex
+
+Use the Up/Down Arrow keys to move the scrollbar to the desired Parity.
+
+Press Enter to select, or ESC to exit the Pick Window.
+
+NOTE: It is a good idea to change the Data Bits to 8 if you select NONE as a
+Parity.  Any other value and you should change Data Bits to 7.
+!Topic 28 Manual Dial  (Alt-D/M)
+!NoIndex
+
+Manual dialing allows you to quickly enter a number to dial without having
+to know the nitty-gritty modem command.  Simply enter the number to dial and
+press Enter.  The dialing directory will disappear and the modem dials the
+number.
+
+If you do not get a connection, the Manual Dial feature remembers the last
+number entered.  You can then press Alt-D/M and press Enter to redial the
+last number entered manually.
+!Topic 103 Tag Multiple Entries  (Alt-D/T)
+!NoIndex
+
+Tag Multiple tags entries based on number, number range, or contents.
+Prefix codes may be inserted or changed on the fly.  To tag entries, type
+the entry numbers separated by spaces:
+
+       12 19 34 77
+
+To tag entries based on their textual content, precede the text with the
+letter T:
+
+       TChicago T312
+
+To tag an entry and add a prefix on the fly, precede the entry number with
+the letter P:
+
+       P32A   add suffix A to entry 32
+       PC45   add prefix C to entry 45
+       PD78E  add prefix D and suffix E to entry 78
+
+NOTE: Tagging with prefix modifiers updates the directory, and a backup file
+is created prior to tagging.
+!Topic 104 Find Text  (Alt-D/F)
+!NoIndex
+
+Find Text is used to search the Directory and Attached Notes for a
+specific text string.  The first matching entry will become the current
+entry.  If this is not the entry you were looking for you can use the
+A-Find Again command.  The search will resume with the entry
+immediately following the current entry.
+
+NOTE: If the matching text is found in an Attached Note, Qmodem will display
+a status window to that effect. The N command may then be used to view the
+contents of the note where the match was found.
+!Topic 105 Print FON Book (Alt-D/P)
+!NoIndex
+
+Print 132/80 produces a listing of the Dialing Directory on a selected
+device or to a file.  Pressing ^P will print all directory fields using
+132 columns, while P will print selected fields using an 80-column
+format.
+
+To print the listing, reply PRN or LPT1 to the displayed prompt.  To
+direct the listing to disk, enter a valid DOS filename.  Entries with
+blank Name fields will not be listed.

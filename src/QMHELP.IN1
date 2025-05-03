@@ -1,0 +1,873 @@
+!Topic 86 Setup/Modem/Toggles
+!Noindex
+
+Xon/Xoff flow  A software flow control protocol used in the text and ASCII
+transmissions.  This toggle can be changed with the Alt-Z command from
+Terminal mode.  Software flow control is not used during binary file xfers.
+
+CTS/RTS flow  When ON, implements hardware handshake flow control between
+modem and computer.  This is required for high-speed and error-correcting
+modems.  When OFF, no hardware flow control is used.  You must have this set
+ON if you want to use the reliable xfer protocols such as 1K-Xmodem/G and
+Ymodem/G.
+
+NOTE: Qmodem will check for the presence of the CTS signal when started.  If
+CTS is not detected, an error message will be displayed, giving you the
+option to continue operating without CTS handshake, or to wait for the CTS
+signal to become active (i.e. in case the modem was turned off or
+disconnected from the computer).
+
+RTS When Writing  When ON, causes Qmodem to maintain the RTS (Request To
+Send) signal while writing to disk (during a download).  On 80286 or 80386
+computers, this option will increase the download transfer rate by 1% to 2%
+as data is being accepted from the modem during disk writes.
+!Page
+
+FIFO during Shell  If ON, allows 16550 buffered serial chips to accumulate
+data during a SHELL operation.
+
+Lock DTE Baud Rate  When OFF, this causes Qmodem to set the serial port
+speed (DTE) to the speed of the modem connection, as returned in the modem's
+CONNECT message.  When ON, the DTE serial port speed is constant regardless
+of the CONNECT message.
+
+High Speed Xmit  When ON, Qmodem uses an interrupt-driven data transmission
+method for improved performance.  When OFF, a "brute force" method is used,
+which is somewhat slower.  Some computer/serial port combinations may not
+handle the faster mode, in which case this parameter should be set OFF.
+
+16550 UART Enable  When ON, causes Qmodem to enable the 16550 and 16550A
+UART FIFO buffer.  On 16550x equipped serial ports, this parameter should be
+set to ON since buffering solves a number of communications problems when
+running under a network or multitasker.
+!Page
+
+Init ignores CD  When ON, the Modem Init String is sent to the modem
+regardless if the Carrier Detect (CD) signal is sensed.  This can get around
+the problem where a modem needs to be told to not force the Carrier Detect
+signal to the computer.  A majority of the modems can leave this set OFF.
+!Topic 69 Setup/Host
+!Noindex
+
+The Host mode operates as a mini BBS, complete with electronic messages,
+sysop chat, and file transfer capabilities.  The Host mode requires access to
+specific Menu and User files.  Options include:
+
+Type of System - OPEN, CLOSED, or CALLBACK.  An OPEN system allows new
+callers.  A CLOSED system requires that all callers be defined in the User
+file.  CALLBACK causes the system to hang up and CALL the user BACK as a
+security measure.
+
+Download Dir - Host mode download drive:\directory.  The host mode will
+only allow downloads from a single directory.
+
+Upload Dir - Host Mode upload drive:\directory.  All files received will be
+stored in that directory.  This may be the same as the download directory.
+
+Maximum time - The number of minutes a user is allowed on the system. After
+this period expires, the caller will be disconnected.
+
+DOS Password - The password required to use the Host Mode's DOS Shell.
+
+Shutdown Password - The password required to shut down Qmodem from remote.
+
+Init Command - A modem initialization string to be used specifically for
+Host Mode operation.  A good default string is ATS0=0H0^M.
+
+Answer Command - The modem command required to answer the phone when an
+incoming call has been detected.  With Hayes and compatible modems, this
+command is ATA^M.
+
+OK Message - The message returned by the modem following successful command
+execution.  With Hayes and compatible modems, the field should contain the
+word OK.
+
+Ring Detect - The message returned by the modem when an incoming call is
+detected.  For Hayes and compatible modems, this field should contain the
+word RING.
+
+Busy Command - Command sent to the modem to cause it to go offhook when
+the Sysop logs on locally.  This will cause callers to receive a BUSY signal
+while the Sysop is logged on.  For Hayes and compatible modems, this command
+is ATM0H1^M.
+!Page
+
+# Rings & Answer - This value controls how many rings to count before
+sending the Answer Command to the modem.  If you want the Host to answer on
+the 6th ring, set this to 6.  The count can range from 1 to 10 rings.
+!Topic 68 Setup/Protocols
+!Noindex
+
+Qmodem supports up to 10 external file transfer protocols and configuration
+of the ASCII protocol.  Common external protocols include Puma, Sealink,
+Kermit and CIS-B.
+
+The external protocols are implemented with separate programs whose
+installation steps are also external to Qmodem.  Please refer to the
+protocol's documentation for additional installation and customizing
+information.
+
+When installed properly, these external protocols are available directly from
+the Qmodem file transfer protocol selection window.  Existing protocol names
+are displayed in the window.  To create or 67 edit  a protocol definition,
+select the desired protocol letter and press Enter.
+
+Blank lines are not allowed between items in the external protocol list.  You
+must define the external protocols starting with entry 0 working downward to
+entry 9.  When you delete an external protocol by blanking out it's selection
+character, all the protocols below are moved up to fill the void.
+
+See also : 66 ASCII Options       41 Toggles 
+!Topic 67 External Protocol Edit
+!NoIndex
+
+The following fields are required to define an external protocol:
+
+Select Character - The letter or digit used to select this protocol while
+in the upload/download protocol selection window.  Protocol select characters
+that are the same as the internal protocols will cause the external to
+override the internal.
+
+Protocol - The written name of the protocol as it will appear in the upload
+and download selection window.
+
+Upload BAT - The name of the upload batch file for that external protocol.
+
+Download BAT - The name of the download batch file for that external
+protocol.
+
+Filename Prompt - Defined as Y or N depending on protocol requirements
+for downloads.  Y will cause Qmodem to prompt for a filename to be
+received.  N assumes that the filename will be sent as part of the received
+data and handled automatically by the protocol.
+!Page
+
+NOTE: Qmodem passes the current DTE BAUD RATE, PORT #, DCE BAUD RATE and
+FILENAME to the protocol batch file as parameters %1, %2, %3 and %4.  The
+filename may not be required depending on the external protocol selected. 
+Refer to the external protocol's own documentation for additional details.
+!Topic 66 Setup/Protocols/Ascii
+!NoIndex
+
+Special parameters may be specified for ASCII (i.e.. text-only) file transfers.
+ASCII transfers may be used for capturing textual data to a file or uploading
+text directly into a message, for example.
+
+Due to the nature of ASCII transfers and the various options available,
+parameters can be specified for both 64 Transmit  and 65 Receive 
+operations.
+!Topic 65 Setup/Protocols/Ascii/Receive
+!Noindex
+
+ASCII Receive Options control the processes applied to ASCII Download
+procedure.
+
+Use INPUT Translate Table - When set ON, Qmodem will translate all incoming
+ASCII data to conform to the Incoming Translate Table.  (See the 30 Alt-A 
+command for additional details on the translate table).  If OFF, the data is
+not translated and is saved to disk exactly as it is received.
+
+Carriage Return (CR) Handling - Three options are available:
+
+      1.  NONE    No special treatment of the CR. (Decimal 13)
+      2.  STRIP   All CR's are removed from the file as it is saved.
+      3.  ADD LF  Adds a trailing LineFeed (Decimal 10) after each CR.
+
+LineFeed (LF) Handling - Three options are available:
+
+      1.  NONE    No special treatment of the LF. (Decimal 10)
+      2.  STRIP   All LF's are removed from the file as it is saved.
+      3.  ADD CR  Adds a leading Carriage Return (Decimal 13) before each
+                  LineFeed.
+!Topic 64 Setup/Protocols/Ascii/Transmit
+!Noindex
+
+ASCII Transmit Options allow complete flexibility in uploading the data to
+the receiver when using the ASCII Upload protocol:
+
+Use OUTPUT Translate Table - ON or OFF.  If ON, outgoing ASCII data will be
+translated according to the Output Translate Table (see 30 Alt-A  command
+for additional information on translate tables).  The default translate table
+causes no character substitution.  If OFF, the outgoing ASCII data will not
+be translated.
+
+Carriage Return (CR) Handling - Three options are available:
+
+      1.  NONE    No special treatment of the CR. (Decimal 13)
+      2.  STRIP   All CR's are removed from the file as it is transmitted.
+      3.  ADD LF  Adds a trailing LineFeed (Decimal 10) after each CR.
+
+LineFeed (LF) Handling - Three options are available:
+
+      1.  NONE    No special treatment of the LF. (Decimal 10)
+      2.  STRIP   All LF's are removed from the file as it is transmitted.
+      3.  ADD CR  Adds a leading Carriage Return (Decimal 13) before each
+                  Line Feed character.
+
+Pacing Speed - The delay inserted between characters as they are sent,
+expressed in milliseconds (1/1000th sec.).  Default is 0, no delay.  May be
+used to slow down transfers if needed by the receiving system.
+
+Pacing Character - The character which, when received, causes the next
+line of text is transmitted.  If this is zero, then the transfer will not
+pause between lines of text.  Also referred to as "Prompt Character" in
+earlier releases of Qmodem.
+
+Blank Line Expansion - ON or OFF.  If ON, causes blank lines (lines with
+a leading CR and/or LF and no other data) should be expanded to include at
+least one SPACE as a lead character.
+
+End Of Line Character (EOL) - The character generated at the end of a
+line by your text editor, usually in response to pressing the <Enter> key
+to move to the next line.  Most editors use the LineFeed character
+(Decimal 10), and it is usually preceded by a Carriage Return (Decimal
+13).
+!Topic 63 Setup/Files
+!Noindex
+
+Qmodem requires access to certain predefined files or programs whose paths
+and names are specified in this menu.
+
+Online Help  This is the full drive:\path\filename for the Qmodem Online
+help file.  If you are reading this, it is probably set correctly! (smile)
+
+   Example:  C:\QMODEM\QMODEM.HLP
+
+Screen Dump  The file to which Qmodem screen copies will be saved.  Qmodem
+automatically appends the .DMP suffix to the specified filename if one has
+not been specified. 
+
+   Example:  C:\QMODEM\SCREEN.DMP
+
+Capture  The file which will contain the Qmodem Session data if this
+feature is used. Qmodem automatically appends the .CAP suffix to the
+filename if one has not been specified.
+
+   Example:  C:\QMODEM\CAPTURE.CAP
+!Page
+
+Log  The file to which Qmodem activity is logged, if this feature is used.
+Qmodem automatically appends the .LOG suffix to the filename if one has not
+been specified. 
+ 
+   Example:  C:\QMODEM\QMODEM.LOG
+
+Scrollback  The file to which the scrollback buffer is copied.  Qmodem
+does not add an extension to this filename by default.
+
+   Example:  C:\QMODEM\SCROLL.SAV
+
+NOTE: Qmodem will append new data to the screen dump, capture, log, and
+scrollback files if they exist.  If they do not, a prompt for their creation
+will be issued when the corresponding command is issued.  File names may be
+changed when these recording features are invoked.
+
+View  View is in fact a DOS Shell which passes control to an external
+program.  The View field defines the command used to invoke that program, as
+if typed on the DOS command line:
+
+   Example:  C:\UTILITY\LIST
+
+Two special @ commands can be used in the View field: @FSE and @EDITOR.
+
+@FSE  Calls the internal Full Screen Editor for file viewing/editing.
+
+   Example:  @FSE
+
+@EDITOR  Lets you use your favorite editor instead of the one built in.
+
+   Example:  @EDITOR QEDIT
+
+NOTE: If the View field is left blank, the Qmodem Internal Editor will be
+used as in editing scripts or attached notes from the phone book.  Also, a
+SPACE will NOT be added automatically.  You must add a space if you are
+going to be adding data to the Alt-V prompt.
+
+Printer  This allows you to redirect the Alt-9 Print Echo data to a
+different printer port or even a disk file.  When left blank, the default
+printer PRN is used.
+
+Examples include PRN, LPT1, LPT2, LPT3, or even C:\PRINT.SAV.
+!Page
+
+Time/Date Stamp  Allows turning on and off the Time/Date header places in
+the Screen Dump, Capture and BackScroll files.  The default is ON.  Turning
+this OFF means that data is appended to their files without the header.
+!Topic 62 Setup/Option
+!Noindex
+
+The Options configuration menu controls Qmodem operational settings and
+parameters which fall in the following seven categories:
+
+61 Toggles  Switches for features such as video mode, audible alarm,
+which may be ON or OFF.  This option has a detailed sub-menu.
+
+60 Runtime Parms  Parameters which were specified on the command line in
+previous releases of Qmodem.  These parameters include Expanded Memory (EMS)
+use, keyboard support, automatic Zmodem download, communications port
+handling, and buffered UART support.
+
+59 Memory  Qmodem memory allocation specifications.  This option has a
+detailed sub-menu.
+
+NOTE: This menu option does not display if Setup is invoked via Alt-N from
+inside Qmodem.  It is only available when run from Qinstall program.
+
+58 Sounds  Fine-tuning of event-specific beeps and bells.  This option has a
+detailed sub-menu.
+
+57 Delays  Window display and file transfer delay values.  This option has a
+detailed sub-menu.
+
+49 Characters  Character values used as field delimiters or function
+indicators in the Qmodem screens.  This option has a detailed sub-menu.
+!Topic 61 Setup/Options/Toggles
+!Noindex
+
+Qmodem toggles consist of 16 parameters which can be set ON or OFF to
+control specific aspects of Qmodem operation.  To change the toggle setting,
+type the toggle's highlighted letter or cursor to it and press Enter.
+
+Beeps & Bells  Activates or deactivates Qmodem audible signals for connect
+and up/download completion.  This toggle can be changed with the Alt-B
+command.
+
+ANSI Music  If ON, Qmodem will play ANSI music if found in the incoming
+data.  This toggle can be changed with the Alt-M command.
+
+DEL/^H Backspace  Alternates the BACKSPACE Key's value between the true
+backspace character ^H and the DEL character.  This can be Toggled from
+Terminal mode with the Alt-1 command.
+
+Auto Start Log  When ON, causes Qmodem to record activity to the log file
+immediately upon startup.  If OFF, logging can be manually started with the
+Alt-0 command.
+!Page
+
+Keypad Emulation  Determines the characters generated by the keyboard
+numeric pad when keyboard numeric lock (NumLock) is ON.  If Keypad Emulation
+is ON, Qmodem generates the proper key or escape codes, based on the
+terminal emulation in effect.  If Keypad Emulation is OFF, Qmodem will
+generate standard numeric values.
+
+ENQ response  When set ON, the text stored in the Alt-F12 function key is
+sent to the modem.  When set OFF, the ENQ ^E is not acted upon.  Normal
+ctrl-character conversion is done on the text, so the two characters ^F
+are converted to a Ctrl-F.
+
+NOTE: Special @ macros are not executed when invoked via the ENQ function
+for Alt-F12 only.
+
+Guard Alt-H  When set ON, you will be asked to verify your intention to
+issue the Hangup command if you are ONLINE.  If set OFF, then the Hangup is
+done immediately.
+
+0xE0 Doorway Codes  When set ON,131 Doorway mode will be allowed to send the
+enhanced 101 key keyboard codes.  When set OFF, the extra E0 (hex) byte is
+stripped and not sent.
+!Topic 102 Setup/Options/Toggles/FON
+!Noindex
+
+Tag Advance in Alt-D  When set ON, the ScrollBar will advance to the next
+entry in the Phone Book after you tag an entry.  When set OFF, the ScrollBar
+does not move automatically.
+
+ALT-D AutoStart  When set ON, the Alt-D Phone Book is popped up after
+starting the program.  When set OFF, you will remain in Terminal Mode on
+startup.
+
+NOTE: If this is set ON, it will be overridden if either the /HOST or /S=
+command line options are used.  This prevents the Phone Book from interfering
+with either the Host Mode or an Auto Start Script.
+
+Clear FKey Tags  When set ON, using the Quick Dial Fkeys in the Alt-D
+Phone Book will clear any previously tagged entries first.  When set OFF,
+previously tagged entries remain tagged before tagging any new entries.
+
+Write FBK File  When set ON, any changes to the FON book will result in an
+FBK Backup file being created.  This file will be the same size as the
+FON, so you should allow for this disk space.  Floppy users may want to turn
+this option OFF to conserve space.
+!Topic 60 Setup/Option/Runtime
+!Noindex
+
+Qmodem Runtime parameters are similar to the Qmodem Toggles in that they
+control specific aspects of Qmodem operation.   These parameters were set
+via command-line options in previous releases of Qmodem.  To change a
+parameter's setting, type the corresponding highlighted letter or move the
+menu selector to the entry and press Enter.
+
+EMS for Overlays  Activates or deactivates the use of Expanded Memory
+(EMS).  When ON, and sufficient EMS memory is available, Qmodem will load
+the entire overlay file into Expanded Memory.  If there is not sufficient
+EMS memory available or this parameter is OFF, Qmodem will dynamically load
+the overlay file from disk.  
+
+Use of EMS memory will significantly improve performance by eliminating
+overlay-related disk activity.  The amount of EMS memory required to store
+the Overlay is slightly higher than the size of the QMODEM.OVR file.  Other
+aspects of Qmodem may draw on the available EMS memory as needed.
+
+Int16 Enable  When ON, Qmodem uses an internal keyboard input handler
+which supports 101-key enhanced keyboards, including the F11 & F12 function
+keys.  When OFF, Qmodem uses the standard DOS input handler and the F11 &
+F12 function keys are not supported.
+
+NOTE: If the computer is not equipped with an enhanced keyboard, or the ROM
+BIOS does not support such a keyboard, this parameter cannot be toggled ON.
+
+Share IRQ's  When ON, Qmodem will correctly share interrupts on PS/2 and
+EISA bus equipped computers.  When set OFF, Qmodem will not pass interrupts
+on to the previous interrupt handlers if any were present.  If you are
+running a PC, XT or AT based system, then this should be set OFF.
+
+Optimum Shell  When ON, Qmodem will attempt to remove all but 5K of itself
+from memory before all shell operations (external transfer protocols, Alt-R
+drop to DOS, etc.)  If the EMS USAGE is set ON, then it first tries to store
+the copy into EMS memory.  If there is not enough free EMS or the EMS USAGE
+is OFF, then it tries to swap to DISK.  If there is not enough DISK space,
+the Optimum Shell is disabled.
+
+-- Disk Shell  This toggle works only when the Optimum Shell toggle is set
+ON.  If OFF, this toggle has no effect.  Assuming the Optimum Shell is ON,
+this toggle controls whether or not the Swap file can be placed on Disk.
+!Page
+
+If ON, then a Disk file will be attempted if you have insufficient EMS memory
+to hold the Swap file (or the Use EMS toggle is set OFF).  If OFF, and you
+have run out of EMS, then the Optimum Shell is disabled.
+
+Calibrate DELAY  When set ON, the internal timer routine will automatically
+calibrate itself periodically.  This could be necessary if running under
+multitaskers or running on a network server. (the latter is strongly
+discouraged however).
+!Topic 59 Setup/Options/Memory
+!Noindex
+
+Qmodem allows user-specified memory allocations for these storage areas:  
+
+Lines of ScrollBack  Memory is allocated as the maximum number of lines
+which can be stored in the scrollback buffer.
+
+Download Buffer  Downloaded data is stored into the download buffer. When
+the buffer is full, it is copied to disk.  Each buffer is 128 bytes, and from
+8 to 240 buffers can be allocated.  When downloading to a hard disk or RAM
+disk, use the smallest allocation of 8.  When downloading to a floppy, use a
+medium to high value to increase efficiency.   Large allocations are at the
+expense of system memory.
+
+Overlay Buffer  Used to store code segments from the Overlay File.  The
+default value is 30K.  Increasing this value will reduce disk activity
+during the loading of program overlay files at the expense of memory.  If
+Qmodem seems too slow, this should be increased in 2K increments until
+execution speed is satisfactory.
+!Topic 58 Setup/Options/Sounds
+!Noindex
+
+Qmodem can use Beeps and Bells to indicate a successful connect or the
+completion of a file transfer.  The default state is defined in the Alt-N/O/T
+menu.  Outside the configuration menu, this feature can be toggled on or off
+with the Alt-B command.  The Sounds menu allows changes to the pitch of these
+sounds to suit users' preferences.  Three sounds can be configured:
+
+Connect Tones  This multi-note jingle has its own custom menu.  Qmodem
+produces a 3-note chime following a successful connection.  The default
+frequencies for the three notes are 1200, 1400, and 1600 cycles.  These can
+be changed to suit the user's preferences.  All 3 notes are played following
+each change.  To change a value type the desired number, enter the new
+value, and press Enter.
+
+Max  This entry is under the Connect Tones menu.  It controls the maximum
+number iterations of the Connect tones when you get connected via the Alt-D
+Phone Book.  Remember, this is the maximum number.  You can always cancel the
+tones with a press of any key.
+!Page
+
+Up/Download  A single beep will be produced at the completion of each file
+transfer.  The frequency of the sound can be changed.  A sample beep will be
+heard after each change.  The default frequency for the file transfer
+completion tones is 1200 cycles.
+!Topic 57 Setup/Options/Delays
+!Noindex
+
+Delay values affect the timing of certain Qmodem operations:
+
+Status Windows  Most toggle or immediate commands have an accompanying
+window showing the change in status.  The value in this field, expressed in
+1/100th sec., controls the duration the windows' display.  The default is
+300 (or 3 seconds).
+
+NOTE: A low value in the Status Window delay field will cause a very short
+display which may not be noticed.
+
+File Transfers  File transfer errors such as Short/Long blocks can occur
+on high-speed, buffered modems when the COM port rate is fixed at a higher
+speed than the CONNECT rate --for example, when operating a USR HST or Hayes
+V9600 modem with a COM port speed of 9600 or 19200, and when connected to a
+slower 1200/2400 modem--.  Set this option to 20 (seconds) to allow data and
+the end-of-block message to pass through the buffers before Qmodem times
+out.  This delay is not generally needed if the serial port speed is not set
+above 2400bps.
+!Page
+
+BREAK timing  This is the number of milliseconds that Qmodem will hold the
+BREAK signal high when Ctrl-End is pressed or specified in the Dialing setup
+options.  Values from 0 to 2000 (2 seconds) are valid.
+
+DTR timing  This is the number of milliseconds that Qmodem will hold the
+DTR signal low when specified in the Modem setup options.  Values from 0 to
+2000 (2 seconds) are valid.
+!Topic 92 Setup/Video/Toggles/Emulations
+!Noindex
+
+Bulletin Boards usually require the TTY emulation for normal text mode, or
+the ANSI emulation which allows changing colors.  If you see a prompt
+something like "Do you want Graphics (Y/N) ?" from the BBS, you should
+answer NO if you have TTY selected.  If you have ANSI, you can go either
+way.
+
+Mainframe computers usually rely on the VT100 or TVI 925 emulation.  Be
+aware that the 925 emulation in Qmodem is not 100%.  We strongly suggest
+using the VT100 if you have a choice between the two.
+
+Avatar is a superset of the ANSI emulation and gaining popularity with the
+OPUS Bulletin Board systems.
+
+Debug ASCII and Debug HEX are special modes that display control characters
+in HEX or ASCII mode.
+!Topic 49 Setup/Options/Characters
+!noindex
+
+Not to be confused with Moe, Larry & Curly...  These are various picture
+masks and characters that can be customized.
+
+                Beeps & Bells      - Single note (ASCII 13)
+                ANSI Music         - Double note (ASCII 14)
+                Status Line Filler - Hash Block ฐ
+                Directory Tag      - Check mark ๛
+                Entry Note Tag     - Triplet ๐
+                Date Mask          - mm-dd-yy
+                Time Mask          - hh:mm:ss
+                Elapsed Mask       - hh:mm:ss
+
+The Time and Date 101 Picture Masks  are used throughout the code (except where noted) to
+display time and date fields.
+
+To change a separator or indicator value, select the desired character and
+press the direction keys to select another character values.  When the
+desired character is highlighted, press Enter.  Press Esc to leave the
+character as it was.  The single and double note characters can cause
+problems when copied directly to a printer with a PrtSc function.
+!Topic 101 Picture Masks
+!NoIndex
+
+To allow the maximum amount of flexibility and to insure that the TIME and
+DATE routines can be used internationally, you can specify a picture mask
+to indicate how a given string should be formatted. 
+
+For example, let's say that a date variable contains January 2, 1990 and you
+want to display it. There are several possible picture masks you could use:
+
+      Picture           Result
+      ----------------------------
+      mm/dd/yy          01/02/90
+      MM/dd/yy           1/02/90     (note the Case difference)
+      mm/dd/yyyy        01/02/1990
+      mm-dd-yyyy        01-02-1990
+      dd/mm/yyyy        02/01/1990
+      DD-mm-yyyy         2-01-1990
+
+Time strings are handled in a similar fashion, except that special formatting
+characters are available for working with times in am/pm (12-hour) format as
+well as military (24-hour) format.  
+!Page
+
+For example, lets say it is 1:02pm and you want to display this in a
+different format.  Here are some possible picture masks:
+
+      Picture           Result
+      -----------------------------
+      hh:mm:ss          13:02:00
+      hh:mm             13:02
+      hh:mm te          01:02 pm
+      hh:mmt            01:02p
+      HH:MM:SS          13:02:00
+      hh:mm:sste        01:02:00pm
+
+Note that string representations of time are always assumed to be in military
+format unless a 't' appears in the picture mask.  An 'e' (em) in the mask
+should always be accompanied by a corrosponding 't' (time).
+
+Now that you have a general idea of what picture masks do, let's look at the
+characters that can appear in them.  
+!Page
+
+The following special characters are meaningful in masks:
+
+      Char       is replaced by
+      --------------------------------------------------
+      'm', 'M'   Month      (date fields only)
+      'd', 'D'   Day        (date)
+      'y'        Year       (date, notice 'Y' is a literal)
+      'h', 'H'   Hour       (time fields only)
+      'm', 'M'   Minutes    (time)
+      's', 'S'   Seconds    (time)
+      't'        'p' or 'a' (time dependant)
+      'e'        'm'        (usually follows the 't')
+
+
+Any other characters are treated as literals and just displayed.
+!Topic 56 Setup/Exit
+!Noindex
+
+The Configuration Exit Menu has two options:
+
+Save Changes  Save the changes to the QMODEM.CNF file and exit the menu.
+
+Abandon  Leave the configuration menu and do not save the changes. Pressing
+Esc while at the main menu level has the same effect.  
+
+NOTE:  All changes will be lost if you select Abandon.
+!Topic 75 Selecting a new Character
+!NoIndex
+
+This Pick List allows you to select a new value for the character you are
+trying to change.
+
+Move around with the direction keys until the character you want is
+highlighted.  Press Enter to use the new character or Esc to leave the
+window without changing the character.
+!Topic 90 Help with ONLINE HELP
+!NoIndex
+
+See?  Not so hard after all!  Actually, all three selections have been
+programmed to bring you to this page.
+
+This was intentional, because I want to show you another feature of the Help
+System.  You can move to the Previous Topic by pressing Alt F1.
+
+
+             (Do this to get back to where we were before!)
+!Topic 54 Terminal Mode
+!NoIndex
+
+You are now in what is called TERMINAL MODE.  This is where you can enter
+modem commands while Offline, and communicate with a remote computer while
+Online.
+
+If you need a list of Commands that are available, press Esc to exit the
+Help System and then press the Home key.
+
+If you would like to see the Index of Help Topics, press F1
+
+Hot Links:  0 Help Index        32 Dialing a number 
+
+            84 Qmodem Setup 
+!Topic 91 þ Help with ONLINE HELP       þ
+!Index 1
+
+                  Welcome to the Qmodem Online Help System.
+
+We have tried to make this as easy to use as possible, in the event you
+needed help and wanted to locate the required information quickly.
+
+Normally, when you ask for help in Qmodem, you are shown the screen that
+most likely holds the answer to your question.  Unfortunately, mind-reading
+is not built in, so we included an index for the entire Help System.
+
+
+                    Navigating through the Help System
+
+The first thing you should learn how to do is navigate through the Help
+screens.  The screens themselves may contain one or more pages of
+information (like this one).  If more than one page is available, the bottom
+right corner will look like this:
+                                      ณ
+                                      ณ
+                        ออออออออ PgDn พ
+
+  (Press PgDn now)
+!Page
+
+Always look in the lower right corner to see if the Help Screen has more than
+one page.  If it has more that two pages, you will see PgUp/PgDn as the
+option.
+
+Another way to move around is to select items that are highlighted
+Selection boxes.  There can be more than one on a page, depending on what
+the Help screen is about.  
+
+For example, below are three possible selections which may reference new
+Topics in the Help System.  To move between them, you use the Left and Right
+Arrow keys.   
+
+
+
+    90 Selection 1        90 Selection 2        90 Selection 3 
+
+
+
+                       (try it out right now!)
+
+!Page
+
+The Status Line below lists the available commands, but let's go over them
+to be sure you understand how they work.
+
+[F1] for Topic Index
+
+We can assume you figured this one out, or you wouldn't be reading this
+screen!  This displays an alphabetical list of all the Help Topics in the
+Help System.  Not all help screens are listed however.  Some Topics branch
+off and do not need Index entries.  All of the major Topics are covered
+though.    See 55 Moving around in the INDEX  for more information.
+
+[Alt-F1] for Previous Topic
+
+This feature is demonstrated on the previous page.  To recap, you can move
+backwards through the Help screens by pressing the Alt-F1 key.  If you
+reach the original Help screen first displayed, this key does nothing.
+
+[Esc] Exit Help
+
+This takes you back to Qmodem where you were before you asked for more help.
+!Topic 26 Dialing Directory (Alt-D)
+
+Phone numbers and related information are stored in the Qmodem Dialing
+Directory.   Multiple Dialing Directories may be loaded with up to 200
+entries stored in each directory.  QMODEM.FON is the default dialing
+directory that is loaded.
+
+Dialing Directory commands allow you to Dial another system, Edit the
+current FON book, and attach NOTES to individual entries.
+
+The Phone book is divided into two sections, with each section able to
+display two different screens.  The top section will look something like
+this:
+
+ ีอออออออออออออออออออออออออออออออออ Phone Book ออออออออออออออออออออออออออออ
+ ณ Page  1 of Z:\QMODEM.FON
+ ณ Total Tags > 0                        Prefixes > BCD
+ ณ[D]   Name                             Number          COM        Script
+ ณ1     Sub Line 1            {F11}            233-6157  38400 8N1  SYSOP2
+ ณ2     Sub Line 2            {F11}            233-6006  38400 8N1  SYSOP2
+ ณ3     Exec-Net               {F3}      1-914-667-4066  38400 8N1  EXECNET
+ ณ4     GEnie_Local                            233-7623   2400 7E1  GENIE
+!Page
+
+The top line tells you which FON file you are viewing and the current page
+number.  The next line down tells you how many entries are tagged for dialing
+and how many Prefix letters have been defined.
+
+
+Name  This field is used to name the system.  Length: 27 characters.  It
+can be anything you want, but should not be left blank (for sorting reasons).
+
+The Name field can also contain an FKey Hotkey assignment string.  The
+example above shows entries 1,2 and 3 with FKeys assigned.  F2 thru F12 can
+be assigned to an entry by enclosing the assignment in { } brackets.
+
+Number  This is the phone number to dial.  Length: 19 characters.  You can
+put any character in here you want, but make sure it is a subset of your
+modem's DIAL command.  In addition, you can use the Prefix modifier
+characters A-J to make the number longer than just 19 characters.
+
+COM  This is the serial port parameters to be used.  Baud rate, Data bits,
+Parity and Stop bits are shown.
+!Page
+
+Script  This is the name of a Script file if one is attached.  Length: 12
+Characters.  If you attach a script to an entry, it will get executed
+automatically when you dial and get connected.  If the script does not
+actually exist, then QuickLearn will create it the first time automatically!
+
+
+If you press O (for Other Info), the top portion changes and looks like
+the following:
+
+ ีอออออออออออออออออออออออออออออออออ Phone Book ออออออออออออออออออออออออออออ
+ ณ Page  1 of Z:\QMODEM.FON
+ ณ Total Tags > 0                        Prefixes > BCD
+ ณ[D]   Name                            Password        LastCall  Total  P D
+ ณ1     Sub Line 2            {F11}                     05-01-90  1816   F F
+ ณ2     Sub Line 2            {F11}                     05-01-90  1816   F F
+ ณ3     Exec-Net               {F3}     Qmodem_OK       04-27-90  1624   F F
+ ณ4     GEnie_Local                     QmodemSST       04-30-90  1457   1 H
+
+Password  A convenient place to store system passwords.  Length: 14
+characters.  This is more than convenient because there are other built-in
+commands that can make use of this field after a connection.  There is a
+corresponding Script Language variable called $PASSWORD that is loaded with
+the Password in the entry.
+
+LastCall  The date on which you last connected.  This field is
+automatically updated every time you call the system and get connected. 
+Aborted dial attempts and BUSY's do not update this field.
+
+Total  The number of times you have connected.  Length: 5 digits.  This too
+gets updated every time you connect to the system.
+
+P  (for Protocol)  This is the default transfer protocol you want to use on
+the system.  If defined, this is placed in the Upload and Download protocol
+selection window by default.  If none is defined, you have to select a
+protocol for each transfer.
+
+D  (for Duplex)  This is the default Duplex to use when calling the system.
+Can be either H for Half Duplex or F for Full Duplex.
+
+Each page of the phone book will display 10 entries, unless you are in 43/50
+line mode.  Then you get 20 entries per page (and half as many pages).
+
+(Press PgDn for more on Commands)
+!Page
+
+The Commands section is the bottom portion of the window and looks like this:
+
+ ฦออออออออออออออออออออออออออออออออออ Commands ออออออออออออออออออออออออออออออ
+ ณ            Entries                    Dial                   FON
+ ณ   ^SP/SP - Tag-P/Tag-Untag        M - Manual Dial        F - Find Text
+ ณ    I-Ins - Insert New Entry                              A - Find Again
+ ณ ^D/D-Del - Delete Tagged/Bar          Edit               L - Load
+ ณ     ^R/R - Revise Tagged/Bar      E - Edit Prefixes      O - Other Info
+ ณ        T - Tag Multiple           N - Attached Note   ^P/P - Print 132/80
+ ณ        U - Untag All              V - Linked Script      S - Sort
+ ณ        Q - QuickLearn                                   ^U - Undo
+
+
+Commands are divided into 5 groups:
+
+ENTRIES  Commands affecting directory entries such as Revise or Delete.
+
+DIAL  Commands which start the dialing or exit the Dialing  Directory.
+
+EDIT  Commands used to edit notes or scripts linked to the current entry.
+
+FON  Commands which manipulate the Directory itself such as Load.
+
+MOVEMENT  Implied Commands/Keys used to navigate through the Directory.  
+
+
+All changes to the Dialing Directory are saved to the disk immediately.  When
+a Revise, Tag with Prefix, Insert, Delete, Sort operation is performed, the
+old version of the directory is saved under its current name with the .FBK
+extension.
+
+The last major change to the directory can be cancelled with the ^U Undo
+command.
+
+See also  13 Entry Commands     43 Dialing Commands     3 Editing Commands  
+          
+          51 FON Commands       52 Movement Commands 
+!Topic 39 ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤ
+!Index 6
+
+
+
+
+
+
+
+
+
+                    (This page intentionally left blank)
+

@@ -1,0 +1,21 @@
+
+Qmodem .FON Conversion Utility (QMFONCNV.EXE)
+=============================================
+
+Just a quick note before you use this utility.  This program has not
+been extensively tested but has been posted due to numerous requests for
+it.  If you find a problem with the program, please post a comment to
+the SYSOP detailing the problem you are having.
+
+To run QMFONCNV, simply copy the program into your QMODEM subdirectory
+and type QMFONCNV.  The only reason that the program needs to be in the
+QMODEM subdirectory is so that the program can read the QMODEM.CNF file
+for .FON book defaults.  If you wish to run this program in another
+subdirectory, be sure to copy the QMODEM.CNF file to the same working
+directory.
+
+The rest is rather self-explanitory.  Happy modeming!
+
+Chuck...
+
+

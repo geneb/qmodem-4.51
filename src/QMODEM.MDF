@@ -1,0 +1,2762 @@
+@Anchor 2400i Internal Half-card
+2400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+500
+^ATE1Q0M1X4V1S7=60^M
+^AT&C1&D2&W^M
+*Your 2400 baud modem is ready to go!
+
+@AST 2X9600
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+$ Switch Settings:    FRONT 1 2 3 4 5 6 7 8 9 10
+$                           U D D U D U U D * *
+$
+$                     REAR  1 2 3 4 5 6 7 8
+$    *=Not Used             D D D U D U U *
+^AT&F^M
+^AT&C1&D2\J0\N3\Q3\V1&W^M
+*Your AX9624c is now configured for 19200 baud operation.  Be sure
+*to set ALL your dialing directory entries to 19200 to get the
+*best speed on all calls.
+
+@AT&T Dataphone II 2212C  (1200 baud)
+1200
+
+
+10
+A^~T^~^M^~^~^M
+^M^~^~ATT
+^M
+Answered
+Not connected
+Invalid number
+No dial
+Busy
+$:^~^~q^~^M
+$:^~^~q^~^M
+
+
+
+
+
+0
+0
+1000
+$ Switch Settings:    INSIDE 1 2 3 4
+$                            C O O O
+$                     C=closed  O=open
+$
+$ These are inside the case.
+^M^~^~od^~^~^~y^~^~^~at^M^~^~^~^M^~^~^M
+*Your Dataphone II is ready to go!  Be sure to read your modem
+*manual and double-check the setup.
+*Note: Host mode operation is not supported at this time.
+
+@ATI 2400etc (non V.42)
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F1^M
+^AT&C1&D2&W^M
+*Your ATI 2400etc modem is ready to go!  You can set all of your
+*dialing directory entries to 9600 baud and the modem will handle
+*speed conversions for you.  MNP operation has also been enabled.
+*Remember to Exit/Save from SETUP to save these changes!
+
+@ATI 2400etc/e & 2400etc/i (with V.42)
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F2^M
+^AT&C1&D2&W^M
+*Your ATI 2400etc modem is ready to go!  You can set all of your
+*dialing directory entries to 9600 baud and the modem will handle
+*speed conversions for you.  MNP operation has also been enabled.
+*Remember to Exit/Save from SETUP to save these changes!
+
+@ATI 9600etc/e V.32/V.42
+38400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F2^M
+^AT&C1&D2&W^M
+*Your ATI 9600etc modem is ready to go!  You can set all of your
+*dialing directory entries to 38400 baud and the modem will handle
+*speed conversions for you.
+
+@Cardinal 2400 MNP
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^AT&C1&D2&T5\C1\J0\N3\Q3\V1\K3&W^M
+*Your Cardinal 2400 MNP modem is ready to go!  You can set your
+*dialing directory entries to 9600 baud and the modem will handle
+*speed conversions for you.  MNP operation has also been enabled.
+
+@Cermetek INFO-MATE 212A
+1200
+
+  XY
+210
+U 1^M^~C 0^M
+D 'T
+'^M
+A
+B
+X
+N
+V
+^M
+DTR
+
+
+
+
+
+0
+0
+1000
+$You must open the case to set the switches.  Refer to your
+$modem manual for this procedure.
+$
+$Switch settings:       1    2    3    4    5    6    7    8
+$                       ON   OFF  OFF  ON   ON   OFF  ON   OFF
+$
+*Your Info-Mate 212A is ready to go!  Be sure to read your modem
+*manual and double-check the setup.
+*Note: Host mode operation is not supported at this time.
+
+@CompuCom Speedmodem
+19200
+
+
+10
+AT&F2*H2&D2S10=30%C0H0
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+NO ANSWER
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+*Your SpeedModem is ready to go!  You can set all of your dialing
+*directory entries to 19200 baud and the modem will handle speed
+*conversions for you.
+
+@Digicom 9624LE / 9624PC V.32bis
+38400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^AT*F3*E9&W^M
+*Your Digicom modem is ready to go!  You can set all of your
+*dialing directory entries to 38400 baud and the modem will handle
+*speed conversions for you.
+
+@Digitan Hi*IQ ZX1896 2400 Fax Modem
+2400
+
+
+10
+ATE1Q0V1X4&C1&D2S7=60S25=4^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+500
+*Your 2400 baud modem is ready to go!  Be sure to read your
+*modem manual and double-check the setup.
+
+@E*Tech Bullet PC2400MH MNP
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^AT&C1&D2&T5$C1$E2$F4$X1&W^M
+*Your E*Tech 2400 MNP modem is ready to go!  You can set your
+*dialing directory entries to 9600 baud and the modem will handle
+*speed conversions for you.
+
+@E*Tech Bullet E9696M V.32 MNP
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^AT&C1&D2&T5$C1$E1$F4$S0$X5&W^M
+*Your E*Tech 9696M modem is ready to go!  You can set all of your
+*dialing directory entries to 19200 baud and the modem will handle
+*speed conversions for you.
+
+@Everex 12e External (EV-936)
+1200
+
+
+10
+ATE1F1H0M1Q0V1X4&C1&D2^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+NO ANSWER
+^H
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+$ Switch Settings:  1   2   3   4   5   6   7   8   9
+$                   On  Off Off Off Off On  Off Off Off
+*Your Everex 12e (EV-936) is ready to go!  Be sure to read your
+*modem manual and double-check the setup.
+
+@Everex 24e External (EV-945)
+2400
+
+
+10
+ATE1F1H0M1Q0V1X4&C1&D2^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+NO ANSWER
+^H
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+$ Switch Settings:  1   2   3   4   5   6   7   8   9
+$                   On  Off Off Off Off On  Off Off Off
+*Your Everex 24e (EV-945) is ready to go!  Be sure to read your
+*modem manual and double-check the setup.
+
+@Everex Evercom 24+ MNP
+9600
+
+
+10
+AT\C0\J0\K5\N3\Q0\V1V1E1Q0X4^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+NO ANSWER
+^H
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+*Your Everex Evercom 24+ is ready to go!  Be sure to read your
+*modem manual and double-check the setup.
+
+@Everex EverFax 24/96
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+NO ANSWER
+^H
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+^AT&F^M
+^AT&T5\J0\N3\V1\X1%C1\Q3&W
+*Your Everex EverFax 24/96 is ready to go!  Be sure to read your
+*modem manual and double-check the setup.
+
+@Fastcomm FDX 2424 (MNP Class-5)
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+NO ANSWER
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+$All switches on the bottom of the modem should be in the
+$OPEN (off) position.
+^AT&F^M
+^ATE1Q0M1X4V1S7=60^M
+^AT&B1&C1&D2&G0&H1&I1&M6&W^M
+*Your FDX 2424 modem is ready to go!  Be sure to read your
+*modem manual and double-check the setup.
+
+@Fastcomm FDX 2496
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+NO ANSWER
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+$All switches on the bottom of the modem should be in the
+$OPEN (off) position.
+^AT&F^M
+^ATE1Q0M1X4V1S7=60^M
+^AT&B1&C1&D2&G0&H1&I1&M6&W^M
+*Your FDX 2496 modem is ready to go!  Be sure to read your
+*modem manual and double-check the setup.
+
+@Fastcomm FDX 9696 (V.32 & MNP-5)
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+NO ANSWER
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+$All switches on the bottom of the modem should be in the
+$OPEN (off) position.
+^AT&F^M
+^ATE1Q0M1X4V1S7=60^M
+^AT&B1&C1&D2&G0&H1&I1&M6&W^M
+*Your FDX 9696 modem is ready to go!  Be sure to read your
+*modem manual and double-check the setup.
+
+@Forval IM14400/SA14400 V.32bis (38400 baud)
+38400
+
+
+10
+ATZ0^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^ATS25=0S7=60%E0\J0\Q3&W^M
+*Your Forval modem is ready to go!  You can set all of your
+*dialing directory entries to 38400 baud and the modem will
+*handle speed conversions for you.
+
+@Forval IM14400/SA14400 V.32bis (57600 baud)
+57600
+
+
+10
+ATZ0^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^ATS25=0S7=60%E0\J0\Q3&W^M
+*Your Forval modem is ready to go!  You can set all of your
+*dialing directory entries to 57600 baud and the modem will
+*handle speed conversions for you.
+
+@Generic 1200 Baud Hayes clone
+1200
+
+
+10
+ATE1Q0M1X1V1^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+^~^~^~+++^~^~^~ATH0^M
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+$If your modem has hardware switches or jumpers, be sure to set
+$the modem so that it does NOT force Carrier Detect (this is
+$usually switch #6).  Also, set the DTR so that is NOT forced on
+$all the time (this is usually switch #1).  If your modem uses
+$NRAM to store the configuration, you should use the Generic
+$1200 Baud (switchless) after this.
+*Your 1200 baud modem is ready to go!  Be sure to read your modem
+*manual and double-check the setup.
+
+@Generic 1200 Baud Hayes clone (switchless)
+1200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+^ATE1Q0M1X1V1S7=60^M
+^AT&C1&D2&W^M
+*Your 1200 baud modem is ready to go!  Be sure to read your modem
+*manual and double-check the setup.
+
+@Generic 2400 baud Hayes clone
+2400
+
+
+10
+ATE1Q0M1X1V1^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+^~^~^~+++^~^~^~ATH0^M
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+$If your modem has hardware switches or jumpers, be sure to set
+$the modem so that it does NOT force Carrier Detect (this is
+$usually switch #6).  Also, set the DTR so that is NOT forced on
+$all the time (this is usually switch #1).  If your modem uses
+$NRAM to store the configuration, you should use the Generic
+$2400 (switchless) after this.
+*Your 2400 baud modem is ready to go!  Be sure to read your
+*modem manual and double-check the setup.
+
+@Generic 2400 Baud Hayes clone (switchless)
+2400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+^ATE1Q0M1X1V1S7=60^M
+^AT&C1&D2&W^M
+*Your 2400 baud modem is ready to go!  Be sure to read your
+*modem manual and double-check the setup.
+
+@GVC 9600 V.42
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^AT&C1&D2\Q3\J0\V1&W^M
+*Your GVC 9600  modem is ready to go!  You can set all of your
+*dialing directory entries to 19200 baud and the modem will handle
+*speed conversions for you.
+
+@GVC SM96 V.42bis
+38400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F2&W^M
+*Your GVC modem is ready to go!  You can set all of your dialing
+*directory entries to 38400 baud and the modem will handle speed
+*conversions for you.
+
+@Hayes SmartModem 1200 External
+1200
+
+
+10
+ATE1Q0M1X1V1S7=60^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+^~^~^~+++^~^~^~ATH0^M
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+$ Switch Settings:    1  2  3  4  5  6  7  8  9  10
+$                     U  U  D  U  D  U  U  D  U  U
+$
+$ Note:  Early versions did not have switches 9 & 10.
+*Your Hayes SmartModem is ready to go!
+
+@Hayes SmartModem 1200B Full Card Internal
+1200
+
+
+10
+ATE1Q0M1X1V1S7=60^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+^~^~^~+++^~^~^~ATH0^M
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+$ Hayes changed this version of the modem several times.
+$ Be aware that your modem may or may not have all of these
+$ switches or that these are the correct settings.  Only
+$ your modem manual knows for sure...
+$
+$ Switch Settings: #2  DOWN - RJ12/RJ13 phone jack
+$                      UP   - RJ11 or equivelent
+$                  #3  UP   - Allow true CD
+$                  #4  UP   - Allow DTR
+$                      (early versions required strapping
+$                       pins A-B for this function)
+*Your SmartModem 1200B is ready to go!
+
+@Hayes SmartModem 1200B Half Card Internal
+1200
+
+
+10
+ATE1Q0M1X1V1S7=60^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+^~^~^~+++^~^~^~ATH0^M
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+$ Switch Settings: #2  RIGHT - RJ12/RJ13 phone jack
+$                      LEFT  - RJ11 or equivelent
+$                  #3  RIGHT - Allow true CD
+$                  #4  LEFT  - Allow DTR
+*Your SmartModem 1200B is ready to go!
+
+@Hayes SmartModem 2400
+2400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+^ATE1Q0M1X4V1S11=60^M
+^AT&C1&D2&W^M
+*Your SmartModem is ready to go!
+
+@Hayes V-Series 2400 (without V.42)
+2400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+^ATE1Q0M1X4V1S11=60^M
+^AT&C1&D2&G0&J0&K3&L0&P0^M
+^AT&Q5&W^M
+*Your V-Series SmartModem is ready to go!
+
+@Hayes Personal Modem 2400
+2400
+
+
+10
+AT&C1&D2E1Q0^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+^~^~^~+++^~^~^~ATH0^M
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+*Your Hayes Personal Modem is ready to go!  Be sure to read your
+*modem manual and double-check the setup.
+
+@Hayes V-Series 9600
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+&M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+^ATE1Q0M1X4V1S11=60^M
+^AT&C1&D2&G0&J0&K3&L0&P0^M
+^AT&Q5&W^M
+*Your V-Series SmartModem is ready to go!
+
+@Hayes V-Series 9600 V.42
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+^ATE1Q0M1X4V1S11=60^M
+^AT&C1&D2&G0&J0&K3&L0&P0^M
+^AT&Q5S36=7S46=2S48=7W2&W^M
+*Your V-Series SmartModem with V.42 is ready to go!
+
+@Hayes V-series ULTRA Smartmodem 9600
+38400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+^AT&F^M
+^ATE1N1Q0M1X4V1W2^M
+^AT&C1&D2&G0&J0&K3&L0&P0^M
+^AT&Q5&U0^M
+^ATS7=60S49=8S50=240&W^M
+*Your V-Series ULTRA is ready to go!
+
+@Intel 2400EX MNP
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^AT&T5\J0\N3\Q3\V1\X1&W^M
+*Your Intel 2400EX modem is ready to go!  You can set all of your
+*dialing directory entries to 9600 baud and the modem will handle
+*speed conversions for you.
+
+@Intel 9600EX V.32 with V.42bis
+38400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^AT&T5&W^M
+*Your Intel 9600EX modem is ready to go!  You can set all of your
+*dialing directory entries to 38400 baud and the modem will handle
+*speed conversions for you.
+
+@Microcom AX/1200,AX/2400   (wo/compression)
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M^~^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+$ Switch Settings:    FRONT 1 2 3 4 5 6 7 8
+$                           U D D U D U U D
+$
+$                     REAR  1 2 3 4 5 6 7 8
+$                           D U D U D U D U
+^AT&C1&D2&T5\N3\J0\Q3&W^M
+*Your modem is now configured for operation.  Be sure
+*to set all your dialing directory entries to 9600 to get the
+*best speed on all calls.
+
+@Microcom AX/1200c,AX/2400c (w/compression)
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M^~^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+$ Switch Settings:    FRONT 1 2 3 4 5 6 7 8
+$                           U D D U D U U D
+$
+$                     REAR  1 2 3 4 5 6 7 8
+$                           D U D U D U D U
+^AT&F^M
+^AT&C1&D2&T5\N3\J0\Q3&W^M
+*Your modem is now configured for operation.  Be sure
+*to set all your dialing directory entries to 9600 to get the
+*best speed on all calls.
+
+@Microcom AX/9624c  AX/9612c
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+$ Switch Settings:    FRONT 1 2 3 4 5 6 7 8 9 10
+$                           U D D D D U U D U U
+$
+$                     REAR  1 2 3 4 5 6 7 8
+$                           D D D U D U D D
+^AT&F^M
+^AT&C1&D2&T5\N3\J0\Q3&W^M
+*Your AX9624c is now configured for 19200 baud operation.  Be sure
+*to set all your dialing directory entries to 19200 to get the
+*best speed on all calls.
+
+@Microcom QX/V.32c
+38400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+$ Switch Settings:    FRONT 1 2 3 4 5 6 7 8 9 10
+$                           U D D U D U U D   U
+$
+$             0       REAR  1 2 3 4 5 6 7 8
+$                           D U D U D D D D
+^AT&F^M
+^ATX4\V1\N3\J0\Q3^M
+^AT&D2&C1&T5%C3&W^M
+*Your QX/V.32c is now configured for 38400 operation.  Be sure
+*to set all your dialing directory entries to 38400 to get the
+*best speed on all calls.
+
+@Microcom QX/4232hs
+38400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+$ Switch Settings:    FRONT 1 2 3 4 5 6 7 8 9 10
+$                           U D U U U D D D   U
+$
+$                     REAR  1 2 3 4 5 6 7 8
+$                           D U D U D U U D
+$
+$                     T/D   in Data Mode
+$                     O/A   your choice.
+^AT&F^M
+^ATE1Q0X4\V2\N5\J0\Q3^M
+^AT&D2&C1&T5%C3&W^M
+*Your QX/4232hs is now configured for 38400 operation.  Be sure
+*to set all your dialing directory entries to 38400 to get the
+*best speed on all calls.
+
+@Multi-Tech MultiModem 224PC5
+2400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+600
+$Switch Settings on the Bottom of the modem:
+$       Switch Bank 1 OPEN
+$                   2 *
+$                   3 *   *=Sets COM Port
+$                   4 CLOSED
+^AT&F^M
+*Your 224PC5 is now configured for 2400 baud operation.  Be sure 
+*to read your modem manual and doublecheck the setup.
+
+@Multi-Tech MultiModem 224EC / 224PC  W/MNP
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+600
+$Switch Settings on the Bottom of the modem:
+$       Switch Bank 1 OPEN
+$                   2 *
+$                   3 *   *=Sets COM Port
+$
+$       224EC:   Switches on Back of Edgecard
+$                   1 OPEN (Up)
+$                   2 OPEN (Up)
+$                   3 CLOSED (Down)
+$                   4 CLOSED (Down)
+^AT&F^M
+^AT&E1&E4&E15^M
+^AT$MB2400$SB9600$BA0&W0^M
+*Your 224EC/224PC is now configured for 9600 baud operation.  Be
+*sure to set all your dialing directory entries to 9600 to get the
+*best speed on all calls.
+
+@Multi-Tech MultiModem MT224EH5 (MNP 5)
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+600
+$Switch Settings on the Bottom of the modem:
+$        4 Switch Bank 1 2 3 4
+$                      D U D D
+$        8 Switch Bank 1 2 3 4 5 6 7 8
+$                      U U D U D U U D
+$
+$Jumpers that need to be changed -inside- the modem:
+$  RTS:     toward the back of the modem.
+$  CTS/RTS: toward the back of the modem.
+^AT$A0&B0&BS0&C1$D0&D2$F1^M
+^AT&G0$MI0&M0$R1&R1&S1^M
+^ATB1E1M1Q0V1X4&Q0^M
+^AT&E1&E4&E8&E10&E13&E15^M
+^AT$MB2400$SB9600$BA0&W0^M
+*Your 224EH5 is now configured for 9600 baud operation.  Be sure
+*to set all your dialing directory entries to 9600 to get the
+*best speed on all calls.
+
+@Multi-Tech MultiModem MT224EH7 (MNP 7)
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+600
+$Switch Settings on the Bottom of the modem:
+$        4 Switch Bank 1 2 3 4
+$                      D U D D
+$        8 Switch Bank 1 2 3 4 5 6 7 8
+$                      U U D U D U U D
+$
+$Jumpers that need to be changed -inside- the modem:
+$  CTS/RTS: toward the back of the modem.
+^AT$A0&B0&BS0&C1$D0&D2$F1^M
+^AT&G0#L0$MI0&M0$R1&R1&S1^M
+^ATB1E1M1Q0V1X4&Q0^M
+^AT&E1&E4&E8&E10&E13&E15^M
+^AT$MB2400$SB19200$BA0&W0^M
+*The 224EH7 is now configured for 19200 baud operation.  Be sure
+*to set all your dialing directory entries to 19200 to get the
+*best speed on all calls.
+
+@Multi-Tech MultiModem 696E
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+600
+$Switch Settings on the Bottom of the modem:
+$        4 Switch Bank 1 2 3 4
+$                      D U D D
+$        8 Switch Bank 1 2 3 4 5 6 7 8
+$                      U U D U D U U D
+$
+$Jumpers that need to be changed -inside- the modem:
+$  CTS/RTS: toward the back of the modem.
+^AT$A1&B0&BS0&C1$D0&D2$EP1$F1^M
+^AT&G0&M0$MI0&M0$R1&R1&S1^M
+^ATB1E1M1Q0V1X4&Q0^M
+^AT&E1&E4&E8&E10&E13&E15^M
+^AT$MB9600$SB19200$BA0&W0^M
+*The 696E is now configured for 19200 baud operation.  Be sure
+*to set all your dialing directory entries to 19200 to get the
+*best speed on all calls.
+
+@Multi-Tech MultiModem 932EC
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+600
+^AT&F^M
+^AT&E1&E4&E8&E10&E13&E15^M
+^AT$MB9600$SB19200$BA0&W0^M
+*Your 932EC is now configured for 19200 baud operation.  Be sure
+*to set all your dialing directory entries to 19200 to get the
+*best speed on all calls.
+
+@Multi-Tech MultiModem V.32
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+600
+$Switch Settings on the Bottom of the modem:
+$        4 Switch Bank 1 2 3 4
+$                      D U D D
+$        8 Switch Bank 1 2 3 4 5 6 7 8
+$                      U U D U D U U D
+$
+$Jumpers that need to be changed -inside- the modem:
+$   Open the case and move the jumper labeled
+$   RTS/CTS so that the jumper it on the CTS side.
+^AT&F^M
+^AT&C1&D2B1E1M1Q0V1X4^M
+^AT&E1&E4&E8&E10&E13&E15^M
+^AT$MB9600$SB19200$BA0&W0^M
+*Your V32 is now configured for 19200 baud operation.  Be sure
+*to set all your dialing directory entries to 19200 to get the
+*best speed on all calls.
+
+@Multi-Tech MultiModem V32 with V.42bis
+38400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+BUSY
+VOICE
+
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+600
+$Switch Settings on the Bottom of the modem:
+$        4 Switch Bank 1 2 3 4
+$                      D U D D
+$        8 Switch Bank 1 2 3 4 5 6 7 8
+$                      U U D U D U U D
+$
+$Jumpers that need to be changed -inside- the modem:
+$   Open the case and move the jumper labeled
+$   RTS/CTS so that the jumper it on the CTS side.
+^AT&F^M
+^AT&C1&D2B1E1M1Q0V1X4^M
+^AT&E1&E4&E8&E10&E13&E15^M
+^AT$MB9600$SB38400$BA0&W0^M
+*Your V32 is now configured for 38400 baud operation.  Be sure
+*to set all your dialing directory entries to 38400 to get the
+*best speed on all calls.
+
+@NEC N9631 V.32 MNP
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F2^M
+^ATE1Q0&T5\Q3\V1\X1*FT1&W^M
+*Your NEC N9631 modem is ready to go!  You can set all of your
+*dialing directory entries to 19200 baud and the modem will handle
+*speed conversions for you.
+
+@OKITEL 2400 Plus
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+$Switch Settings:
+$
+$   1   2   3   4   5   6
+$   OFF OFF OFF OFF OFF ON
+$
+^AT&F^M
+^AT&C1&D2%C0\J0\N3\Q3\V1S25=4&W^M
+*Your OKITEL 2400 Plus is ready to go!  You can set all of your
+*dialing directory entries to 9600 baud and the modem will handle
+*speed conversions for you.
+
+@Penril Alliance V.32
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^AT&C1&D2\Q1,1&W^M
+*Your Alliance V.32 modem is ready to go!  You can set all of your
+*dialing directory entries to 19200 baud and the modem will handle
+*speed conversions for you.
+
+@Practical Peripherals PM2400
+2400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+^ATB1E1L2M1Q0V1X4Y1&C1&D2&G0&J0&L0&P0^M
+^AT&X0&Y0S0=0S2=43&W^M
+*Your PM2400 is now configured.  Be sure to read your modem
+*manual and double-check the setup.
+
+@Practical Peripherals PM2400SA MNP
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^ATB1E1L2M1Q0V1X4Y0&C1&D2&J0&P0^M
+^AT\A3\C1\E0\G0\J0\K5\N3\Q3\V1\X0^M
+^AT%C0%A0S0=0S2=43&W0^M
+*Your PM2400SA MNP is now configured.
+
+@Practical Peripherals PM9600SA V.32
+38400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^ATW2&C1&D2^M
+*Your PM9600SA V.32 is now configured.
+
+@Quicktel Series 9600 V.32/V.42
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^AT&C1&D2\Q3^M
+$ On the bottom of the modem, locate the 8-Position
+$ DIP Switch.  Verify that switch #7 and #8 are set OFF.
+$
+$ Open the modem and locate the 4-Position DIP Switch.
+$ Switch #1, #2 and #3 should be set OFF. Switch #4 should
+$ be set ON.
+*Your 9600 V.32 is now configured.  Be sure to read your modem
+*manual and double-check the setup.  Also set all dialing
+*directory entries to 19200 for maximum throughput.
+
+@Racal Vadic Auto Dial VA212
+1200
+
+
+10
+^M
+^M^~^~D^M^~
+^M
+ON LINE
+FAILED
+VOICE
+BUSY
+NO DIAL
+^M
+DTR
+
+
+
+
+
+0
+0
+1000
+^^E^M^~O^M
+^1^M^~3^M^~
+^1^M^~2^M^~
+^16^M^~2^M^~
+^17^M^~2^M^~
+^19^M^~9^M^~
+^^M
+*Host Mode operation is not supported for the VA212 modem.  Be
+*sure to read your modem manual and double-check the setup.
+
+@Sysdyne MDM 24H
+2400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0M1H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+750
+$Switch settings should remain at factory defaults.  If you need
+$to select a different COM port other than 2, refer to your
+$owners manual for detailed instructions.
+^ATB1E1F1L2M1Q0V1X4Y0^M
+^AT&C1&D2S7=60S11=60&Y0&W0^M
+*Your MDM 24H modem is ready to go!  Be sure to read your
+*modem manual and double-check the setup.
+
+@Telebit T2000 & Trailblazer Plus
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATH0^M^~ATS0=0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+^AT E1 Q0 M1 V1 W1 X14 Y0 S0=0^M
+^AT S50=0 S51=254 S52=4 S54=3 S58=2^M
+^AT S63=1 S64=0 S66=1 S67=0 S68=2 S90=0^M
+^AT S92=1 S94=1 S95=2 S96=1 S110=1^M
+^AT S111=0 S131=1 S255=0 &W1 &W2^M
+$This assumes the Telebit is in ECM (Enhanced Command Mode).
+$To place your modem into ECM, follow these steps:
+$
+$  1. Start with the modem turned off and the A/B switch in the
+$     A position.
+$  2. Press and hold the T/D switch while turning on the modem.
+$     Release the T/D switch -AFTER- the MR indicator comes on.
+$
+$This will store the ECM default settings in Profile A of non-
+$volatile memory.
+$
+$              >> Do these steps before proceeding! <<
+$
+*Your Telebit is ready to go.  To get the most out of the dialing
+*directory, be sure to set all phone book entries to 19200 baud.
+
+@Telebit T2500
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+1
+1500
+^ATE1Q0M1X4V1S11=60^M
+^AT&C1&D2&G0&J0&K3&L0&P0^M
+^AT&Q5&W^M
+$This assumes the Telebit is in CCM (Conventional Command Mode).
+$To place your modem into CCM, follow these steps:
+$
+$  1. Turn the modem off.
+$  2. Hold in the T/D switch and turn the power on.  Release the
+$     switch when the PEP,CD and MR lights are flashing.  Ignore
+$     any other lights that may be lit from here on.
+$  3. Tap the T/D switch until just the CD light is lit (not
+$     flashing).  The PEP and MR lights are OFF.
+$  4. Press and hold the T/D switch (2 seconds or more) until the
+$     CD light is flashing again.
+$
+$              >> Do these steps before proceeding! <<
+*Your Telebit is ready to go.  To get the most out of the dialing
+*directory, be sure to set all phone book entries to 19200 baud.
+
+@TwinCom 96/42i
+38400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^AT&C1&D2\A3&W^M
+*Your Twincom is ready to go!  You can set all of your
+*dialing directory entries to 38400 baud and the modem will handle
+*speed conversions for you.
+
+@UDS 2440
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+^AT&F^M
+^ATS7=60^M
+^AT&C1&D2&R&T5%N8%U3%V0%K1&W^M
+$There are two jumpers inside that need to be verified.  The CTS
+$and RTS flow control.                      ___
+$The pins are marked like this:  o o|     o o o
+$                                o o|   FLO   CTS
+$                                F R
+$                                L T
+$                                O S
+$
+$ Make sure the pins above RTS are jumpered, and that the right two
+$ by the CTS are covered.  Put the case back together and continue.
+*Your UDS modem is ready to go!  To get the most out of it,
+*be sure to set all your dialing directory entries to 9600 baud.
+
+@UDS V.3224/V.3225 (V.32)
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^ATS7=60^M
+^AT&C1&D2&R&T5%C1\Q3\V1&W^M
+*Your UDS modem is ready to go!  To get the most out of it,
+*be sure to set all your dialing directory entries to 19200 baud.
+
+@USRobotics Direct 1200PC Internal
+1200
+
+
+10
+ATE1Q0M1X1V1S7=60^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+^~^~^~+++^~^~^~
+RING
+^~^~^~+++^~^~^~ATS0=0^M
+ATA^M
+OK
+ATM0^M
+0
+1
+500
+$External Switchblock:   
+$
+$      1   2   3   4
+$      OFF OFF OFF OFF
+$
+$Jumpers:
+$
+$      J1  UP
+$      J2  UP
+$      J3  DOWN
+$      J14 UP
+$
+*Your Direct 1200PC is now configured.
+
+@USRobotics Password 1200 Internal
+1200
+
+
+10
+ATE1Q0M1X1V1S7=60^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+^~^~^~+++^~^~^~
+RING
+^~^~^~+++^~^~^~ATS0=0^M
+ATA^M
+OK
+ATM0^M
+0
+1
+500
+$External Switchblock:   
+$
+$      1   2   3   4
+$      UP  UP  UP  UP
+$
+$Jumpers:
+$
+$      J1  UP
+$      J2  UP
+$      J3  RIGHT
+$      J5  DOWN
+$
+*Your Password is now configured.
+
+@USRobotics Direct 2400PC / Sportster 2400
+2400
+
+
+10
+ATE1Q0M1X6V1S7=60S11=60^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+500
+$External Switchblock:   
+$
+$      1   2   3   4   5   6   7   8   9   10
+$      OFF OFF ON  OFF ON  OFF OFF ON  ON  ON
+$
+*Your Courier is now configured.
+
+@USRobotics MicroLink 2400
+2400
+
+
+10
+ATE1Q0M1X6V1S7=60S11=60^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+500
+$External Switchblock:   
+$
+$      1   2   3   4   5   6   7   8   9   10
+$      OFF OFF ON  OFF ON  OFF OFF ON  ON  ON
+$
+*Your Courier is now configured.
+
+@USRobotics VARmodem 2400
+2400
+
+
+10
+ATE1Q0M1X6V1S7=60S11=60^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+0
+500
+$External Switchblock:   
+$
+$      1   2   3   4   5   6   7   8   9   10
+$      OFF OFF ON  OFF ON  OFF OFF ON  ON  ON
+$
+*Your VARmodem is now configured.
+
+@USRobotics Courier 2400e and 2400PC w/MNP
+2400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+1
+1000
+$External Switchblock:   1  2  3  4  5  6  7  8  9  10
+$                        U  U  D  U  D  U  U  D  D  U
+$
+$                        Where U is UP  and  D is DOWN
+$
+$Note: for the 2400PC, turn the modem on it's side so
+$      you can read the numbers, then the above settings
+$      will make sense.
+%AT&FE0^M
+^ATE1Q0M1X6V1S7=60S11=60^M
+^AT&B0&H1&R2&I0&M4&N0&W^M
+*Your Courier is now configured.  Consult your modem
+*manual for additional setup parameters if you wish to take
+*advantage of speeds higher than 2400 when using MNP.
+
+@USRobotics HST (96x ROM)
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+$External switchblock: 1-UP  2-UP  3-DOWN  4-UP     5-DOWN
+$                      6-UP  7-UP  8-DOWN  9-DOWN  10-UP
+$                      WIDE SWITCH-UP
+^ATE1Q0M1V1X7S7=60^M
+^AT&B1&H1&M4&N0&R2&W^M
+*Your Courier HST is now configured.  To get the most out of it,
+*be sure to set all your dialing directory entries to 19200 baud.
+
+@USRobotics HST (144x ROM)
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+$External switchblock: 1-UP  2-UP  3-DOWN  4-UP     5-DOWN
+$                      6-UP  7-UP  8-DOWN  9-DOWN  10-UP
+$                      WIDE SWITCH-UP
+^ATE1Q0M1X7V1S7=60^M
+^AT&B1&C1&D2&H1&M4&N0&R2&W^M
+*Your Courier HST is now configured.  To get the most out of it,
+*be sure to set all your dialing directory entries to 19200 baud.
+
+@USRobotics HST Dual Standard
+38400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+$External switchblock: 1-UP  2-UP  3-DOWN  4-UP     5-DOWN
+$                      6-UP  7-UP  8-DOWN  9-DOWN  10-UP
+$                      WIDE SWITCH-UP
+^AT&F^M
+^ATB1E1Q0M1X7V1S7=60^M
+^AT&A2&B1&C1&D2&H1&R2&M4&N0&K0&W^M
+*Your Courier HST Dual Standard is now configured so that either
+*V.32 or HST calls will be answered.  To get the most out of it,
+*be sure to set all your dialing directory entries to 38400 baud.
+
+@USRobotics HST (144x ROM) (V.42)
+38400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+$External switchblock: 1-UP  2-UP  3-DOWN  4-UP     5-DOWN
+$                      6-UP  7-UP  8-DOWN  9-DOWN  10-UP
+$                      WIDE SWITCH-UP
+^ATE1Q0M1X7V1S7=60^M
+^AT&A3&K3&B1&C1&D2&H1&M4&N0&R2&W^M
+*Your Courier HST is now configured.  To get the most out of it,
+*be sure to set all your dialing directory entries to 38400 baud.
+
+@USRobotics HST Dual Standard (V.42)
+38400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+$External switchblock: 1-UP  2-UP  3-DOWN  4-UP     5-DOWN
+$                      6-UP  7-UP  8-DOWN  9-DOWN  10-UP
+$                      WIDE SWITCH-UP
+^AT&F^M
+^ATB1E1Q0M1X7V1S7=60^M
+^AT&A3&B1&C1&D2&H1&R2&M4&N0&K3&W^M
+*Your Courier HST Dual Standard is now configured so that either
+*V.32 or HST calls will be answered.  To get the most out of it,
+*be sure to set all your dialing directory entries to 38400 baud.
+
+@USRobotics HST with V.32bis (Duals too)
+38400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+$External switchblock: 1-UP  2-UP  3-DOWN  4-UP     5-DOWN
+$                      6-UP  7-UP  8-DOWN  9-DOWN  10-UP
+$                      WIDE SWITCH-UP
+^AT&F^M
+^ATE1Q0M1X7V1S7=60^M
+^AT&A3&K3&B1&C1&D2&H1&M4&N0&R2&W^M
+*Your Courier HST is now configured.  To get the most out of it,
+*be sure to set all your dialing directory entries to 38400 baud.
+
+@Ven-Tel 2400 Half Card (4 Option Switches)
+2400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+500
+$Internal switchblock:  
+$
+$   Refer to your manual for setting the COM port via
+$   these switches.  This is set with switches 3 and 4.
+^ATE1M1Q0X4V1&C1&D2&Y0S0=0&W^M
+*Your Vel-Tel 2400 Half Card is now configured.
+
+@Ven-Tel 2400 Half Card (6 Option Switches)
+2400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+^~^~^~+++^~^~^~ATH0^M
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+500
+$Internal switchblock:  
+$
+$      1  2  3  4  5  6
+$      O  C  *  *  O  *
+$
+$   Where  O = OPEN,  C = CLOSED
+$          * = Dependent on hardware.  See manual.
+$
+^ATE1M1Q0X4V1S0=0^M
+*Your Vel-Tel 2400 Half Card is now configured.
+
+@Ven-Tel 2400-33
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+$External switchblock: 
+$         1-OFF  2-OFF  3-OFF  4-OFF   5-OFF
+$         6-OFF  7-ON   8-ON   9-ON   10-OFF
+^AT%A13B1\C1&C1\D3&D2E1F1\G0&G0^M
+^AT&L0M1&M0\N3Q0\Q3&R1\T0&T4V1^M
+^AT\V1X4\X1Y0&W^M
+*Your Vel-Tel 2400-33 is now configured.  To get the most out of 
+*it, be sure to set all your dialing directory entries to 9600
+*baud.
+
+@Ven-Tel Pathfinder 18K
+19200
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+^AT&F^M
+^AT X3 S0=0^M
+^AT S51=5 S54=3 S58=2^M
+^AT S66=1 S68=2 S92=1 S95=2^M
+^AT S111=0 &W^M
+*Your Pathfinder is ready to go.  To get the most out of the dialing
+*directory, be sure to set all phone book entries to 19200 baud.
+
+@ViVa 24m  2400 baud MNP-5
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+500
+^AT&F^M
+^AT&C1&D2%C0\J0\N3\Q3\V1S25=4&W^M
+*Your ViVa 24m is ready to go!  You can set all of your
+*dialing directory entries to 9600 baud and the modem will
+*handle speed conversions for you.
+
+@ZOOM/Modem HC2400R
+2400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+^AT&F^M
+^ATS11=60&C1&D2&W^M
+*Your Zoom HC2400R is ready to go!
+
+@ZOOM/Modem MX2400R
+2400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+^AT&F^M
+^ATS11=60&C1&D2&W^M
+*Your Zoom MX2400R is ready to go!
+
+@ZOOM/Modem HC2400S (SendFax)
+2400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+^AT&F^M
+^ATS11=60&C1&D2&W^M
+*Your Zoom HC2400S is ready to go!
+
+@ZOOM/Modem MX2400S (SendFax)
+2400
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+DTR
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+0
+1
+1000
+^AT&F^M
+^ATS11=60&C1&D2&W^M
+*Your Zoom MX2400S is ready to go!
+
+@ZOOM/Modem V.42bis (2400 baud)
+9600
+
+
+10
+ATZ^M
+ATDT
+^M
+CONNECT
+NO DIAL
+NO CARRIER
+BUSY
+VOICE
+^M
+^~^~^~+++^~^~^~ATH0^M
+RING
+ATS0=0H0^M
+ATA^M
+OK
+ATM0H1^M
+1
+0
+1000
+^AT&F^M
+^AT&C1&D2S36=7S38=0S95=44^M
+^ATS11=60&W^M
+*Your Zoom HC2400R V.42bis is ready to go!
+
