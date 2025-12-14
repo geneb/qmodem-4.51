@@ -1,0 +1,17 @@
+ignorecase = true
+# don't want to include any of the build artifacts or
+# IDE config (.cfg) files.
+
+# start up logo screens
+!screens/*.obj
+# these are items that no source code has been found.
+!nosrc/*.obj
+
+src/*.tpu
+src/*.tpp
+#
+src/*.obj
+src/*.exe
+src/*.com
+src/tpc.cfg
+src/bpc.cfg
