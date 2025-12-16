@@ -4,7 +4,7 @@ Interface
 
 Uses
    Dos,        TpDos,      TpString,  TpCrt,
-   TpWindow,   TpMenu,     Initial,
+   TpWindow,   TpMenu0,     Initial,
    Comm,       Procs,      Screen,    Files,
    Constant,   RunQInst,   Instal3a,  Instal3b;
 

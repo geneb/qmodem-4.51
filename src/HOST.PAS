@@ -1,4 +1,5 @@
 Unit Host;
+{$P+,V-}
 
 Interface
 
@@ -118,8 +119,9 @@ Const
    Procedure Initialize_Modem;
       { Initialize the Modem After Each Call }
    Begin
-      If qq.DoRecalibrate then
-         DelayCalibrate;
+      
+      {If qq.DoRecalibrate then
+         DelayCalibrate;}
 
       If Connected Then
          Repeat
@@ -930,8 +932,10 @@ EExit:
       Ch         : Char;
       ET, ET2    : EventTimer;
    Begin
-      If qq.DoRecalibrate then
-         DelayCalibrate;
+
+      {If qq.DoRecalibrate then
+         DelayCalibrate;}
+
       Writeln ('> Incoming Call <');
       Display_Status (' Press any key to Cycle ');
       Clear_Buffer;

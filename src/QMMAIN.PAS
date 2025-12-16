@@ -47,7 +47,6 @@ Procedure MAIN;
 
 Implementation
 
-
    Procedure Do_Input_Output;
    Var
       x  : Integer;
@@ -212,8 +211,8 @@ Implementation
 
       Clear_Whole_Screen;
 
-      If qq.UseInt16 then
-         UseEnhancedKbd := EnhancedKbdInstalled;
+      {If qq.UseInt16 then
+         UseEnhancedKbd := EnhancedKbdInstalled;}
 
       {$IFDEF UseMouse}
       If MouseInstalled then

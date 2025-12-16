@@ -8,10 +8,21 @@ ignorecase = true
 !nosrc/*.obj
 
 src/*.tpu
+src/tools/*.tpu
 src/*.tpp
+src/*.bak
 #
 src/*.obj
 src/*.exe
+src/tools/*.exe
 src/*.com
-src/tpc.cfg
-src/bpc.cfg
+src/*.ovr
+src/*.map
+src/qmodem.log
+
+*.bak
+src/tools/*.bak
+qmodem.log
+
+!src/tpc.cfg
+!src/bpc.cfg

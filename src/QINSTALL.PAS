@@ -1,5 +1,5 @@
 {$M 12000, 80000, 80000}
-
+{$P+,V-}
 Program Qinstall;
 
 {High value used 454}
@@ -15,7 +15,7 @@ Uses
 
    Dos,      TPDos,    Initial,  Comm,     Uinit,
    TPString, TpCrt,    Procs,    Screen,   Files,
-   TPWindow, TpMenu,   TpHelp,   Menus,    TpEdit,
+   TPWindow, TpMenu0,   TpHelp,   Menus,    TpEdit,
    TpEntry,  TpPick,   Override, RunQinst, TpDir,
 
    {$IfDef Net}
@@ -712,10 +712,11 @@ Uses
                389 : qq.AutoZ := not qq.AutoZ;
 	       390 : Begin
 			qq.UseInt16 := not qq.UseInt16;
-                        If qq.UseInt16 then
+                       { If qq.UseInt16 then
                            UseEnhancedKbd := EnhancedKbdInstalled
                         Else
                            UseEnhancedKbd := False;
+                       }
                      End;
                391 : qq.UseHighSpeed := not qq.UseHighSpeed;
                392 : Begin

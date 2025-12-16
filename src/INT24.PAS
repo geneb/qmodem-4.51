@@ -1,4 +1,4 @@
-{$S-,A-,R-}
+{$S-,A-,R-,P+,V+}
 Unit Int24;
 
 Interface
@@ -201,8 +201,10 @@ Begin
    FastWrite('I',13,27,qq.menu);
    FastWrite('F',13,37,qq.menu);
    gotoxy(27,4);
-   If qq.DoRecalibrate then
-      DelayCalibrate;
+   
+   {If qq.DoRecalibrate then
+      DelayCalibrate;}
+      
    Sound (50);
    delay(250);
    for x := 50 downto 30 do

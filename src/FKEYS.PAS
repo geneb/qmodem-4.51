@@ -1,4 +1,5 @@
 Unit FKeys;
+{$P+,V-}
 
 Interface
 
@@ -95,6 +96,10 @@ Var
       X, Num, OldHelp : Integer;
       xs : String[13];
       OK : Boolean;
+
+      maxlen : integer;
+      workstr : string;
+
    Begin
 
    {                                  Screen Layout
@@ -319,4 +324,3 @@ Var
 
 
 End.
-

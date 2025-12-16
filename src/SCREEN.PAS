@@ -7,7 +7,7 @@ Interface
 Uses
    Qmem,           Dos,
    TpCrt,          TpDos,
-   GiveBk,         OpKey,
+   GiveBk,         OpKey0, { old v1.01 version included with Qmodem. }
    TpEntry,        TpEdit,
    TpMenu,         TpPick,
    TpHelp,
@@ -755,7 +755,7 @@ End;
 
 Procedure HelpRoutine(UnitCode : Byte; IdPtr : Pointer; HelpIndex : Word);
 Begin
-   AllowE0Codes := False;
+   {AllowE0Codes := False; deprecated setting}
    If not OpenHelp then
       Exit;
    Case UnitCode of
@@ -770,7 +770,8 @@ Begin
                      If IdPtr = @SBitsAvailable      then HelpIndex := 98 Else
                      If IdPtr = @DBitsAvailable      then HelpIndex := 99 Else
                      If IdPtr = @ParitysAvailable    then HelpIndex := 100 Else
-                     If IdPtr = @SendFileName        then HelpIndex := HelpTopic Else
+                     {@SendFileName is not declared.  Accident maybe? }
+                     {If IdPtr = @SendFileName        then HelpIndex := HelpTopic Else}
 
                      ;
       HelpForEdit  : ; {HelpIndex := 5;}
@@ -875,7 +876,7 @@ Begin
    Pop_Status;
    CloseHelp(HelpP);
    PickMatrix := 1;
-   AllowE0Codes := True;
+   { AllowE0Codes := True; deprecated}
 End;
 
 

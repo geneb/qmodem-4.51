@@ -1,4 +1,5 @@
 Unit Menus;
+{$P+,V-}
 
 Interface
 

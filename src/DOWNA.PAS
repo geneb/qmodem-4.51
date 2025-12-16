@@ -1,4 +1,5 @@
 Unit DownA;
+{$P+,V-}
 
 Interface
 
@@ -129,4 +130,3 @@ Uses Key;
    End;
 
 End.
-

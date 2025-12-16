@@ -1,4 +1,5 @@
 Unit Button;
+{$P+,V-}
 
 {$I TpDefine.Inc}
 
@@ -167,6 +168,8 @@ Function  IsButton(Row, Col: Byte; Flash : Boolean; Var SC : Word) : Boolean;
 Var
    p1 : OneButton;
    S : String[32];
+   workstr : String;
+   maxlen : integer;
    x : Integer;
    VisiMouse : Boolean;
 Begin
@@ -214,4 +217,3 @@ Begin
    Buttons := NIL;    {no buttons in current list}
    ButtonList := NIL; {no lists of Buttons}
 End.
-

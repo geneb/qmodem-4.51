@@ -1,5 +1,5 @@
 UNIT RUNQINST;
-
+{$P+,V-}
 
 INTERFACE
 
@@ -26,7 +26,6 @@ Procedure Save_INI;
 
 
 IMPLEMENTATION
-
 
    Procedure ZapNew43Fields;
    Begin
@@ -375,10 +374,12 @@ IMPLEMENTATION
             IO := IoResult;
          End;
 
-      If qq.UseInt16 then
+      {If qq.UseInt16 then
          UseEnhancedKbd := EnhancedKbdInstalled
       Else
          UseEnhancedKbd := False;
+      }
+
       LineWrap       := qq.LineWrap;
       DirectVideo    := qq.DirectVideo;
       ScrnDumpF      := qq.Scrndumpf_s;

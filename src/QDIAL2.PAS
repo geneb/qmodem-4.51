@@ -15,7 +15,6 @@ Function  Get_Modem_Message(Var rc : Char) : String;
 
 Implementation
 
-
 Type
    SortType       = (NameSort, NumberSort, CallsSort);
 Var
@@ -598,8 +597,11 @@ Var
          FastWrite(' Redialer ', 15 + WO, 36, qq.Windf);
          FastWrite ('อออออออ',24+wo,70, qq.Windf);
          Repeat
-            If qq.DoRecalibrate then
-               DelayCalibrate;  {Recalibrate the OneMS variable under DV}
+         
+            (* If qq.DoRecalibrate then
+                DelayCalibrate;  {Recalibrate the OneMS variable under DV}
+            *)
+            
             If NoDialMarksFound Then
                Exit;
 

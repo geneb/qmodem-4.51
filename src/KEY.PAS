@@ -252,9 +252,11 @@ Uses
       Else
          Begin
 
+            (* 
             If qq.DoRecalibrate then
                DelayCalibrate;  {Recalibrate the OneMS variable under DV}
-
+            *)
+            
             Save_SL := qq.ShowStatusLine;
             ShowSL := True;
 

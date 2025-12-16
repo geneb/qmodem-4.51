@@ -639,13 +639,14 @@ Begin
   {$endif}
 
    If InitStats then
-      If EnhancedKBDinstalled then
-         WriteLn ('Enhanced KBD detected');
+      {If EnhancedKBDinstalled then
+         WriteLn ('Enhanced KBD detected');}
 
    {$ifdef OVR}
       OVRproblem;
    {$endif}
 
+   (* 
    If not qq.DoRecalibrate then
       Begin
          TotalMS := 0;
@@ -656,7 +657,8 @@ Begin
             End;
          OneMS := TotalMS div 5;
       End;
-
+   *)
+   
    If Restart_Invoked Then
       Writelnb('/R Restart, Modem Init not sent')
    Else

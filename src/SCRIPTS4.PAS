@@ -418,8 +418,9 @@ Uses
    Var
       x : Word;
    Begin
-      If qq.DoRecalibrate then
-         DelayCalibrate;
+      {If qq.DoRecalibrate then
+         DelayCalibrate;}
+         
       If Get_Token_Word(x) Then
          Delay(x);
       Last_Token.Token_Type := tk_end_rec;

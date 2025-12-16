@@ -11,8 +11,8 @@ Implementation
    { in Qmodem                                             }
 
    {Use the default 4.2 logo if no special one is specified}
-   {$L Logo.Obj}
-   {$L LogoM.Obj}
+   {$L SCREENS\Logo.Obj}
+   {$L SCREENS\LogoM.Obj}
 
 Procedure Logo; External;
 Procedure LogoM; External;

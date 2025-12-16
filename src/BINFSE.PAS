@@ -447,7 +447,7 @@ End;
 
 
 
-{$L BINED}
+{$L NOSRC\BINED.OBJ}
 
 {Routines internal to ASM code - all called NEAR}
 Procedure pAssign(Var fromstr, tostr : AsciiZ); External;
@@ -926,7 +926,7 @@ Begin
          Exit;
       End;
    ResetVideo := False;
-   AllowE0Codes := False;
+   {AllowE0Codes := False;}
    R.AH := $F;
    Intr($10, R);
    VMode := R.AL;
@@ -1048,9 +1048,9 @@ Begin
          End;
 
       {Edit the file}
-      AllowE0Codes := False;
+      {AllowE0Codes := False;}
       ExitCommand := UseBinaryEditor(EdData, '');
-      AllowE0Codes := True;
+      {AllowE0Codes := True;}
 
       {Handle the exit by saving the file or whatever}
    Until ExitBinaryEditor(EdData, ExitCommand);

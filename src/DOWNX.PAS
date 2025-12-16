@@ -1,4 +1,5 @@
 Unit DownX;
+{$P+,V-}
 
 Interface
 
@@ -189,4 +190,3 @@ Er:               Close(InFile);
 End;
 
 End.
-

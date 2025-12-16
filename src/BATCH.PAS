@@ -1,5 +1,5 @@
 UNIT BATCH;
-
+{$P+,V-}
 
 INTERFACE
 

@@ -7,8 +7,8 @@ Procedure QinsLogM;
 
 Implementation
 
-   {$L QinsLogo.Obj}
-   {$L QinsLogM.Obj}
+   {$L screens\QinsLogo.Obj}
+   {$L screens\QinsLogM.Obj}
 
 Procedure QinsLogo; External;
 Procedure QinsLogM; External;

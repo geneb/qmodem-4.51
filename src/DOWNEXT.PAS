@@ -1,4 +1,5 @@
 Unit DownExt;
+{$P+,V-}
 
 Interface
 
@@ -25,6 +26,7 @@ Implementation
    Var
       Temp           : String;
       num, x         : Integer;
+
    Begin
       Temp := '';
       num := Is_External(CH);
@@ -33,6 +35,7 @@ Implementation
          Get_File_Name_d(dfile, sFilename, 11)
       Else
          dfile := '';
+
       If (dfile = '') And (qq.Xfer_file_prompt[num] = 'Y') Then
          Exit;
 
@@ -71,4 +74,3 @@ Implementation
    End;
 
 End.
-

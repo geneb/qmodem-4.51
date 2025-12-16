@@ -9,7 +9,7 @@ Interface
 
 Uses
    TpCrt,
-   TPMenu,
+   TPMenu0, {old v5.11 version of TpMenu }
    Initial,
    Constant,
    Procs;

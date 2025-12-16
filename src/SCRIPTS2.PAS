@@ -1,4 +1,4 @@
-{$F+}
+{$F+,P+,V-}
 Unit Scripts2;
 
 Interface

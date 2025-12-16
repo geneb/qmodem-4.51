@@ -1,7 +1,7 @@
 {$I TPDEFINE.INC}
 
 Unit PROCS;
-
+{$P+,V-}
 
 Interface
 
@@ -236,7 +236,7 @@ End;
 
 Procedure Dir2;
 Var
-   Temp2          : String[64];
+   Temp2          : String; {[64];}
    Pattern        : String[64];
 Begin
    Repeat
@@ -244,6 +244,7 @@ Begin
       If Pattern <> '' then
          Begin
              HelpTopic := 17;
+             {$P+}
             Show_Dir(Pattern, AnyFile, Temp2);
          End;
    Until Pattern = '';
@@ -1122,6 +1123,7 @@ Var
    Temp2 : Node_line_type;
    x, y : Integer;
    ch : Char;
+
 Begin
    If (Not Save_Scroll) or      { Scroll back turned off }
       (MaxScroll = 0) or        { No memory for Scroll Back }

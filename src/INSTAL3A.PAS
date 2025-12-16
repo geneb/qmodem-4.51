@@ -1,11 +1,13 @@
 Unit Instal3a;
+{$P+,V-}
+
 {See INSTALL.PAS for the High Last used number}
 
 Interface
 
 
 Uses TpCrt,
-     TpMenu,
+     TpMenu0, {v5.11 of TpMenu }
      Initial,
      Procs,
      Constant;
