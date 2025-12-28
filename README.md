@@ -1,4 +1,16 @@
-# QModem 4.51 Source Code
+# Dedication
+I had corresponded with John via his BBS off and on, discussing QModem and BBS software in general.  I was very much looking forward to the QModem source release and was deeply saddened to hear of his sudden death.  I was pleasantly surprised when I heard Aaron had done the source release for QModem some 8 months ago.  I figured the least I could do to honor John's memory was to ensure that it was as easy as possible for anyone to build QModem without any issues.
+
+I dusted off my very rusty Turbo Pascal skills and got to work - the results of that effort are now occupying this repository along with the three other repos that contain the dependencies required to build QModem.
+
+The information that follows is a mix of Aaron's original README.md file and the hack and slash job I performed when adding information about the changes made.  You can find the original source code repo here: [https://github.com/AaronFriel/qmodem-4.51](https://github.com/AaronFriel/qmodem-4.51)
+
+Please report any bugs, etc. related to my work on this repo and not the original QModem repository.
+
+Gene Buckle, December 28th 2025
+---
+
+## QModem 4.51 Source Code
 
 The source code release of **QModem 4.51**, an MS-DOS telecommunications program authored by John Friel III (1960–2024). This source snapshot reflects the state of QModem "Test-Drive" edition, version 4.51, as it existed in early 1992. The release is presented in the hope it may prove valuable as a historical artifact, for telecommunications enthusiasts, retrocomputing hobbyists, or anyone interested in the inner workings of a classic DOS comms package.
 
@@ -53,9 +65,10 @@ Significant modules include:
 
 **This is a historical codebase.** QModem 4.51 targets MS-DOS using Turbo Pascal 5.x/6.0, with Turbo Professional and potentially other Borland or third-party libraries.
 
-This fork of QModem has been adjusted to correctly build with either Turbo Pascal 7.0 or Borland Pascal 7.0.  Ensure that your version is patched for the CRT Runtime Error 200 issue.
+**[Updated 27Dec25]**<br>
+This fork of QModem has been updated to correctly build with either Turbo Pascal 7.0 or Borland Pascal 7.0.  Ensure that your version is patched for the CRT Runtime Error 200 issue.  Turbo Assembler is required to assemble the .ASM files.
 
-Review the notes in **FIXES.md**.  That document outlines the additiona libraries that are required to build QModem, including github links to where they can be obtained.  The remainder of the document outlines what changes were made in order to allow it to compile with Turbo Pascal 7.0
+Please review the notes in **FIXES.md**.  That document outlines the additional libraries that are required to build QModem, including github links to where they can be obtained.  The remainder of the document outlines what changes were made in order to allow it to compile with Turbo Pascal 7.0
 
 There are two batch files included, `BQ.BAT` and `BQI.BAT`.  They build QModem and the QModem Install program, respectively.  There are notes in each regarding how they're used.  If you're building under DOSBox, you'll need the Z:\SYSTEM directory in your path in order to use the SUBST and/or MOUNT commands.
 
@@ -74,7 +87,6 @@ The file **DEFINES.md** cover all the different conditional compilation options 
 
 
 ---
-
 ## Usage
 
 This repository is for study, education, restoration, and historical curiosity. See the original QModem documentation (not included here) for user guidance. The commands, batch files, and source code reflect MS-DOS conventions and expectations.

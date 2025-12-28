@@ -1,6 +1,6 @@
 # Conditional Compilation
 
-The Qmodem source code has a number of conditional compilation directives `IFDEF` and `IFNDEF` that control what features or "modules" are included when Qmodem is compiled.  I'll try to document them here as best I can - mostly by using context clues with surrounding code, so don't take it as 100% gospel.
+The QModem source code has a number of conditional compilation directives `IFDEF` and `IFNDEF` that control what features or "modules" are included when QModem is compiled.  I'll try to document them here as best I can - mostly by using context clues with surrounding code, so don't take it as 100% gospel.
 
 ## Basic
 Enables support for the /INT14 command line switch.
@@ -24,7 +24,7 @@ Enables support for the /CROSS14 command line switch.
 This appears in conjunction with `Basic`, `Plus`, and `JNL` and are encapsulated by `INT14`, so I think they're meant to be exclusive conditional directives and not mixed & matched.
 
 ## GG
-Appears to restrict Qmodem functionality.  Limits the number of transfer protcols to ASCII and XMODEM.  It also limits the available terminal emulations to TTY, ANSI, and AVATAR.  It also restricts the # of phone book entries to 20 and other limitations.
+Appears to restrict QModem functionality.  Limits the number of transfer protcols to ASCII and XMODEM.  It also limits the available terminal emulations to TTY, ANSI, and AVATAR.  It also restricts the # of phone book entries to 20 and other limitations.
 
 ---
 ## ISI
@@ -54,7 +54,7 @@ Enables "network" features, but appears to be preliminary.
 
 ---
 ## OVR
-Enables special unit includes if Qmodem is compiled with Turbo Pascal Overlays - This should always be defined.
+Enables special unit includes if QModem is compiled with Turbo Pascal Overlays - This should always be defined.
 
 ---
 ## PLUS
@@ -72,7 +72,7 @@ This may enable Q-Link (QuantumLink) support, but I'm not sure.  It does bear fu
 
 ---
 ## Yakcom & RElink
-Appears to allow Qmodem to be branded as a different product.  If declared, the compiler will attempt to include yak\YAKCOM.INC in CONSTANT.PAS.  If RElink is declared, the compiler will attempt to include relink\RELINK.INC.  Note that neither include file was supplied with the source code release.  If neither Yakcom or RElink are declared, QMODEM.INC will be included by default.
+Appears to allow QModem to be branded as a different product.  If declared, the compiler will attempt to include yak\YAKCOM.INC in CONSTANT.PAS.  If RElink is declared, the compiler will attempt to include relink\RELINK.INC.  Note that neither include file was supplied with the source code release.  If neither Yakcom or RElink are declared, QMODEM.INC will be included by default.
 
 ---
 ## UseMouse
