@@ -1,0 +1,315 @@
+File BAUD.PAS:
+   {$IFDEF UseMouse}
+         {$IfDef Int14}
+                  {$IfDef Cross}
+                  {$IfDef Plus}
+         {$IfDef ISI}
+         {$IfDef Int14}
+            {$IFDEF UseMouse}
+            {$IfDef Int14}
+                     {$IfDef Cross}
+                     {$IfDef Plus}
+            {$IfDef Int14}
+            {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+File BUTTON.PAS:
+   {$IFDEF UseMouse}
+   {$IFDEF UseMouse}
+                     {$IFDEF UseMouse}
+                     {$IFDEF UseMouse}
+File CNF.PAS:
+                    {$IfDef ISI}
+File COMM.PAS:
+{$ifdef Int14}
+{$ifdef ISI}
+{$ifdef ISI}
+   {$ifdef ISI}
+{$ifdef ISI}
+{$ifdef ISI}
+   {$ifdef Int14}
+   {$ifdef ISI}
+   {$ifdef Int14}
+   {$ifdef ISI}
+   {$ifdef Int14}
+         {$ifdef ISI}
+         {$ifdef ISI}
+   {$ifdef ISI}
+         {$ifdef ISI}
+   {$ifdef ISI}
+   {$ifdef Int14}
+            {$ifdef JNL}
+            {$ifdef Cross}
+   {$ifdef ISI}
+   {$ifdef Int14}
+            {$ifdef JNL}
+            {$ifdef Cross}
+   {$ifdef ISI}
+   {$ifdef ISI}
+   {$ifdef Int14}
+      {$ifdef Basic}
+      {$ifdef Plus}
+      {$ifdef Cross}
+      {$ifdef JNL}
+         {$ifdef ISI}
+   {$ifdef Int14}
+            {$ifdef JNL}
+            {$ifdef Cross}
+   {$ifdef ISI}
+   {$ifdef Int14}
+   {$ifdef ISI}
+   {$ifdef Int14}
+            {$ifdef JNL}
+            {$ifdef Cross}
+   {$ifdef ISI}
+   {$ifdef ISI}
+   {$ifdef ISI}
+   {$IfDef Int14}
+            {$IfDef Cross}
+   {$ifdef ISI}
+   {$IfDef Int14}
+            {$IfDef Cross}
+   {$ifdef ISI}
+   {$ifdef ISI}
+   {$ifdef Int14}
+   {$ifdef ISI}
+{$ifdef Int14}
+   {$ifdef ISI}
+File COMM2.PAS:
+   {$IfDef Int14}
+   {$IfDef Int14}
+   {$IfDef ISI}
+   {$IfDef Int14}
+   {$IfDef ISI}
+   {$IfDef Int14}
+File CONSTANT.PAS:
+   {$IfDef Yakcom}
+      {$IfDef RElink}
+File DOWNLD.PAS:
+     {$IFDEF UseMouse}
+      {$IfDef GG}
+            {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+File DOWNLD0.PAS:
+                  {$IfDef ISI}
+File EMULS.PAS:
+   {$IfDef UseMouse}
+      {$IfDef QLink}
+      {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+      {$IfDef GG}
+      {$IfDef GG}
+      {$IfDef QLink}
+File EXITDOS.PAS:
+     {$IFDEF UseMouse}
+      {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+      {$IFDEF UseMouse}
+File FILES.PAS:
+   {$IFDEF UseMouse} TpMouse, {$ENDIF}
+   {$IFDEF OVR}      Overlay, {$ENDIF}
+File GROUP02.PAS:
+   {$ifdef OVR}      OvrStart, {$endif}
+   {$ifdef UseMouse} TPMouse,  {$endif}
+{$ifdef JNL}
+      {$ifdef JNL}
+      {$ifdef Int14}
+         {$ifdef JNL}
+            {$ifdef Production}
+                  {$ifdef ISI}                                   {4.2F!!}
+            {$ifdef ISI}                                         {4.2F!!}
+            {$ifdef Int14}
+               {$ifdef Cross}
+               {$ifdef JNL}
+               {$ifdef Plus}
+               {$ifdef Basic}
+            {$ifdef ALPHA}
+      {$ifdef Int14}
+         {$ifdef JNL}
+   {$ifdef ISI}
+   {$ifdef ISI}
+           {$ifdef ISI}
+        {$ifdef ISI}
+  {$ifdef UseMouse}
+   {$ifdef OVR}
+File INITIAL.PAS:
+   {$IFDEF UseMouse}
+   {$IfDef QLink}
+   {$IfDef ISI}
+{$IfDef ISI}
+{$IfDef GG}
+{$IfDef Int14}
+   {$Ifdef Int14}
+{$IfDef QLink}
+   {$IfDef Int14}
+   {$IfDef UseMouse}
+File INSTAL3A.PAS:
+               {$IFDEF UseMouse}
+  {$IfDef ISI}
+File INSTAL3B.PAS:
+      {$IfDef Net}
+File INSTALL0.PAS:
+         237 : {$IfDef ISI}
+         {$IfDef ISI}
+         {$IfDef GG}
+   {$IFDEF UseMouse}
+File INSTALL2.PAS:
+   {$IFDEF UseMouse}
+      {$IFDEF UseMouse}
+      {$IFDEF UseMouse}
+      {$IFDEF UseMouse}
+         {$IFDEF UseMouse}
+         {$IFDEF UseMouse}
+                  {$IFDEF UseMouse}
+               {$IFDEF UseMouse}
+      {$IFDEF UseMouse}
+File KEY.PAS:
+   {$IFDEF UseMouse}   TpMouse,  {$ENDIF}
+      {$IFDEF UseMouse}
+                            {$IfDef UseMouse}
+File MENUS.PAS:
+      {$IfDef ISI}
+                              {$IfDef ISI}
+               {$IfDef ISI}
+File OPKEY0.PAS:
+{$IFDEF InitAllUnits}
+File PORT.PAS:
+   {$IFDEF UseMouse}
+      {$IFDEF UseMouse}
+      {$IfDef Int14}
+      {$IfDef ISI}
+            {$IFDEF UseMouse}
+            {$IfDef ISI}
+            {$IfDef ISI}
+            {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+                             {$IfDef ISI}
+                             {$IfDef ISI}
+               {$IfDef ISI}
+      {$IFDEF UseMouse}
+File PROCS.PAS:
+     {$IFDEF OVR}
+     {$IFDEF UseMouse}
+{$IFDEF UseMouse}
+{$IfDef GG}
+         {$IfDef GG}
+{$IFDEF UseMouse}
+   {$IFDEF UseMouse}
+   {$IFDEF UseMouse}
+   {$IFDEF UseMouse}
+   {$IFDEF UseMouse}
+   {$IFDEF UseMouse}
+   {$IFDEF UseMouse}
+File QHELP2.PAS:
+   {$IFDEF UseMouse} TpMouse,{$ENDIF}
+      {$IFDEF UseMouse}
+                        {$IFDEF UseMouse}
+                  {$IFDEF UseMouse}
+File QINSTALL.PAS:
+   {$IFDEF UseMouse}
+   {$IfDef Net}
+               {$IfDef ISI}
+               {$IFDEF UseMouse}
+        {$IfDef Net}
+      {$IfDef Net}
+   {$IfDef Net}
+   {$IfDef ISI}
+File QMCNF.PAS:
+    {$IfDef ISI}
+File QMEM.PAS:
+   {$IFDEF OVR}
+File QMMAIN.PAS:
+{$IfDef OVR} {$O+} {$EndIf}
+     {$IFDEF OVR}
+     {$IFDEF OVR}
+     {$IfDef QLink}
+     {$IFDEF UseMouse}
+      {$IfDef QLink}
+            {$IFDEF UseMouse}
+                  {$IFDEF UseMouse}
+                  {$IfDef UseMouse}
+                  {$IfDef UseMouse}
+                  {$IFDEF UseMouse}
+                  {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+      {$IFDEF UseMouse}
+      {$IFDEF UseMouse}
+   {$IFDEF OVR}
+   {$IFDEF UseMouse}
+File QMODEM.PAS:
+{$IfDef OVR} {$O+} {$EndIf}
+{$IfDef Int14}
+{$IFDEF OVR}
+File QSHELL.PAS:
+     {$IFDEF OVR}      Overlay, {$ENDIF}
+     TpDate,           {$IFDEF UseMouse} TpMouse, {$ENDIF}
+   {$IFDEF UseMouse}
+  {$IfDef Int14}
+  {$IFDEF UseMouse}
+  {$IFDEF UseMouse}
+  {$IfDef Int14}
+   {$IFDEF UseMouse}
+  {$IfDef Int14}
+  {$IFDEF UseMouse}
+  {$IFDEF UseMouse}
+  {$IfDef Int14}
+File RUNQINST.PAS:
+            {$IfDef GG}
+   {$IfDef ISI}
+File SCREEN.PAS:
+   {$IFDEF UseMouse} TpMouse, {$ENDIF}
+   {$IFDEF OVR}      Overlay, {$ENDIF}
+{$IFDEF UseMouse}
+{$IFDEF UseMouse}
+   {$IfDef GG}
+   {$IfDef ISI}
+   {$IfDEF OVR}
+               {$IfDef ISI}
+   {$IfDef ISI}
+   {$IfDef ISI}
+{$IFDEF UseMouse}
+   {$IfDef GG}
+   {$IfDef ISI}
+{$IFDEF UseMouse}
+         {$IFDEF UseMouse}
+         {$IFDEF UseMouse}
+{$IFDEF UseMouse}
+         {$IFDEF UseMouse}
+         {$IFDEF UseMouse}
+{$IFDEF UseMouse}
+{$IFDEF UseMouse}
+   {$IFDEF UseMouse}
+   {$IFDEF UseMouse}
+{$IFDEF UseMouse}
+  {$IFDEF UseMouse}
+  {$IFDEF UseMouse}
+{$IFDEF UseMouse}
+   {$IFDEF UseMouse}
+   {$IFDEF UseMouse}
+   {$IFDEF UseMouse}
+      {$IfDef GG}
+   {$IFDEF UseMouse}
+File TPMENU0.PAS:
+{$IFDEF Ver40}
+  {$IFDEF UseMouse}
+  {$IFDEF Tpro5Menu}
+  {$IFDEF UseMouse}
+  {$IFDEF UseMouse}
+File UINIT.PAS:
+   {$IFDEF BETA}
+   {$IfDef Int14}
+      {$IfDef PRODUCTION}
+         {$IFDEF BUNDLE}
+File UPLD.PAS:
+   {$IFDEF UseMouse}
+      {$IfDef GG}
+            {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+            {$IFDEF UseMouse}
+            {$IFDEF UseMouse}

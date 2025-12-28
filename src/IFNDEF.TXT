@@ -1,0 +1,60 @@
+File BAUD.PAS:
+            {$IfNDef Int14}
+File DOWNLD.PAS:
+            {$IfNDef GG}
+            {$IfNDef GG}
+            {$IfNDef GG}
+                  {$IfNDef GG}
+File GROUP02.PAS:
+{$IfNDef Bundle}
+               {$IfNDef Bundle}
+   {$IfNDef Bundle}
+   {$IfNDef Bundle}
+   {$IfNDef Int14}
+{$IfNDef Bundle}
+File GROUP1.PAS:
+{$IfNDef Bundle}
+{$IfNDef Bundle}
+   {$IfNDef Bundle}
+File INFO.PAS:
+   {$IfNDef BUNDLE}
+   {$IfNDef Bundle}
+File INITIAL.PAS:
+   {$IfNDef Bundle}
+File INSTAL3A.PAS:
+         {$IfNDef GG}
+File INSTAL3B.PAS:
+         {$IfNDef GG}
+File KEY.PAS:
+   {$IfNDef GG}
+      {$IfNDef GG}
+File QHELP2.PAS:
+   {$IfNDef GG}
+File QINIT.PAS:
+  {$IfNDef Bundle}
+   {$IfNDef Bundle}
+File QMMAIN.PAS:
+     {$IfNDef GG}
+            {$IfNDef GG}
+File QMODEM.PAS:
+   {$IfNDef Basic}
+      {$IfNDef Plus}
+         {$IfNDef Cross}
+            {$IfNDef JnL}
+File SCREEN.PAS:
+      {$IfNDef GG}
+      {$IfNDef GG}
+File SCRIPTS.PAS:
+            {$IfNDef GG}
+            {$IfNDef GG}
+File SCRIPTS4.PAS:
+   {$IfNDef GG}
+     {$IfNDef GG} Host, {$EndIf}
+   {$IfNDef GG}
+File STACK5.PAS:
+  {$IfNDef Bundle}
+    {$IfNDef Bundle}
+File UPLD.PAS:
+            {$IfNDef GG}
+            {$IfNDef GG}
+                     {$IfNDef GG}

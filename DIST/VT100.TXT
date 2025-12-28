@@ -1,0 +1,30 @@
+
+
+
+              Function Key set for the VT100 key file (VT100.KEY)
+
+         NORMAL                    SHIFTED                    CONTROL
+
++---------------------+    +---------------------+    +---------------------+
+|          |          |    |   Appl   |   Appl   |    |   Appl   |   Appl   |
+|   PF1    |   PF2    |    |  Keypad  |  Keypad  |    |  Keypad  |  Keypad  |
+|          |          |    |    1     |    2     |    |    -     |    ,     |
+|----------|----------|    |----------|----------|    |----------|----------|
+|          |          |    |   Appl   |   Appl   |    |   Appl   |   Appl   |
+|   PF3    |   PF4    |    |  Keypad  |  Keypad  |    |  Keypad  |  Keypad  |
+|          |          |    |    4     |    4     |    |    .     |  ENTER   |
+|----------|----------|    |----------|----------|    |----------|----------|
+|          |          |    |   Appl   |   Appl   |    |          |          |
+|          |          |    |  Keypad  |  Keypad  |    |          |          |
+|          |          |    |    5     |    6     |    |          |          |
+|----------|----------|    |----------|----------|    |----------|----------|
+|          |          |    |   Appl   |   Appl   |    |   Appl   |   Appl   |
+|    UP    |   DOWN   |    |  Keypad  |  Keypad  |    |  Cursor  |  Cursor  |
+|          |          |    |    7     |    8     |    |    UP    |   DOWN   |
+|----------|----------|    |----------|----------|    |----------|----------|
+|          |          |    |   Appl   |   Appl   |    |   Appl   |   Appl   |
+|  RIGHT   |   LEFT   |    |  Keypad  |  Keypad  |    |  Cursor  |  Cursor  |
+|          |          |    |    9     |    0     |    |  RIGHT   |   LEFT   |
++---------------------+    +---------------------+    +---------------------+
+
+

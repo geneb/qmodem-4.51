@@ -53,35 +53,25 @@ Significant modules include:
 
 **This is a historical codebase.** QModem 4.51 targets MS-DOS using Turbo Pascal 5.x/6.0, with Turbo Professional and potentially other Borland or third-party libraries.
 
-### Potential Build Approaches
+This fork of QModem has been adjusted to correctly build with either Turbo Pascal 7.0 or Borland Pascal 7.0.  Ensure that your version is patched for the CRT Runtime Error 200 issue.
 
-- **Turbo Pascal 5.5/6.0** (MS-DOS or DOSBox): This is almost certainly the original toolchain. If you have a copy, opening `QMODEM.PAS` as the project and compiling (after possibly setting appropriate memory and overlay paths) may work. Some makefiles or batch files, e.g. `BUILD.BAT`, may be helpful, but will need adaptation to your environment.
+Review the notes in **FIXES.md**.  That document outlines the additiona libraries that are required to build QModem, including github links to where they can be obtained.  The remainder of the document outlines what changes were made in order to allow it to compile with Turbo Pascal 7.0
 
-- **TP/BP Emulation or Cross-Compilers**: [Free Pascal](https://www.freepascal.org/) includes some support for Turbo Pascal compatibility, but differences are likely extensive (including use of inline assembler, overlays, and third-party libraries).
+There are two batch files included, `BQ.BAT` and `BQI.BAT`.  They build QModem and the QModem Install program, respectively.  There are notes in each regarding how they're used.  If you're building under DOSBox, you'll need the Z:\SYSTEM directory in your path in order to use the SUBST and/or MOUNT commands.
 
-- **Turbo Professional & Dependencies**: Many of the `TP*` units (e.g. `TpDos`, `TpCrt`, etc.) are from the [Turbo Professional library](https://en.wikipedia.org/wiki/Turbo_Professional). You'll need the corresponding TPUs and sources for your compiler version.
+A new makefile has been created in order to smoothly build the assembly language files - it's called `objcode.mak`.  Examine that file to see how it's used.  The object files that the makefile create are required by both of the build batch files.
 
-- **Manual Assembly of .ASM Files**: Assembler files need to be assembled (e.g. with TURBO assembler or MASM) and linked or compiled as .OBJ for use with Turbo Pascal.
+The following changes to the structure of the repository have been made:<br>
+* The DIST directory contains the original 1992 shareware release of QModem 4.51TD.  It includes documentation and other miscellaneous files used by QModem.  I figured this would be a nice addition to the source code release.
+* The SRC\NOSRC directory contains object files that have no matching source code.
+* The SRC\OLDBAT directory contains batch files that are no longer used.
+* The SRC\OLDOPRO directory contains Object Professional code originally supplied in the source release, but are no longer used.
+* The SRC\OLDTPRO directory contains Turbo Professional code originally supplied in the source release, but are no longer used.  Note that the TPMENU.PAS unit in this directory IS used, but is referenced as TPMENU0.PAS.
+* The SRC\SCREENS directory contains object files that represent the QModem and QINSTALL.  How these were created is unknown.
+* The SRC\TOOLS directory contains code not part of QModem or QINSTALL.  See **TOOLS.md** for a list of these programs and their description.
 
-- **Overlay Management**: Note the project extensively uses Borland/Turbo Pascal overlays (`.OVR` files, see `OVR01.INC` and overlay units). Disk layout and path settings for overlays must be matched as the original program expects.
+The file **DEFINES.md** cover all the different conditional compilation options that have been found, as well as a general description of each one.  The only things that must be defined are **OVR** and **PRODUCTION**.  Both of those are defined in the BQ and BQI batch files.
 
-#### Build Scripts
-
-Several build-automation batch files are included, such as:
-
-- `BUILD.BAT`
-- `BUILDOVR.BAT`
-- `BUG.BAT`
-- `DEBUGOVR.BAT`
-
-Inspect and adapt these scripts as necessary for your own environment.
-
-### Modernization Caveats
-
-- **No supported modern environment** targets this code directly. Efforts to port or run on anything but MS-DOS/Turbo Pascal 5.x/6.x are purely experimental and will require code and/or dependency adaptation.
-- **Third-party libraries** (Turbo Professional, OpKey, possibly others) are required.
-- **Hardware-dependence**: Much code assumes direct access to PC hardware, BIOS, and serial port interrupts.
-- **Overlay management**: The overlay system (`OVERLAY.PAS`, etc.) must be supported as originally intended.
 
 ---
 

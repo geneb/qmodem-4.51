@@ -1,0 +1,1235 @@
+This is the official list of registered WILDCAT! Bulletin Board Systems.
+
+This list was compiled from information input into [E] Enter WCList on the
+WILDCAT! HQ BBS, Main Menu.
+
+Note: BBS's located outside of the U.S.A. are at the end of the list.
+
+ATTENTION WILDCAT! SYSOPS
+=========================
+Your BBS information MUST be verified every 90 days or your BBS
+information will NOT be listed in the current WCList.
+
+If you run a registered WILDCAT! BBS and the information below is incorrect, 
+you must contact our registered user only BBS (the number is listed inside
+your front cover of our manual) and correct the information using [E]nter
+WCList.
+
+If your BBS is not listed, then either you have not entered your information
+on the WILDCAT! HQ BBS or your information has NOT been verified in the last
+90 days.
+
+ATTENTION BBS CALLERS
+=====================
+If you are a BBS Caller and you find this information in error, either the 
+number no longer exist or the BBS no longer runs WILDCAT! please notify us 
+at:
+
+                  Mustang Software, Inc.
+                  P.O. Box 2264
+                  Bakersfield, CA  93303
+                  Attn: WCLIST Changes
+
+Or you can leave us a message on our Public BBS by dialing 805/395-0650.
+You may always obtain the latest copy of this list from our BBS, free of
+charge.  The file is listed as WCLIST.ZIP.
+
+
+This information is current as of 12/28/91
+
+BBS Phone No. BBS Name                  Verified Location         page: 1
+ 
+201-327-4086  The FirePlace BBS         11/09/91 Ramsey, NJ
+201-361-4131  Quantum Leap BBS          12/11/91 Wharton, NJ
+201-385-2874  MENTI'S BAY HST           11/09/91 Dumont, NJ
+201-796-2752  Deredain's Realm BBS      12/07/91 Fair Lawn, NJ
+201-843-8674  Willy's Wild & Wacky Worl 12/22/91 Saddle Brook, NJ
+203-537-3036  Maw & Paw's Workshop      11/28/91 Colchester, CT
+203-583-0715  Adults "R" Us             12/12/91 Forestville, CT
+203-654-1831  "SPECTRA-GRAPHICS"        11/13/91 Windsor Locks, CT
+203-742-6400  Northfield BBS            12/15/91 Coventry, CT
+203-747-3481  THE DIRTY BIRD            10/28/91 PLAINVILLE, CT
+205-237-9797  The Midnite Blues         12/06/91 Anniston, AL
+205-347-4285  DISTANT MIRROR BBS        12/21/91 Enterprise, AL
+205-348-9552  PoV                       11/16/91 Tuscaloosa, AL
+205-452-3897  PROTECH                   11/10/91 Chickasaw, AL
+205-556-5591  TheKID's Playhouse        11/17/91 Tuscaloosa, AL
+205-749-2824  Hyperfine BBS             12/12/91 Opelika, AL
+205-767-6795  ALACOMM BBS               12/17/91 FLORENCE, AL
+205-774-9946  FastBytes BBS Ozark Node  12/17/91 Ozark, AL
+205-974-5123  Cyclone BBS!              12/06/91 Moulton, AL
+206-226-6550  The Crystal Chip          12/03/91 Renton, WA
+206-227-9165  NorthWest ENTER-Tainment  12/27/91 Renton, WA
+206-338-9361  Mark's Point!             11/30/91 Everett, WA
+206-356-5309  Fluke Metrology S/W Suppo 12/18/91 Everett, WA
+206-357-2815  The Computer Bulletin Boa 11/11/91 Olympia, WA
+206-378-5561  Sapphire Systems          12/12/91 Friday Harbor, WA
+206-423-3730  Fire Mountain BBS         12/25/91 Kelso, WA
+206-445-5154  The HOLE in the WALL * No 12/05/91 , WA
+206-445-5444  The HOLE in the WALL      12/05/91 Mount Vernon, WA
+206-456-8976  CAPITAL CITY On-Line!     11/04/91 Olympia, WA
+206-472-1218  Holiday's Inn             10/26/91 Tacoma, WA
+206-531-8304  The Eagles BBS            12/25/91 Parkland, WA
+206-535-1995  Super Shareware BBS       11/21/91 Tacoma, WA
+206-536-6993  The Meeting Place BBS     12/09/91 Seattle, WA
+206-566-1155  AmoCat BBS                11/25/91 Tacoma, WA
+206-588-3792  GROWNUPS PLAYGROUND       12/04/91 TACOMA, WA
+206-643-5477  Alacrity Software BBS     11/29/91 Bellevue, WA
+206-659-2132  Cameron's Railroad        10/25/91 Arlington, WA
+206-661-7505  THE BIG EASY              12/10/91 Federal Way, WA
+206-671-6678  The Fifth Corner BBS      12/09/91 Bellingham, WA
+206-681-0933  MindLink BBS              11/24/91 Sequim, WA
+206-698-7922  Just Another BBS !!!      12/24/91 Bremerton, WA
+206-820-4749  The (R)ealm (O)f (M)oistu 12/01/91 Bothell, WA
+206-852-7708  The TIME-OUT BBS          12/10/91 Kent, WA
+206-943-1513  Radio Point BBS           12/24/91 Olympia, WA
+206-964-0379  The "Network"             11/08/91 Ft. Lewis, WA
+207-645-3250  School Talk BBS           11/14/91 Wilton, ME
+207-873-1937  Bits N' Bytes BBS         10/21/91 Winslow, ME
+207-941-4687  Eastern Maine Tech Colleg 11/01/91 Bangor, ME
+208-368-0644  Medieval Times            11/02/91 Boise, ID
+208-438-8548  The Country Keyboard BBS  11/22/91 Paul, ID
+209-442-8329  The LightHouse BBS        12/21/91 Fresno, CA
+209-466-2604  Altered States            10/23/91 Stockton, CA
+209-826-8107  Wild Bee's bbs            10/28/91 Los Banos, CA
+212-765-2524  !!The Game Line!! Node 2  11/15/91 New York, NY
+212-828-5194  MidNight Run BBS          10/21/91 New York City, NY
+212-974-3925  !!The Game Line!! Node 1  11/15/91 New York, NY
+
+BBS Phone No. BBS Name                  Verified Location         page: 2
+ 
+214-252-6717  The Blues Cafe            10/24/91 Irving, TX
+214-293-0023  4ADULTS_ONLY! BBS         12/25/91 Cedar Hill, TX
+214-416-9279  FUNTIME! BBS!             11/22/91 Carrollton, TX
+214-442-1254  The Bailiwick BBS!        12/28/91 Wylie, TX
+214-495-5980  Shock Treatment           12/27/91 Garland, TX
+214-557-8252  Quanah's Revenge          11/30/91 Dallas, TX
+214-938-2840  Ronin Microsystems BBS    11/25/91 Waxahachie, TX
+215-245-4316  The Current Event         11/15/91 Bensalem, PA
+215-272-5799  The Prince of Porn        11/30/91 Norristown, PA
+215-289-6940  The Phila. Fire Photograp 12/17/91 Philadelphia, PA
+215-323-1361  Audubon BBS               11/02/91 Audubon, PA
+215-362-4846  Agapeland BBS             10/21/91 Lansdale, PA
+215-374-3735  DataTek Computer Services 10/25/91 Reading, PA
+215-461-2723  Sundowns Hideaway         11/12/91 Collingdale, PA
+215-463-7228  LA DOLCE VITA BBS         12/02/91 PHILADELPHIA, PA
+215-463-9433  DRAGON-1 SYSTEMS          12/19/91 PHILADEPHIA, PA
+215-547-3748  The Apartment Upstairs    11/04/91 Levittown, PA
+215-562-4283  Midnight Maddness BBS     12/11/91 Hamburg, PA
+215-623-8505  HIGH VOLTAGE BBS!         10/25/91 Lansdowne, PA
+215-724-5324  THE SWINGERS CONNECTION B 12/23/91 PHILA, PA
+215-745-1915  THE COMPUTER DOCTOR       12/10/91 PHILADELPHIA, PA
+215-779-9562  WINS BBS                  11/01/91 Reading, PA
+215-797-9378  The Wizard's Retreat      12/26/91 Allentown, PA
+215-855-0401  The Keep                  12/19/91 Lansdale, PA
+215-869-3171  The Underground Society   12/14/91 Lincoln Univers, PA
+215-869-9518  The Underground Society N 12/14/91 Lincoln Univers, PA
+216-281-7479  CYBERNET                  12/24/91 Cleveland, OH
+216-661-9065  Comstar BBS               10/26/91 Cleveland, OH
+216-671-7534  THE MAILBOX BBS           12/17/91 CLEVELAND, OH
+216-753-7739  The Part Time BBS         12/17/91 Akron, OH
+216-823-3242  Red Eagle                 12/22/91 Alliance, OH
+216-868-6342  MGM-BBS                   11/14/91 Minerva, OH
+216-926-6069  FAST BYTEs BBS            11/03/91 Willoughby, OH
+216-929-3067  THE FALLS CONNECTION BBS  11/27/91 CUYAHOGA FALLS, OH
+216-949-5581  Erieview Microsystems ONL 11/20/91 Sheffield Lake, OH
+219-232-2769  WRITERS BLOCK             08/02/91 SOUTH BEND, IN
+219-256-2255  Radio Daze AM & FM BBS    10/12/91 South Bend/Mish, IN
+219-293-6465  The Beta Connection       10/09/91 Elkhart, IN
+219-432-7110  Summit City Computers BBS 08/27/91 Ft. Wayne, IN
+219-482-9470  The Byte Carrier BBS      10/14/91 Fort Wayne, IN
+219-659-0112  The Special Needs BBS     09/22/91 Whiting, IN
+219-745-9503  The INTELLIGENCE CENTER   08/11/91 Fort Wayne, IN
+301-235-2365  The Monsoon Software BBS  12/11/91 Baltimore, MD
+301-258-1858  IICS-DC BBS               11/15/91 Washington, DC
+301-498-8205  NumisNet (sm)             12/13/91 Laurel, MD
+301-530-5962  The Electronic shopper BB 08/03/91 Bethesda, MD
+301-568-1679  Robin's Nest              09/08/91 Camp Springs, MD
+301-630-6948  Moonshadow                08/13/91 Oxon Hill, MD
+301-667-6592  PADAN BBS                 08/10/91 Cockeysville, MD
+301-721-5416  AJS COMPUTER BBS          10/26/91 Crofton, MD
+301-745-2037  HomeLine                  10/25/91 St. Michaels, MD
+301-855-2592  Midnight Blue             10/15/91 Huntingtown, MD
+301-934-4963  The Who Knows BBS         12/01/91 La Plata, MD
+301-942-5571  Private Corner BBS        08/27/91 Wheaton, MD
+301-948-9695  "The Shareware Network"   10/21/91 Gaithersburg , MD
+302-836-5716  Gean-Mida BBS             12/03/91 Newark, DE
+302-995-8902  The KING of COMM BBS      07/08/91 Wilmington, DE
+303-360-5524  The Jayhawk BBS!          10/11/91 Aurora, CO
+
+BBS Phone No. BBS Name                  Verified Location         page: 3
+ 
+303-444-7942  The Sounding Board BBS    10/10/91 Boulder, CO
+303-449-8427  The Fireside Chat BBS     11/21/91 Boulder, CO
+303-750-7136  Borealis Computer Systems 10/27/91 Aurora, CO
+303-752-5060  Random Access BBS         10/26/91 Denver, CO
+303-838-1759  Bailey Information Exchan 12/26/91 Bailey, CO
+303-920-1263  Nix Pix Central           09/07/91 Aspen, CO
+303-938-9654  Rainbow Missions BBS      11/10/91 Boulder, CO
+303-945-4041  Roaring Fork BBS          11/20/91 Glenwood Spring, CO
+303-962-9536  Computer Security BBS     11/12/91 Loveland, CO
+304-429-6838  SECRET SERVICE BBS        12/05/91 Huntington, WV
+304-487-3558  FANTASY SPORTS CENTRAL    10/23/91 PRINCETON, WV
+304-598-3024  The Morgantown PC Users G 08/04/91 Morgantown, WV
+304-733-1338  JNS Software Support BBS  10/08/91 Ona, WV
+304-863-3951  MultiComp Services        10/28/91 Parkersburg, WV
+305-245-7601  Backpacker's Wilderness   12/07/91 Princeton, FL
+305-252-8443  MIAMI On-line             07/28/91 Florida, FL
+305-345-9511  The TechLands BBS         07/26/91 Coral Springs, FL
+305-382-5471  Whatever BBS              12/15/91 Miami, FL
+305-523-1717  DrawBridge BBS            10/23/91 Fort Lauderdale, FL
+305-559-9151  Whatnow BBS               12/11/91 Miami, FL
+305-726-5003  The Wonder Years BBS!     07/01/91 Tamarac, FL
+305-735-7370  The ONYX BBS !!!          09/07/91 Fort Lauderdale, FL
+305-748-0164  Top Secret BBS.           11/11/91 Sunrise, FL
+305-749-0795  Dr Downloads BBS          07/18/91 Sunrise, FL
+305-751-0993  The Guild                 12/13/91 Miami, FL
+305-828-0959  WYSIWYG! - Your Windows B 09/09/91 Miami, FL
+305-854-2135  GOLD-BBS                  12/11/91 MIAMI, FL
+305-945-4887  The MIAMI EXCHANGE        11/25/91 North Miami, FL
+305-964-2696  Dracula's Castle          09/24/91 Hollywood, FL
+305-964-9104  The Cop Stop              08/04/91 Hollywood, FL
+305-978-0556  Station Tender BBS        10/31/91 Coconut Creek, FL
+305-978-3390  Florida Data Library!BBS  10/17/91 Coconut Creek, FL
+307-638-9361  Taco Flats                10/16/91 Cheyenne, WY
+309-662-2017  Desktop Micro's BBS       10/27/91 Bloomington, IL
+309-694-7725  EPE Online                10/13/91 Creve Coeur, IL
+309-828-0100  The Hangar                10/01/91 Bloomington, IL
+309-833-4368  The Phoenix BBS           11/14/91 Macomb, IL
+310-371-3737  The Source                12/14/91 Torrance , CA
+310-404-9116  The TOWER BBS             11/10/91 Norwalk, CA
+310-542-7142  Real World Solutions' BBS 12/10/91 Redondo Beach, CA
+310-545-5146  Ursa Major                11/25/91 Manhattan Beach, CA
+310-591-3558  New Atittudes BBS         12/14/91 Long Beach, CA
+310-609-2176  The /\/\averick BBS       11/05/91 Rancho Domingue, CA
+310-676-3534  The Great Escape          11/07/91 Gardena, CA
+312-727-4868  Hispanic Bell Mgmt Assoc. 07/21/91 Chicago, IL
+312-906-0698  The A/V BBS               09/17/91 Chicago, IL
+313-238-1178  The Totem Pole BBS        08/28/91 Flint, MI
+313-294-0959  The WORD Exchange         12/24/91 Roseville, MI
+313-364-5157  H.P. Systems              10/13/91 Marysville, MI
+313-379-4729  Downriver Elite BBS       09/26/91 Flat Rock, MI
+313-425-2708  BUBBAS BEQUEST            11/12/91 GARDEN CITY, MI
+313-449-8231  449 MAGNUM Wildcat! BBS   08/25/91 Whitmore Lake, MI
+313-478-9647  The College Board         12/06/91 Livonia, MI
+313-533-8643  UNITED DATA STORAGE SERVI 08/26/91 REDFORD TWP, MI
+313-546-5950  SLiPPED DiSK              12/06/91 Madison Heights, MI
+313-559-6434  Campbell Services Inc.    07/15/91 Southfield, MI
+313-562-0051  Bruce's Place BBS         10/28/91 Dearborn, MI
+313-632-7377  PC-PALACE                 08/30/91 HARTLAND, MI
+
+BBS Phone No. BBS Name                  Verified Location         page: 4
+ 
+313-747-8448  The Midnight Star         11/16/91 ANN ARBOR, MI
+313-787-0270  Diamond Club!             12/09/91 Flint, MI
+313-852-2229  Entertainment OnLine!     07/10/91 Auburn Hills, MI
+313-894-2923  Rick's Corner BBS!        10/14/91 Detroit, MI
+313-946-4208  The Olympic BBs Node 2.!  11/01/91 Taylor , MI
+313-946-5931  THE OLYMPIC BBS.!         11/01/91 TAYLOR, MI
+314-329-3560  The Message Center        07/28/91 Ft Leonard Wood, MO
+314-329-4700  THE KING'S RANSOM         09/25/91 Ft leonard wood, MO
+314-329-5433  Prime Time BBS            10/10/91 Ft. Leonard Woo, MO
+314-335-1249  The Pass Time             09/28/91 Cape Girardeau, MO
+314-336-5545  MID-MISSOURI BBS          12/01/91 Dixon, MO
+314-443-0319  Planet ><                 11/16/91 Columbia, MO
+314-584-3704  The West End BBS          10/05/91 Jefferson City, MO
+314-636-7375  Chris Byrd Software BBS   10/16/91 Jefferson City, MO
+314-774-8485  The Night Club BBS        11/16/91 Waynesville, MO
+314-785-9456  Writer's Showcase         11/14/91 Poplar Bluff, MO
+314-846-7908  CompuSports               09/30/91 St Louis, MO
+314-893-5106  The Wildcat Modem Zone    11/21/91 Jefferson City, MO
+314-893-6099  DOC in the BOX CBIS       11/25/91 Jefferson City, MO
+315-695-3077  The Salt City Caverns     10/26/91 Syracuse, NY
+315-695-3087  Salt City Caverns         12/07/91 Syracuse, NY
+316-269-7116  DCMAO Wichita             12/19/91 Wichita, KS
+316-441-0493  Prevail Systems BBS       10/17/91 Arkansas City, KS
+316-522-6412  Silver Eagle BBS          10/29/91 Wichita, KS
+316-524-7639  Pistol-Pete's BBS         12/03/91 Haysville, KS
+316-686-8324  Red Flag                  08/21/91 Wichita, KS
+316-777-9033  Just Add Water!           10/19/91 Mulvane, KS
+316-788-7925  ILLUSION BBS              08/17/91 Derby, KS
+317-288-5569  The B-Line BBS            10/09/91 Muncie, IN
+317-289-6674  Programs To Go            11/07/91 Muncie, IN
+317-364-9600  Unique & Nifty BBS        09/15/91 Crawfordsville, IN
+317-423-1883  The Cove BBS              10/01/91 Lafayette, IN
+317-457-2734  The First Amendment BBS!  10/20/91 Kokomo, IN
+317-545-0930  Microcosm                 07/26/91 Indianapolis, IN
+317-567-4228  Battlefield BBS           09/25/91 W. Lafayette, IN
+317-782-8094  Command Central II        09/25/91 Indianapolis, IN
+317-825-1254  The Computer Exchange     10/19/91 Connersville, IN
+317-825-1626  THE COMPUTER PLACE BBS    08/19/91 CONNERSVILLE, IN
+317-825-1858  File Central BBS          10/13/91 Connersville, IN
+317-825-6054  Studio_Pro! BBS           11/14/91 Connersville, IN
+317-827-1254  The Molasses Train in Feb 11/12/91 Connersville, IN
+318-238-1551  Mid South BBS             11/06/91 Leesville, LA
+318-345-0334  Direct Online System      11/09/91 Monroe, LA
+318-436-2992  Duffey's Tavern           12/14/91 Lake Charles, LA
+318-742-9506  NITENURSE                 08/23/91 BOSSIER CITY, LA
+318-949-0844  MAC-BBS! // AFTERHOURS    12/18/91 Haughton, LA
+318-994-2764  HOME-PORT BBS             10/05/91 Sarepta, LA
+318-994-2919  Roast Duck BBS            11/09/91 Springhill, LA
+319-266-0540  Forbin Project, Inc       12/03/91 Cedar Falls, IA
+319-337-6723  The Computer Plumber BBS  10/09/91 Iowa City, IA
+401-254-0848  Our House BBS             10/30/91 Bristol, RI
+401-272-4739  IBM World BBS             12/14/91 Providence, RI
+401-331-0334  ChowdaNet                 12/15/91 Providence, RI
+401-351-0719  The Prometheus System     09/18/91 Providence, RI
+401-943-7093  TALK of the TOWN BBS      10/03/91 Johnston, RI
+402-291-6624  Bellevue Downtown CBBS    10/01/91 Bellevue, NE
+402-392-6736  HDR Omaha BBS             10/31/91 Omaha, NE
+402-451-4085  The GreasePalace BBS      12/07/91 Omaha, NE
+
+BBS Phone No. BBS Name                  Verified Location         page: 5
+ 
+402-455-7003  BubbaNet Multi-Node       10/10/91 Omaha, NE
+402-474-6790  " Joe's Place "           11/01/91 Lincoln, NE
+402-488-1282  LS COMPUTER SERVICES I    11/16/91 LINCOLN, NE
+402-488-2899  LS COMPUTER II            11/16/91 LINCOLN, NE
+402-493-2737  HAWG WILD! BBS            12/24/91 Omaha, NE
+402-572-8247  Castle Rock BBS           08/15/91 Omaha, NE
+402-734-2073  Mirrored Dragon's Dream.. 10/10/91 Omaha, NE
+404-226-4388  North Georgia BBS         12/06/91 Dalton, GA
+404-228-7524  SHARP'S CORNER            12/12/91 Griffin, GA
+404-288-6858  Decibel BBS               12/09/91 Atlanta, GA
+404-354-7383  Low Flyer BBS!!!          12/10/91 Athens, GA
+404-366-1436  The Southern Crescent     07/01/91 Forest Park, GA
+404-434-9314  Psycho Ward BBS           12/06/91 Smyrna, GA
+404-435-7640  The Continental BBS       08/12/91 Marietta, GA
+404-461-5947  Cam's WildCat! House      07/30/91 Atlanta, GA
+404-491-1405  The Liability             10/14/91 Atlanta, GA
+404-548-0130  Classic City              10/18/91 Athens, GA
+404-548-0726  Classic City              07/14/91 Athens, GA
+404-549-1653  Darkhorse Industries      08/30/91 Winterville, GA
+404-565-1917  Neophyte! BBS             11/02/91 Marietta, GA
+404-565-4258  Doctor Disk & the Diskett 12/03/91 Marietta, GA
+404-694-3295  Hi-Tech Gateway           08/09/91 Cohutta, GA
+404-695-1405  SouthEast BBS             07/20/91 Chatsworth, GA
+404-695-7724  The Old Rugged Cross BBS  07/04/91 Chatsworth, GA
+404-717-8823  I - 285 BBS               12/14/91 Atlanta, GA
+404-742-2729  LANworks BBS              11/22/91 Athens/Wintervi, GA
+404-860-5781  Madmen and Maniacs        11/21/91 Martinez, GA
+404-868-8214  <<< DIGITAL ADDICTIONS >> 12/01/91 Martinez, GA
+404-920-0621  TOTAL RECALL BBS          12/10/91 Douglasville, GA
+404-926-0905  Woodstock BBS             11/26/91 Marietta, GA
+404-934-6811                            08/19/91 Tucker, GA
+404-936-0550  Music Connection BBS      09/18/91 Atlanta, GA
+404-972-0844  HOTLANTA !                12/09/91 LAWRENCEVILLE, GA
+405-242-7922  The Dream Park            08/31/91 Enid, OK
+405-354-1986  TurboLink West BBS        11/20/91 Yukon, OK
+405-360-4391  49er BBS                  10/17/91 Norman, OK
+405-482-5607  The Colt Station          07/04/91 Altus, OK
+405-482-5624  Dudley's Bulletin Board S 10/30/91 Altus, OK
+405-691-3437  Recovery BBS              07/01/91 Oklahoma City, OK
+405-794-8255  Late Night Talk           10/17/91 Moore, OK
+405-799-2043  Moore's =PRO= Sys. Node-1 08/26/91 Moore, OK
+405-799-3015  Moore's =PRO= Sys. Node3  08/26/91 Moore, OK
+405-799-4085  Moore's =PRO= System node 08/26/91 Moore, OK
+406-586-1213  MVP Registry              12/27/91 Bozeman, MT
+407-263-3502  Maynard / Archive BBS     12/10/91 Lake Mary, FL
+407-283-1050  The Serial Box            07/10/91 Stuart , FL
+407-337-5520  Treasure Chest BBS        10/17/91 Port St. Lucie, FL
+407-338-6571  Garrrrr's Game Room       10/17/91 Boca Raton, FL
+407-340-3916  Phi Delta Cappa           09/27/91 Port St Lucie, FL
+407-348-2006  THE NO NAME BBS           12/10/91 Kissimmee, FL
+407-439-0341  The FireHouse BBS!        11/01/91 Lake Worth, FL
+407-468-8858  The Vulcan's Lair         12/07/91 Fort Pierce, FL
+407-468-9009  The Twilight Zone         10/19/91 Ft. Pierce, FL
+407-488-9045  Legal Tech Information Ce 11/23/91 Boca Raton, FL
+407-568-8774  The MoonRose HQ BBS       11/10/91 Orlando, FL
+407-622-2699  Lil Red's Forest BBS!     10/23/91 Palm Beach Gard, FL
+407-676-2998  E.I.L.C. BBS              11/15/91 Palm Bay, FL
+407-683-5250  Programmer's Reference BB 11/07/91 West Palm Beach, FL
+
+BBS Phone No. BBS Name                  Verified Location         page: 6
+ 
+407-690-1267  The VAULT/WAR BBS         12/17/91 Rockledge, FL
+407-778-8584  The Laser Systems         09/02/91 Vero Beach, FL
+407-799-3267  The Space Academy BBS     12/08/91 Cocoa Beach, FL
+407-852-8304  Leisure Land              12/09/91 Boca Raton, FL
+407-870-8556  Afternoon Delight BBS     10/30/91 Kissimmee, FL
+407-871-2558  The Program Exchange      10/11/91 Port St. Lucie, FL
+407-964-8450  Econo^Softs BBS           11/14/91 Lake Worth, FL
+408-248-0675  Alternative Sexuality Inf 09/12/91 San Jose, CA
+408-254-9310  South Bay BBS * San Jose, 11/17/91 San Jose, CA
+408-266-9835  The Spider's Den BBS      07/10/91 San Jose, CA
+408-268-4863  The LaserBoard            09/22/91 San Jose, CA
+408-338-6029  B.C.E. BBS                08/10/91 Boulder Creek, CA
+408-377-7441  C-Message Weighing        11/18/91 San Jose, CA
+408-379-0958  The Fun Seekers           07/08/91 San Jose, CA, CA
+408-384-1711  Freckle's BBS             09/03/91 Marina, CA
+408-384-3658  Ed's BBS                  11/13/91 Fort Ord, CA
+408-384-5849  Back Door BBS             11/01/91 Marina, CA
+408-438-8771  Seagate Tech Support BBS  10/08/91 Scotts Valley, CA
+408-439-9367  GLOBALNET                 07/27/91 Scotts Valley, CA
+408-441-7303  Schnellmann Tech. Support 10/07/91 San Jose, CA
+408-462-3104  The village               08/30/91 Capitola, CA
+408-462-6329  The Soquel BBS            12/11/91 Soquel, CA
+408-476-5305  The MultiMedia Station    10/20/91 Santa Cruz, CA
+408-479-3377  SWEEP DREAMS BBS          11/16/91 Santa Cruz, CA
+408-559-0253  JDR Microdevices          10/24/91 San Jose, CA
+408-637-8534  The Hollister BBS         10/31/91 Hollister, CA
+408-683-0282  Bay Area BBS & System 911 09/26/91 San martin, CA
+408-685-3608  The Tower Of Pegasus      08/28/91 Aptos, CA
+408-688-2533  Digital Designs           10/19/91 Aptos, CA
+408-733-4670  PIE BBS                   11/01/91 Sunnyvale, CA
+408-739-8693  The Rising Storm          12/19/91 Sunnyvale, CA
+408-757-5632  Disk Cission BBS          12/05/91 Salinas, CA
+408-847-0665  Garlique Graphics         08/06/91 GILROY, CA
+408-847-2053  Garlique Graphics         12/09/91 Gilroy, CA
+408-883-2853  S.R.O.  BBS               08/08/91 Marina, CA
+408-971-2301  Sheriff's On Line Info Se 11/04/91 San Jose, CA
+409-260-9026  The Mechanic Shop         12/26/91 Bryan, TX
+409-385-7515  The Catfish Depot         11/16/91 SILSBEE, TX
+409-569-6827  Johnston's Tavern         07/02/91 Nacogdoches, TX
+409-846-8358  Nite Line                 12/09/91 Bryan, TX
+410-479-1828  The Nuclear Amoeba        10/08/91 Denton, MD
+410-531-5748  (-: Polar Bear's Lair :-) 11/02/91 Clarksville, MD
+410-543-2406  The MCE DataBoard         12/18/91 Salisbury, MD
+410-546-0653  The Grave Yard BBS        11/24/91 Salisbury, MD
+410-822-6438  The Atomic Comet BBS      12/25/91 Easton, MD
+410-836-0777  GMS Tech Bytes            12/03/91 Bel Air, MD
+410-860-0212  The Upper Limit BBS       11/02/91 Salisbury, MD
+412-856-6322  The Open Door BBS         12/16/91 Monroeville, PA
+413-592-9208  Career Systems BBS        10/08/91 Chicopee, MA
+413-743-1111  Berkshire Hills BBS       09/20/91 Adams, MA
+414-259-1885  << The Escape Place >>    11/26/91 Milwaukee, WI
+414-437-8843  TheZoftWare BBS           10/09/91 Green Bay, WI
+414-494-7700  Bass Ace's Place          12/15/91 Green Bay, WI
+414-639-8456  The Programmer's Guild    10/20/91 Racine, WI
+414-722-2069  Painter's Workshop        08/31/91 Neenah, WI
+414-734-7093  The Western Edge BBS      10/13/91 Appleton, WI
+414-739-2905  Definitive Image          10/13/91 Appleton, WI
+414-761-2582  C.A.T.C.H. RESOURCES BBS  10/21/91 Oak Creek, WI
+
+BBS Phone No. BBS Name                  Verified Location         page: 7
+ 
+415-226-6160  The Job Xchange           08/10/91 Fremont, CA
+415-272-9334  On Line Hereafter         10/26/91 Oakland, CA
+415-342-7047  /\/et\/\/ork BBS          09/03/91 Burlingame, CA
+415-361-1847  Emerald Lake BBS          07/17/91 Redwood City, CA
+415-365-9079  Running Wyld Image Center 09/01/91 Redwood City, CA
+415-386-3735  SF PHOTOCOMM              08/22/91 San Francisco, CA
+415-449-4790  Connection Machine        08/23/91 Livermore, CA
+415-468-6713  THE I N O R M E R BBS     08/10/91 Daly City, CA
+415-495-2929  STUDS                     12/07/91 San Francisco, CA
+415-495-4139  STUDS                     08/04/91 San Francisco, CA
+415-547-5264  Off Broadway              07/08/91 Oakland, CA
+415-641-9862  The Ultramagnetic Empire  11/14/91 San Francisco, CA
+415-665-7918  The Classifieds BBS       12/09/91 San Francisco, CA
+415-691-0401  cc:Mail BBS               08/13/91 Mountain View, CA
+415-694-7521  Unique Designs BBS        08/05/91 Mountain View, CA
+415-749-1254  Hopper's World BBS        12/26/91 San Francisco, CA
+415-752-5615  PhotoCOMM                 12/26/91 San Francisco, CA
+415-791-2961  FREMONT  AREA REMOTE TERM 08/27/91 FREMONT, CA
+415-931-7775  Window World BBS          12/17/91 San Francisco, CA
+415-965-1465  Blue Dragon BBS           10/26/91 Mountain View, CA
+415-967-8319  Trembler BBS              11/01/91 Mountain View, CA
+419-229-5464  Camelot ][ bbs            07/27/91 Lima, OH
+419-524-3959  The DK Jet-Works BBS      08/01/91 Mansfield, OH
+419-529-5906  A & B Computers BBS       08/21/91 Mansfield, OH
+419-529-5930  The A & B Computers BBS   12/23/91 Mansfield, OH
+419-884-3399  The OUT-BACK, BBS.        11/11/91 Lexington, OH
+501-221-3435  The BMC HACKERS BBS       10/11/91 Little Rock, AR
+501-227-2012  Dr. Ed's Electronic Med.  11/18/91 Little Rock, AR
+501-329-4707  The Gaming Society BBS!   07/28/91 Conway, AR
+501-474-1528  ILLUSION BBS              12/09/91 Van Buren, AR
+501-565-6868  THE "MOONMAN" BBS         12/07/91 LITTLE ROCK, AR
+501-565-8220  Omega Systems BBS         12/07/91 Little Rock, AR
+501-646-0543  Ark/Ok PC Users Group BBS 08/18/91 Fort Smith, AR
+501-888-3924  The Rare Moment BBS       09/28/91 Little Rock, AR
+501-968-1931  Arkansas River Valley     11/13/91 Russellville, AR
+502-754-1390  The Coal Mine BBS         10/30/91 Central City, KY
+502-765-6805  ConneXXXion Online(c)     11/05/91 Ft. Knox, KY
+502-781-4875  The BGAMUG BBS            11/30/91 Bowling Green, KY
+502-834-7005  INTERGALACTIC BBS         10/04/91 Shelbyville, KY
+503-232-6213  Enigma                    10/14/91 Portland, OR
+503-256-6590  A.C.E.!                   07/06/91 Portland, OR
+503-286-0931  Sea Breeze BBS I          08/31/91 Portland, OR
+503-286-2802  Sea Breeze BBS II         08/31/91 Portland, OR
+503-287-7091  Future Technology         11/18/91 Portland, OR
+503-289-5257  Sea Breeze BBS III        08/31/91 Portland, OR
+503-375-3557  Renegade One              07/24/91 Salem, OR
+503-389-5209  Mid-Oregon Computer Club  10/12/91 Bend, OR
+503-461-3329  Emerald Online BBS        12/17/91 Eugene, OR
+503-526-2667  Microware Tech Support    12/06/91 Beaverton, OR
+503-620-5910  NWCS Online               12/05/91 Portland, OR
+503-629-9698  The SWAMPRAT BBS          12/15/91 Beaverton, OR
+503-761-3003  EastSide Data Services    08/13/91 Portland, OR
+504-340-7027  The Padded Cell           07/02/91 New Orleans (Ma, LA
+504-356-5706  The Restaurant!!          09/25/91 Baton Rouge, LA
+504-456-6704  SINGLES NETWORK           11/11/91 METAIRIE, LA
+504-733-3462  The ENERGY MACHINE!       12/13/91 Jefferson, LA
+504-735-0136  THE BYTE EXCHANGE         08/11/91 Bogalusa, LA
+504-775-7225  The Junkyard BBs          12/02/91 Baker, LA
+
+BBS Phone No. BBS Name                  Verified Location         page: 8
+ 
+504-796-5860  The NorthLake DATA EXCHAN 10/26/91 Folsom, LA
+504-832-3939  BALAST BBS                12/20/91 New Orleans, LA
+504-891-7579  Toms BBS                  07/27/91 New Orleans, LA
+505-327-2623  The Computer Lynx         11/06/91 Farmington, NM
+505-473-4582  Sludge's Truck Stop       10/13/91 Santa Fe, NM
+505-523-4528  Waterfront West WC! BBS   10/18/91 Las Cruces, NM
+505-527-8878  THE BOBCAT BYTE           08/17/91 Las Cruces, NM
+505-622-6687  8088 BBS                  10/07/91 Roswell, NM
+508-336-3868  The Data Express BBS      10/13/91 Seekonk, MA
+508-393-1213  T&T ComEng                08/09/91 Northboro, MA
+508-433-2702  The Demon's Den           08/29/91 Pepperell, MA
+508-568-0957  The Imperium              08/07/91 Hudson, MA
+508-568-8110  Chaos Wildcat!            07/04/91 Hudson, MA
+508-635-6328  NEC Technologies BBS      09/24/91 Boxborough, MA
+508-688-5209  Midnight Shift! BBS       11/14/91 Methuen, MA
+508-793-2820  The Brotherhood of The Ro 10/01/91 Worcester, MA
+508-927-3459  TheOpenWindow BBS         12/12/91 Beverly, MA
+509-455-3335  REHAB. INFO-SERVE         07/29/91 SPOKANE, WA
+509-962-8999  Weisheitberg              10/09/91 Ellensburg, WA
+510-223-0222  BDPA-BAC                  09/22/91 Oakland, CA
+510-537-1777  Combat Arms BBS           10/08/91 Castro Valley, CA
+510-537-6344  Bust Out BBS              10/10/91 Hayward, CA
+510-547-5264  Off Broadway              12/11/91 Oakland, CA
+510-582-4846  Adrenaline Junkies        12/28/91 Castro Valley, CA
+510-606-6146  Other World BBS           09/12/91 Livermore, CA
+510-652-1763  The Skunk Works           10/18/91 Oakland, CA
+510-687-2408  Excess BBS                11/08/91 Concord, CA
+510-727-0442  AnyBody's BBS             12/12/91 Castro Valley, CA
+510-745-0365  REESECOM BBS              09/09/91 Fremont, CA
+510-790-0667  The Law BBS               09/20/91 Fremont, CA
+510-838-7687  DIABLO BBS                09/15/91 Danville, CA
+510-881-5427  Bust Out BBS              10/10/91 Hayward, CA
+512-242-2206  * * C C A T * *           10/12/91 Corpus Christi, TX
+512-396-0252  Martin's Domain           07/02/91 San Marcos, TX
+512-434-1557  Alamo PC Organization BBS 08/03/91 San Antonio, TX
+512-434-1644  The Data Connection       11/10/91 San Antonio, TX
+512-442-6091  Button and Dietz BBS      12/16/91 Austin, TX
+512-477-8897  Connections               10/16/91 Austin, TX
+512-496-5559  Alamo PC Organization, In 09/25/91 San Antonio, TX
+512-523-0407  The Institute BBS         12/09/91 San Antonio, TX
+512-523-1525  Chuck and Ginger's Board  11/23/91 San Antonio, TX
+512-523-1560  Chuck and Ginger's Board  07/26/91 San Antonio, TX
+512-558-6623  Alice's Restaurant        10/25/91 San Antonio, TX
+512-590-9423  The Ansi Touch            11/03/91 San Antonio, TX
+512-595-4269  No-Name BBS               12/20/91 Kingsville, TX
+512-637-0396  THE ROADRUNNER BBS        10/09/91 SAN ANTONIO, TX
+512-657-2204  BIOS II BBS               10/28/91 San Antonio, TX
+512-659-2305  Heidi Search Center       11/30/91 San Antonio, TX
+512-659-3043  Black Raider              08/16/91 Converse, TX
+512-664-8087  The Fireside Chat BBS     12/16/91 Alice, TX
+512-688-3753  B&B  BBS                  09/30/91 San Antion, TX
+512-699-3977  The Q BBS                 12/21/91 San Antonio, TX
+512-883-7839  BlueWater BBs             11/20/91 Corpus Christi, TX
+513-236-1229  J&J's BBS Node 3          12/08/91 Huber Heights, OH
+513-236-3087  J&J's BBS Node 2          08/10/91 Huber Heights, OH
+513-236-3479  Grog and Ale BBS          10/30/91 Dayton, OH
+513-236-4788  J&J's BBS Node 1          08/10/91 Huber Heights, OH
+513-236-5755  Kyles BBS                 11/01/91 Huber Heights,O, OH
+
+BBS Phone No. BBS Name                  Verified Location         page: 9
+ 
+513-236-7085  Kyles BBS                 11/01/91 Huber Heights, OH
+513-254-7474  SPROCKETS! BBS            11/21/91 Dayton, OH
+513-256-0399  The Firehouse BBS         12/08/91 Dayton, OH
+513-274-3231  WTUE 104.7 FM BBS         12/01/91 Dayton, OH
+513-298-9934  The Programmers Dungeon(t 12/10/91 Kettering, OH
+513-339-0383  CS INDUSTRIES BBS         09/18/91 TROY, OH
+513-434-9292  The \/\/indow Blind BBS   12/14/91 Dayton, OH
+513-531-6299  The MIDI Inn BBS          11/14/91 Cincinnati, OH
+513-745-0965  The Kingdom of Cormac mac 09/28/91 Cincinnati, OH
+513-779-9717  Spock's Adventure!        10/01/91 Cincinnati, OH
+513-859-7847  ThunderRoad BBS           09/24/91 Miamisburg, OH
+513-878-5491  (FCO) For Collectors Only 11/18/91 Fairborn, OH
+513-898-2781  The Country Connection BB 07/05/91 Vandalia, OH
+515-752-0178  The Information Center    07/28/91 Marshalltown, IA
+516-223-5180  SunShine II BBS           10/29/91 Merrick, NY
+516-325-1681  The East End Connection   11/12/91 Remsenburg, NY
+516-399-1375  HAM-IT-UP BBS             07/06/91 Mastic, NY
+516-579-7507  Utopia Tech BBS           10/08/91 Levittown, NY
+516-579-9392  The Tack Room B.B.S.      07/07/91 Bethpage, NY
+516-723-0305  American Iron B.B.S.      08/16/91 East Quogue, NY
+516-737-6273  Sports Card Exchange      09/01/91 Centereach, NY
+516-842-4259  InfOsystems               10/24/91 Long Island, NY
+516-935-2001  The Ancient Pond          11/10/91 Hicksville, NY
+517-238-2135  Graphics Plus             09/13/91 Coldwater, MI
+517-463-8474  The Mainstream BBS        09/26/91 Alma, MI
+517-483-9615  CJ Training BBS           10/30/91 Lansing, MI
+517-769-6320  The Twilight Zone         11/18/91 Pleasant Lake, MI
+517-783-1059  Wizard Users Support BBS  09/27/91 Jackson, MI
+517-893-0172  The Office BBS            07/23/91 Essexville, MI
+517-894-2182  The Tinkerbox BBS!        07/06/91 Bay City,, MI
+518-377-9463  THE DIMENSIONS BBS!       11/18/91 Schenectady, NY
+518-732-2580  Intermission Time         10/13/91 Malden Bridge, NY
+601-234-2963  The Main Board            10/10/91 Oxford, MS
+601-234-9633  Wild-1 BBS                07/26/91 Oxford, MS
+601-287-1336  OMEGA-ONE                 10/11/91 Corinth, MS
+601-324-2945  Battle Star BBS           09/21/91 Starkville, MS
+601-332-9453  !PSYCHOBABBLE!            10/10/91 Greenville, MS
+601-392-7545  CHI RHO CHRISTIAN BBS     10/26/91 GULF COAST, MS
+601-442-5978  Trinity School BBS        10/11/91 Natchez, MS
+601-497-6664  Omni-Com                  12/11/91 Gautier, MS
+601-638-7120  Chuckie's Place           10/27/91 Vicksburg, MS
+601-773-4479  DIGITAL SUPPORT           11/16/91 LOUISVILLE, MS
+601-856-8337  The Heliport BBS          11/15/91 Madison, MS
+601-892-2783  Gameboard Plus BBS        08/15/91 Crystal Springs, MS
+602-242-2462  BIBLE FOUNDATION BBS      11/30/91 Phoenix, AZ
+602-272-3908  MIDI CITY 1               07/02/91 Phoenix, AZ
+602-296-2248  Symmetry BBS              08/20/91 Tucson, AZ
+602-371-8626  Over There!               11/03/91 Phoenix, AZ
+602-459-3656  The Nut House BBS         12/13/91 Sierra Vista, AZ
+602-461-8643  Software to Hardware      08/31/91 Mesa (Phoenix), AZ
+602-492-0560  Intimidator BBS           11/11/91 Phoenix, AZ
+602-537-7766  White Mountain BBS 2      12/11/91 Show Low, AZ
+602-556-9646  Run-Time BBS              08/19/91 Flagstaff, AZ
+602-575-8925  Astral Plane              08/26/91 Tucson, AZ
+602-582-1127  Nighthawk Super Systems   12/15/91 Phoenix, AZ
+602-582-3643  The JCCS Multiline BBS    08/25/91 Phoenix, AZ
+602-582-4299  The JCCS Multiline BBS    08/25/91 Phoenix, AZ
+602-628-7994  Community Resources       10/22/91 Tucson, AZ
+
+BBS Phone No. BBS Name                  Verified Location         page: 10
+ 
+602-757-0385  Golden Valley BBS         12/06/91 Kingman, AZ
+602-757-1125  PrimeNet(tm)              09/12/91 Kingman, AZ
+602-783-3020  Boot Strap OnLine         07/02/91 Yuma, AZ
+602-786-1841  The Immortal! BBS         09/17/91 Chandler, AZ
+602-866-9229  Valley of the Sun         08/21/91 Phoenix, AZ
+602-866-9303  Valley of the Sun         08/21/91 Phoenix, AZ
+602-877-8578  The BRASS POUNDER         09/21/91 Phoenix, AZ
+602-877-8748  Mike's Sunshine Resort &  12/06/91 Phoenix, AZ
+602-888-3929  A.C.T.C. BBS #1           12/18/91 Tucson, AZ
+602-925-0926  The Night BBS             09/25/91 Goodyear, AZ
+602-936-3892  RUSTY'S WILDCAT BBS       12/07/91 Phoenix, AZ
+602-938-1524  the starr express         09/21/91 Glendale , AZ
+602-941-2434  The Phone Company (TPC)   11/23/91 Scottsdale, AZ
+602-943-9318  The JCCS Multiline BBS    08/25/91 Phoenix, AZ
+602-945-0363  COMPUTER WAREHOUSE ON LIN 10/21/91 Scottsdale, AZ
+603-485-2111  SUNCOOK RIVER BBS         08/17/91 ALLENSTOWN, NH
+603-485-8549  The Pembroke Connection   10/26/91 Pembroke, NH
+603-644-5724  EXILE'S GATE              12/13/91 MANCHESTER, NH
+603-742-5201  The Bull Board            12/18/91 Rollinsford, NH
+603-878-2567  Nashoba Valley BBS        09/24/91 New Ipswich, NH
+605-743-2912  MOSTLY SOFTWARE BBS       11/19/91 Sioux Falls, SD
+606-255-5739  The Oracle                10/24/91 Lexington, KY
+606-269-1565  The PROF-BBS              10/12/91 Lexington, KY
+606-329-2949  Heart Beat                10/13/91 Ashland, KY
+606-376-3747  Black Angel               08/04/91 Marshes Siding, KY
+606-623-8119  The Answer BBS            12/25/91 Richmond, KY
+606-781-2956  Camelot! BBS              09/28/91 Ft. Thomas, KY
+606-986-3084  The Data Room BBS         11/15/91 Berea, KY
+607-562-3652  PC FANATIC! BBS           10/11/91 Corning, NY
+607-648-6284  The Sanctuary             08/07/91 Chenango Forks, NY
+607-732-4565  Sugar Mountain            12/15/91 Elmira, NY
+608-785-0419  CROSSFIRE                 11/15/91 LA CROSSE, WI
+608-849-4096  CYBERSPACE BBS            11/21/91 Waunakee, WI
+608-983-2620  Thunder Mountain          12/23/91 Cazenovia, WI
+609-278-0735  IQ+/InfoQuest             12/18/91 Trenton, NJ
+609-423-2748  The Long Dark Road BBS    07/02/91 Paulsboro, NJ
+609-435-2075  Antares                   10/20/91 CLEMENTON, NJ
+609-468-1348  The Data Line BBS         10/23/91 Wenonah, NJ
+609-522-4965  INFO-NET Fire/EMS         12/12/91 Wildwood, NJ
+609-691-3228  The Singles Bar BBS!      10/19/91 Vineland, NJ
+609-691-4319  Download City USA         12/11/91 Vineland, NJ
+609-695-6130  IQ+/InfoQuest             12/18/91 Trenton, NJ
+609-753-9313  The Rookie BBS            10/30/91 Berlin, NJ
+609-768-5689  The Electron Symentry     11/05/91 Voorhees, NJ
+609-895-0398  Sports Card & Comic Coll. 11/13/91 Lawrenceville, NJ
+609-971-7902  Club BBS                  12/22/91 Forked River, NJ
+612-444-6101  THE DATA FARM             11/17/91 Princeton, MN
+612-481-7939  Comp Systems, Inc. BBS    08/20/91 St. Paul, MN
+612-533-5839  The Home Office           10/19/91 Minneapolis, MN
+612-535-8844  Jason, Jr BBS             09/23/91 New Hope, MN
+612-588-7563  THE UNITED STATES VETERAN 10/10/91 Robbinsdale, MN
+612-633-1366  The City Lights           10/13/91 Arden Hills, MN
+612-730-0822  Shadowfax BBS             12/16/91 Maplewood, MN
+612-772-7635  Library User Network BBS  10/09/91 St. Paul, MN
+612-944-3358  THE FREEZING POINT        12/05/91 Eden Prairie, MN
+613-535-8844  Jason, Jr. BBS            08/29/91 New Hope, MN
+614-221-0096  PC ON-LINE BBS!           12/26/91 Columbus, OH
+614-258-1710  FIBERDYNE OPTOELECTRONICS 12/25/91 Columbus, OH
+
+BBS Phone No. BBS Name                  Verified Location         page: 11
+ 
+614-268-8452  ROCKIN' BBS!              12/28/91 COLUMBUS, OH
+614-353-7620  The Amazon BBS            09/28/91 Portsmouth, OH
+614-373-4958  T.C.I.S. BBS              09/21/91 Marietta, OH
+614-374-5111  Quantum Leap BBS          09/28/91 Marietta, OH
+614-432-3564  THE LAST BYTE BBS!        11/22/91 CAMBRIDGE, OH
+614-445-6258  The Data Bank BBS         12/13/91 Columbus, OH
+614-447-2352  The Archive!              11/14/91 Columbus, OH
+614-476-1746  The Orbit Of Venus        09/17/91 Gahanna, OH
+614-538-9250  Strictly Business!BBS     12/24/91 Columbus, OH
+614-545-5104  Little Joe's BBS          10/27/91 Coshocton, OH
+614-575-0168  THE JUNGLE BBS!           10/05/91 Reynoldsburg, OH
+614-773-2423  South of the Bauder BBS   07/07/91 Chillicothe, OH
+614-870-6544  The Comm * Port           11/01/91 Columbus, OH
+614-898-0678  Strictly Business!BBS     08/04/91 Columbus, OH
+614-928-2259  The Mother Board          10/10/91 Buckeye Lake, OH
+615-333-6223  Wet Paint BBS             07/07/91 Nashville, TN
+615-337-9683  The Silver Bullet         12/13/91 Sweetwater, TN
+615-339-3246  PLAN B                    12/25/91 Cleveland, TN
+615-378-8484  The TeePee!               08/09/91 Kingsport, TN
+615-378-8488  The TeePee!               12/14/91 Kingsport, TN
+615-399-8936  The Studio BBS            11/17/91 Nashville, TN
+615-428-2942  S.M. Night Owl            12/06/91 Sevierville, TN
+615-434-0324  The Interstate BBS        09/01/91 Johnson City, TN
+615-528-3545  The ICS BBS               11/14/91 Cookeville, TN
+615-573-1569  Poor Valley Express       10/24/91 Knoxville, TN
+615-577-7290  T.D.I.N. BBS              11/08/91 Knoxville, TN
+615-585-5031  Diver's Down BBS          09/27/91 Talbott, TN
+615-643-2820  Smalltown BBS             09/25/91 Greenbrier, TN
+615-645-9519  THE REAL DEAL             11/21/91 CLARKSVILLE, TN
+615-688-0232  Jagware Hotline BBS       10/31/91 Knoxville, TN
+615-689-0799  Management Systems BBS    10/31/91 Knoxville, TN
+615-790-1545  METRO MOVIES BBS          12/03/91 Nashville , TN
+615-821-9453  Pyramid BBS               12/14/91 Lookout Mountai, TN
+615-872-9156  Flakey-Jake's Emporium    12/07/91 Nashville, TN
+615-875-3853  High Seas BBS             09/10/91 Chattanooga, TN
+615-892-1031  The Paragon Data Services 12/22/91 Chattanooga, TN
+615-983-8232  The Disk Fix              11/03/91 Maryville, TN
+615-984-9396  The NEUTRON BOMB          12/17/91 Maryville, TN
+615-992-6139  REALITY RELIEF BBS        12/11/91 Andersonville, TN
+616-243-8663  City Heat BBS             11/25/91 Grand Rapids, MI
+616-329-7569  AAPSnet                   12/04/91 Kalamazoo, MI
+616-349-3532  Black Cat! BBS            07/07/91 Kalamazoo, MI
+616-349-4589  The Oratory BBS           12/02/91 Kalamazoo, MI
+616-375-2083  The Graphics Shop BBS     12/04/91 Kalamazoo, MI
+616-429-3414  Michigan Online           10/23/91 St. Joseph, MI
+616-429-9757  The JoKer BBS             12/13/91 Stevensville, MI
+616-463-3362  The West Michigan Kiosk   07/31/91 Watervliet, MI
+616-527-0705  DATA MANAGEMENT BBS       12/11/91 Ionia, MI
+616-637-6965  MAGNETIC MOUNTAIN         09/23/91 South Haven, MI
+616-798-2464  The New Cinema-12 BBS     10/05/91 Muskegon, MI
+618-242-9506  The PLACE                 10/03/91 Mt. Vernon, IL
+618-244-9715  THE  Z O N E  !           10/24/91 Mt.Vernon, IL
+618-254-0637  Plato's Place Network BBS 11/16/91 Wood River, IL
+618-254-6804  FANTASY ISLAND            08/04/91 WOOD RIVER, IL
+618-548-3637  Channel Z                 08/16/91 Salem, IL
+618-549-8448  [Parameters]              10/12/91 Carbondale, IL
+618-684-3990  The Hard Disk Cafe!       09/26/91 Murphysboro, IL
+618-985-4747  Pooh's Corner             12/03/91 Carterville, IL
+
+BBS Phone No. BBS Name                  Verified Location         page: 12
+ 
+619-241-8851  Tumble Weed GaB.B.S.      11/01/91 Victorville, CA
+619-246-3223  SUN YOUR BUNS BBS         11/21/91 ADELANTO, CA
+619-246-3841  "LITTLE HAVANA BBS"       10/29/91 GEORGE AFB, CA
+619-246-6225  the DESERT MOON BBS       11/19/91 Victorville, CA
+619-268-3568  Christ Line (BBS)         08/29/91 San Diego, CA
+619-278-7361  Pacific Rim Information   10/14/91 San Diego, CA
+619-279-3921  RadioSport! - Node 1      11/17/91 San Diego, CA
+619-279-5240  DAN'S BBS                 06/28/91 San Diego, CA
+619-281-4185  The General BBS           08/26/91 San Diego, CA
+619-281-5538  The General BBS           07/27/91 San Diego, CA
+619-284-4066  Bulletproof Software Supp 12/13/91 San Diego, CA
+619-285-1639  Wee Cabin                 12/15/91 San Diego, CA
+619-287-6006  The Computer Room         08/24/91 San Diego, CA
+619-345-0195  The Abort, Retry, Fail ?  08/22/91 Palm Desert, CA
+619-353-3365  Crossbow BBS              12/20/91 ElCentro, CA
+619-355-2222  The El Centro BBS         07/12/91 El Centro, CA
+619-367-9208  DataByte Computer Service 12/12/91 29 Palms, CA
+619-376-6383  Creative Hands / WB6ODZ   09/25/91 Lake Isabella, CA
+619-390-7328  Lakeside Wildcat! BBS     12/08/91 Lakeside, CA
+619-423-2327  The Corner Store          10/27/91 San Diego, CA
+619-425-5831  THE LCR BBS               12/12/91 CHULA VISTA, CA
+619-435-5513  The Pacific On-Line BBS   12/18/91 Coronado, CA
+619-442-5179  {{{ Tech-Ref BBS }}}      09/07/91 San Diego, SD
+619-445-6028  Alpine Wildcat!           11/25/91 Alpine, CA
+619-481-6479  The Seaside Connection    08/27/91 San Diego, CA
+619-543-9016  Network Marketing Support 12/26/91 San diego, CA
+619-561-0058  Hog Heaven                10/17/91 El Cajon, CA
+619-564-5365  The Abort, Retry, Fail ?  12/09/91 La Quinta, CA
+619-566-1745  Classified Connection     07/20/91 San Diego, CA
+619-588-6238  The Software Corner       08/10/91 El Cajon, CA
+619-769-4639  Pegasus BBS No. Edwards   10/05/91 No. Edwards, CA
+619-789-4391  High Country East BBS     10/12/91 Ramona, CA
+619-868-1765  The Mailing Wall!         11/10/91 PHELAN, CA
+701-266-5449  The N.E.R.D. Board        12/01/91 Rock Lake, ND
+701-839-8306  The Grpahics House        10/22/91 Minot, ND
+701-873-6282  The Gas Station           12/10/91 Beulah, ND
+702-254-5042  The Root Cellar           11/10/91 Las Vegas, NV
+702-348-8344  "Another !@#$%^&* BBS"    08/19/91 Reno, NV
+702-435-1292  The House of Ill Compute  08/14/91 Las Vegas, NV
+702-435-8407  Reservation Only!         08/09/91 Las Vegas, NV
+702-438-1670  OmniBoard                 10/20/91 Las Vegas, NV
+702-438-3625  The Other BBS.            08/03/91 Las Vegas, NV
+702-453-7717  CLASSified.BBS            11/17/91 Las Vegas, NV
+702-454-5115  OmniBoard                 11/01/91 Las Vegas, NV
+702-597-1931  The LAS VEGAS CENTER BBS  10/12/91 Las Vegas, NV
+702-827-1913  Simplistic Systems BBS    12/05/91 Reno, NV
+703-222-8232  InfoShare Plus            08/30/91 Fairfax, VA
+703-280-4233  SoftRox SDG               11/30/91 Fairfax, VA
+703-347-7460  Sugar Magnolia            08/20/91 Warrenton, VA
+703-368-4642  The Time Portal ][ BBS (N 12/07/91 Manassas, VA
+703-379-2841  Infinite Data Source      12/17/91 Alexandria, VA
+703-532-2272  Tequila Sunrise           09/07/91 Falls Church, VA
+703-532-8846  MAUI BUM'S BEACH PARADISE 12/09/91 FALLS CHURCH , VA
+703-658-0250  My Little BBS             10/12/91 Annandale, VA
+703-671-9615  Vanguard                  12/14/91 Alexandria, VA
+703-739-5843  Miwok Village             08/03/91 Alexandria, VA
+703-821-7544  Dead End BBS              07/02/91 McLean, VA
+703-823-6591  ABySS BBS                 07/23/91 WASH, DC
+
+BBS Phone No. BBS Name                  Verified Location         page: 13
+ 
+703-892-2188  Bob's BBS                 07/25/91 Arlington, VA
+703-968-0331  Telemar                   08/16/91 Centreville, VA
+703-971-1783  Indirections!             11/02/91 Alexandria, VA
+704-399-4736  The Security Information  12/19/91 Charlotte, NC
+704-535-3535  The Exchange BBS          06/30/91 Charlotte, NC
+704-545-1205  Advanced Electronic Tech. 12/19/91 Charlotte, NC
+704-545-7076  Advanced Electronic Tech. 12/19/91 Charlotte, NC
+704-637-6541  SPLIT IMAGE               11/14/91 Salisbury, NC
+704-744-6237  M E G A - B Y T E         12/03/91 LEXINGTON, NC
+704-932-2455  Bill's Graphics BBS       09/03/91 Kannapolis, NC
+707-257-6502  Napa Valley Wildcat       10/21/91 Napa, CA
+707-428-4215  The TANSTAFL BBS          11/08/91 Fairfield, CA
+707-437-3597  The Neutral Zone BBS      09/20/91 Fairfield, CA
+707-451-3323  Darkside of the Moon      06/30/91 Vacaville, CA
+707-463-1864  E-Tech!                   10/24/91 Ukiah, CA
+707-552-0462  The Power Station BBS     10/26/91 Vallejo, CA
+707-745-6322  The Computer Center       11/02/91 Benicia,, CA
+707-746-5820  DCC BBS                   12/12/91 Benicia, CA
+707-763-4485  Private Mail Runner       12/27/91 Petaluma, CA
+708-202-1516  The File Depot...         12/24/91 Palatine, IL
+708-202-9249  The Clan BBS              11/12/91 Palatine, IL
+708-253-6224  MPPL BBS                  11/15/91 Mount Prospect, IL
+708-301-2872  BBS USA                   12/12/91 Lockport , Ill, IL
+708-453-6630  Sun Surf & Serenity       10/07/91 Elmwood Park, IL
+708-566-4083  Snow's Dorm               11/29/91 Mundelein, IL
+708-690-9860  Laran Communications      12/13/91 Winfield, IL
+708-885-8865  The OPOWD Crowd BBS       12/01/91 Hoffman Estates, IL
+708-904-4601  The Naperville File Excha 11/24/91 Naperville, IL
+708-991-7112  The Amalgamated BBS       12/09/91 Palatine, IL
+712-366-6026  The Gamer's Guild BBS     12/16/91 Council Bluffs, IA
+712-943-4953  The Dragon's Breath BBS   11/16/91 Sgt Bluff, IA
+713-242-6370  Bulldozer's BBS           12/27/91 SugarLand, TX
+713-392-3512  West Houston Wildcat!     09/16/91 Katy, TX
+713-421-1470  Leisure Larry's II        12/19/91 Baytown , TX
+713-481-2721  Southeast Area Connection 11/14/91 Houston, TX
+713-482-7080  The Roost BBS             10/08/91 Houston, TX
+713-495-2844  SYNERGY                   10/21/91 Houston, TX
+713-558-9422  Endymion BBS              07/03/91 Houston, TX
+713-673-5510  Open Access BBS           09/20/91 Houston, TX
+713-699-1010  Canadian Connection BBS   10/30/91 Houston, TX
+713-980-7733  King's Throne!            10/30/91 Sugar Land, TX
+714-236-0444  Master Control BBS!       09/05/91 Stanton, CA
+714-371-4789  VGER Control              10/08/91 Corona, CA
+714-432-9104  PC-Applications           08/27/91 Costa Mesa, CA
+714-447-4356  Hustler's Corner          12/09/91 Fullerton, CA
+714-454-6748  Star Micronics Support BB 11/19/91 Irvine, CA
+714-495-0648  Future Shock Systems BBS  12/13/91 Laguna Niguel, CA
+714-525-8837  ElvenKind                 10/24/91 Fullerton, CA
+714-526-2387  AXIOS.BBS                 09/22/91 Fullerton,CA, CA
+714-534-9196  CODE-3 BBS                12/19/91 Anaheim, CA
+714-545-0409  JADE South!               10/25/91 COSTA MESA, CA
+714-592-3840  **Sunset-L**              11/19/91 San Dimas, CA
+714-645-6581  The End Of The Line       10/21/91 Costa Mesa, CA
+714-650-0629  Star Fleet BBS            12/07/91 COSTA MESA, CA
+714-670-6570  Gremlin's BBS             09/26/91 La Palma, CA
+714-670-7548  Gremlin's BBS             08/11/91 La Palma, CA
+714-678-9680  Ortega BBS                12/17/91 Lake Elsinore, CA
+714-686-6463  Interstate Express West   10/08/91 Riverside , CA
+
+BBS Phone No. BBS Name                  Verified Location         page: 14
+ 
+714-739-4760  Stranger's Place BBS      11/21/91 La Palma, CA
+714-744-3798  Healthcare Ethics BBS (HE 10/21/91 Orange, CA
+714-758-0324  The Infinity System       12/16/91 Anaheim, CA
+714-777-1416  Computer Smarts BBS       10/08/91 Anaheim, CA
+714-780-6365  The Library! BBS          09/22/91 Riverside, CA
+714-789-0905  Camera Ready BBS          11/14/91 Riverside, CA
+714-836-0131  Mistress's Digs           10/25/91 Santa Ana, CA
+714-837-9677  The Solar System          10/08/91 Mission Viejo, CA
+714-848-1506  N O H O    B B S          06/29/91 HUNTINGTON BEAC, CA
+714-859-1908  The Tracon BBS            07/04/91 Mission Viejo, CA
+714-861-8366  Star Tech BBS             11/24/91 Diamond Bar, CA
+714-862-5319  Graphics Unlimited BBS    11/02/91 Highland, CA
+714-927-8146  Hemet Nights              10/11/91 Hemet, CA
+714-953-9012  The Village Castle BBS    12/26/91 Santa Ana, CA
+714-982-6760  Baffrey's CAThouse BBS    12/08/91 Upland, CA
+715-549-5514  THE BRIDGE BBS            11/10/91 Houlton, WI
+715-682-8509  Ashland Hicksville HQ! BB 12/10/91 Ashland, WI
+716-343-1279  BATBOARD                  07/06/91 Batavia, NY
+716-832-9226  Block's BBS               12/08/91 Buffalo, NY
+716-832-9241  Block's BBS               08/09/91 Buffalo, NY
+716-865-9339  The Hands On Computer Sys 08/04/91 Rochester, NY
+717-296-6377  Megabyte Software, Inc. B 11/04/91 Milford, PA
+717-323-1457  The Forests' End BBS      10/29/91 Linden, PA
+717-325-9481  T&J BBS                   12/10/91 Jim Thorpe, PA
+717-364-5375  Sarver's Output Services  10/17/91 Monroeton, PA
+717-533-8516  Lou's BBS                 12/14/91 Hershey, PA
+717-652-8316  RT&T                      12/06/91 Harrisburg, PA
+717-652-9291  The Susquehanna Speedway  11/28/91 Harrisburg, PA
+717-689-3123  Brinkman's Hollow BBS     10/08/91 Hamlin, PA
+718-385-1960  THE BIG BLUE MACHINE      07/04/91 Brooklyn, NY
+718-463-1091  IMMIGRATION LAW USA BBS   09/05/91 FLUSHING, NY
+718-843-7324  The buzz of the gun.      09/25/91 QUEENS, NY
+719-269-3152  Valley BBS                10/15/91 Canon City, CO
+719-269-9261  Purgatory                 10/19/91 Canon City, CO
+719-574-0714  Trinity Cross             11/13/91 Colorado Spring, CO
+719-630-1104  THE BARGAIN BASEMENT BBS  10/14/91 COLORADO SPRING, CO
+800-231-2171  800 C-A-T                 11/15/91 BUENA PARK, CA
+800-446-8305  Anything Goes BBS         11/14/91 Access From Any, TX
+800-666-3845  Minos BBS                 12/06/91 Earth, 
+800-934-7891  C.C.L.F. BBS!! LOCAL 897- 11/18/91 BOONVILLE,, IN
+801-673-7792  WC-PAF USERS GROUP        11/18/91 St George, UT
+801-752-0806  The Tigers Den            07/28/91 Logan, UT
+802-527-1683  VEROMONT COMPUTER SUPPORT 10/14/91 ST. ALBANS, VT
+803-279-6976  The Wall BBS              10/13/91 North Augusta, SC
+803-294-9040  The Treasure Chest        08/21/91 Greenville , SC
+803-365-1657  The Direct Access         11/24/91 Conway, SC
+803-365-4218  Conway BBS                07/09/91 Conway, SC
+803-469-3814  Vangaard Keep             12/03/91 Sumter, SC
+803-521-1028  The Zone BBS              12/21/91 Beaufort, SC
+803-524-5655  Broad River Emporium      12/14/91 Burton, SC
+803-531-5734  Orangeburg Computer Club  10/09/91 Orangeburg, SC
+803-552-4979  Pro-Files! BBS            11/16/91 Charleston,, SC
+803-736-4963  THE RED OCTOBER  BBS      11/03/91 COLUMBIA, SC
+803-764-4917  The Unknown BBS           10/30/91 Goose Creek, SC
+803-859-2229  LIFELine BBS              11/14/91 Easley, SC
+804-242-4710  Hot Hits! BBS             12/28/91 Windsor, VA
+804-265-5571  Servant of the Lord       11/13/91 CHURCH ROAD, VA
+804-285-7231  Communications Systems BB 10/11/91 Richmond, VA
+
+BBS Phone No. BBS Name                  Verified Location         page: 15
+ 
+804-323-6248  Eagle's Rest BBS          12/01/91 Richmond, VA
+804-422-1109  The C.F.I. BBS            10/05/91 Virginia Beach, VA
+804-425-9167  The Trading Post          11/17/91 Va.Bch., VA
+804-464-0662  Frost Land BBS            10/25/91 Virginia Beach, VA
+804-464-2056  Frost Land BBS            10/25/91 Viginia Beach, VA
+804-468-9333  Inland Waves BBS          09/28/91 Virginia Beach, VA
+804-471-0689  The Lost Cove BBS         09/21/91 Virginia Beach, VA
+804-471-3247  Paradise Motel            10/31/91 Virginia Beach, VA
+804-471-3278  The Lost Cove BBS         09/21/91 Virginia Beach, VA
+804-473-5277  Pleasure Dome (Ladies Onl 07/04/91 Va. Beach, VA
+804-483-6722  ChesaPEEK BBS             10/21/91 Chesapeake, VA
+804-483-9882  The MailBox BBS(tm)       12/15/91 Portsmouth, VA
+804-490-5878  PLEASURE DOME (General Ac 12/18/91 Va. Beach, VA
+804-548-4926  PC * 'WARE BBS            11/17/91 Chesapeake, VA
+804-588-6741  THE MAILBOX BBS           07/23/91 Norfolk, VA
+804-694-0044  lion's Lair BBS!!!        08/06/91 Gloucester, VA
+804-794-6910  Airwaves BBS              11/12/91 Midlothian, VA
+804-862-4663  The Midnite Express       12/07/91 Petersburg, VA
+805-322-2783  The Dew Drop Inn Node 2   12/16/91 Bakersfield, CA
+805-322-5587  The Dew Drop Inn          12/16/91 Bakersfield, CA
+805-322-8800  Inter_comm                08/09/91 Bakersfield, CA
+805-324-5502  The Dew Drop Inn          12/16/91 Bakersfield, CA
+805-325-1474  The Message Exchange      10/26/91 Bakersfield, CA
+805-325-1896  Fun House BBS             10/09/91 Bakersfield, CA
+805-325-8285  SoftCity BBS              08/24/91 Bakersfield, CA
+805-327-2501  BSCI BBS                  07/01/91 Bakersfield, CA
+805-327-9286  BSCI BBS                  10/02/91 Bakersfield, CA
+805-392-8564  The UppyDown BBS          07/27/91 Bakersfield, CA
+805-393-8012  LAWMAN MAIL ROOM          10/22/91 Bakersfield, CA
+805-395-0650  WILDCAT! HQ BBS           10/08/91 Bakersfield, CA
+805-398-9321  CATS NETWORK              12/23/91 Bakersfield, CA
+805-399-1765  KAOS-Amiga HST            12/11/91 Bakersfield, CA
+805-481-4661  PROFILE BBS               10/02/91 Arroyo Grande, CA
+805-528-7341  The Nasty Old Lady BBS    11/23/91 Los Osos, CA
+805-582-1621  The FARPOINT BBS!         07/02/91 Simi Valley, CA
+805-650-7562  Red Sector A              12/08/91 Ventura, CA
+805-659-4760  The Wizard's Windows I BB 12/10/91 Ventura, CA
+805-664-2675  The Night Gallery BBS     09/09/91 Bakersfield, CA
+805-682-0107  The Programmer's Source   11/11/91 Santa Barbara, CA
+805-722-0615  AVBOT Public Information  07/13/91 Lancaster, CA
+805-822-4256  Tehachapi Mountain BBS    12/17/91 Tehachapi, CA
+805-822-7534  Tehachapi Mountain BBS    11/26/91 Tehachapi, CA
+805-833-9725  Tombstone                 09/29/91 Bakersfield, CA
+805-834-2663  CATS NETWORK              09/08/91 Bakersfield, CA
+805-836-0429  The Body Shoppe           11/19/91 Bakersfield, CA
+805-872-2893  Friendship 7 BBS          10/25/91 Bakersfield, CA
+805-929-2201  FogBound BBS              10/29/91 Nipomo, CA
+805-964-4766  The Seaside               12/28/91 Santa Barbara, CA
+805-964-8084  The Loyboy BBS            11/17/91 Santa Barbara, CA
+806-353-4188  My House BBS              10/09/91 Amarillo, TX
+806-353-8568  My House BBS              11/17/91 Amarillo, TX
+806-796-7070  GENEALOGY HQS!            10/07/91 Lubbock, TX
+808-261-2184  Muskrat's Den BBS         07/21/91 Kailua, HI
+808-623-1773  Country Corner BBS        12/02/91 Wahiawa, HI
+809-779-4066  COM-DAT The Caribbean Con 10/09/91 St. John, VI
+812-284-1321  TGC Adult BBS #1          07/02/91 Clarksville, IN
+812-284-5465  TGC Adult BBS #2          07/02/91 Clarksville, IN
+812-392-2637  LONESOME GEORGE BBS       12/14/91 SCIPIO, IN
+
+BBS Phone No. BBS Name                  Verified Location         page: 16
+ 
+812-425-6950  The Eagle's Nest          11/12/91 Evansville, IN
+812-428-3870  "YA! WEBECAD!" BBS        10/13/91 Evansville, IN
+812-597-4091  The Labor Board           12/06/91 Morgantown, IN
+812-825-4777  Acme On-Line              10/11/91 Bloomington, IN
+812-925-7864  Paradise Connection       08/21/91 Newburgh, IN
+812-925-7880  Paradise Conncetion BBS   12/06/91 Newburgh, IN
+813-293-0775  The Enterprise II         11/25/91 Winter Haven, FL
+813-377-5440  Abacus Systems BBS        10/10/91 Sarasota, FL
+813-378-3477  Imitation Of Life         10/11/91 Sarasota, FL
+813-434-7703  Captain's Corner          12/16/91 Naples, FL
+813-447-9550  The Atrium BBS            09/24/91 Clearwater, FL
+813-535-8560  Computer Vision BBS!      10/13/91 Largo, FL
+813-596-7034  THE PEGBOARD              10/16/91 Largo, FL
+813-637-6288  The Cave Of Atlantis      09/27/91 Punta Gorda, FL
+813-646-7347  Graphics! BBS             09/05/91 Lakeland, FL
+813-676-7549  Crown Jewel BBS           10/08/91 Lake Wales, FL
+813-746-7788  Silicon Dreams            10/22/91 Bradenton, FL
+813-796-2486  Cat House BBS! Systems    12/07/91 Safety Harbor, FL
+813-823-2473  THE RESEARCH CENTER BBS   09/23/91 St. Petersburg, FL
+813-832-4133  SoftCopy CBBS             08/10/91 Tampa, FL
+813-837-8546  Challenger BBS System     10/14/91 Tampa, FL
+813-840-9238  V                         07/02/91 TAMPA, FL
+813-862-7946  The Program BBS           11/13/91 Port Richey, FL
+813-868-3999  The Lions Den BBS         11/13/91 Hudson, FL
+813-884-9661  AGORA BBS                 11/16/91 Tampa, FL
+813-885-6043  The Gallifrey BBS of Tamp 11/16/91 Tampa, FL
+814-337-2971  Compuphile BBS            10/14/91 Meadville, PA
+814-371-8933  Speak Easy BBS            07/25/91 DuBois, PA
+814-966-3918  VALEVIEW                  07/01/91 RIXFORD, PA
+815-962-6873  Grimmly's Dog House       11/15/91 Rockford, IL
+816-232-3096  CRC Wildcat! BBS          07/14/91 St. Joseph, MO
+816-238-6337  C & M Business Machines B 08/12/91 St Joseph, MO
+816-279-4335  Saturday Nite Live        10/07/91 St. Joseph, MO
+817-428-0578  The Spectrum              11/01/91 Fort Worth, TX, TX
+817-577-0259  The Programmer's Planet   08/19/91 Fort Worth, TX
+817-592-9420  Marshall's Law!           12/08/91 Iowa Park, TX
+817-654-4802  R/C Jetstream Information 10/15/91 FT. Worth, TX
+817-685-9227  THE FOURTH DIMENSION      12/11/91 FT WORTH, TX
+817-723-2915  The Surf Board            12/13/91 Wichita Falls, TX
+817-855-7955  ChessMaster BBS           11/17/91 Wichita Falls, TX
+817-855-8067  The Dawghouse             11/03/91 Sheppard AFB, TX
+818-222-5845  DR B'S BBS                12/04/91 Calabasas, CA
+818-240-0280  The PROBOARD BBS          10/15/91 Glendale, CA
+818-240-0415  Panasia BBS               08/10/91 Glendale, CA
+818-248-2013  MIX!                      08/12/91 Montrose, CA
+818-248-3088  Hottips BBS, Glendale     11/01/91 Glendale, CA
+818-288-0573  The Spectrum BBS          12/07/91 Monterey Park, CA
+818-331-6609  El Jefe BBS               11/17/91 West Covina, CA
+818-366-1238  The MOG-UR'S EMS          10/11/91 Granada Hills, CA
+818-366-6442  The MOG-UR'S EMS          10/11/91 Granada Hills, CA
+818-441-3965  The Patchbay BBS          07/01/91 South Pasadena, CA
+818-571-0718  My Other BBS (MOBBS)      09/04/91 Monterey Park, CA
+818-765-2171  Crackerjack Palace        11/27/91 North Hollywood, CA
+818-773-0873  Bits & Megabytes BBS      10/11/91 Chatsworth, CA
+818-781-9506  Stonewall WEST!           10/09/91 Van Nuys, CA
+818-913-6843  The Learning Experience   10/13/91 W. Covina, CA
+818-914-0221  The Library BBS           10/26/91 Glendora, CA
+818-915-2708  FireHouse BBS             11/01/91 Covina, CA
+
+BBS Phone No. BBS Name                  Verified Location         page: 17
+ 
+818-955-9681  The Night Shift           10/16/91 Burbank, CA
+818-960-1583  CLASS ACT BBS             11/18/91 BALDWIN PARK, CA
+818-960-7520  Another BBS! BBS          10/19/91 Baldwin Park, CA
+818-966-8758  CanComp BBS               07/03/91 Covina, CA
+901-372-7912  The Pryamid BBS           12/24/91 Bartlett, TN
+901-372-8704  W.B.T.S. BBS              12/12/91 Memphis, TN
+901-387-0929  COMPUTERTECH BBS          11/03/91 Bartlett, TN
+901-452-7244  The Vortex BBS            12/21/91 Memphis, TN
+901-536-0251  Volunteer BBS             08/27/91 Troy, TN
+901-756-9438  Minnie's Basement         08/27/91 Memphis, TN
+901-873-0387  The NorthEnd BBS          10/12/91 Millington, TN
+902-434-3121  ADSUM Wildcat! Node 1     10/11/91 Dartmouth, NS
+902-435-2455  ADSUM Wildcat! Node 2     10/11/91 Dartmouth, NS
+902-465-4618  Halifax Wildcat BBS       09/12/91 Dartmouth, NS
+903-534-1918  Texas Open Forum!         10/18/91 Tyler, TX
+903-885-0263  "TIMOTHY'S" PLACE! BBS.   12/10/91 Sulphur Springs, TX
+903-885-1123  "TIMOTHY'S" PLACE! BBS.   12/10/91 SULPHUR SPRINGS, TX
+903-892-1599  The Great White North     08/11/91 Sherman, TX
+904-272-5915  DBA Software Solutions BB 10/26/91 Orange Park, FL
+904-274-5555  NiteLife BBS              10/17/91 Daytona Beach, FL
+904-367-0264  The Swap Shop             11/05/91 Jacksonville, FL
+904-434-3580  Wildstar's World          11/18/91 Pensacola, FL
+904-455-2186  On Base BBS               12/06/91 Pensacola, FL
+904-476-1270  TITAN Software Solutions  12/18/91 Pensacola, FL
+904-651-6347  THE PC-PLACE              09/02/91 Eglin AFB, FL
+904-688-1804  Forgotten Realms          11/03/91 Spring Hill, FL
+904-752-3330  The Wrong Number          07/06/91 Lake City, FL
+904-752-7715  The No Cost Connection    12/07/91 Lake City, FL
+904-753-3643  Dragon Haulers BBS        12/22/91 Lady Lake, FL
+904-826-4411  Desktop Delite            08/27/91 St. Augustine, FL
+904-932-1849  =>> CUTTER JOHN'S <<=     12/14/91 Gulf Breeze, FL
+904-968-1796  The 19th Hole BBS         11/11/91 Cantonment, FL, FL
+907-338-3848  Some Sunny Day            11/02/91 Anchorage, AK
+907-372-1757  Tech One BBS              12/15/91 Fairbanks, AK
+907-456-6375  R A M W O O D             12/08/91 Fairbanks, AK
+907-456-7957  WARCO BBS                 10/18/91 FAIRBANKS, AK
+907-479-8643  CHANCES ARE!              10/22/91 Fairbanks, AK
+908-206-1958  Caddy Shack II            10/18/91 Brick, NJ
+908-255-1685  "Serendipity"             07/04/91 Toms River, NJ
+908-329-3216  The Live Wire             12/08/91 Dayton, NJ
+908-354-6979  COMPUTER JUNCTION         10/08/91 Elizabeth, NJ
+908-505-8420  This Notes For You BBS    11/20/91 Toms River, NJ
+908-526-1737  The Electronic FBO        10/31/91 Bridgewater, NJ
+908-544-0339  STARCOM SYSTEM - ONE      10/19/91 Eatontown, NJ
+908-566-8267  DZK BBS                   11/15/91 Matawan, NJ
+908-657-0042  The Thieve's Guild BBS    11/02/91 Lakehurst, NJ
+908-657-0396  The Thieve's Guild BBS No 11/02/91 Lakehurst, NJ
+908-657-2178  The Thieve's Guild BBS No 11/02/91 Lakehurst, NJ
+908-741-9460  Reunions USA              10/08/91 Red Bank, NJ
+908-753-2371  RAIDER BBS                09/25/91 S.Plainfield, NJ
+908-769-1779  Visions InfoLine          07/26/91 Plainfield, NJ
+908-775-6705  The Other BBS             12/15/91 Neptune, NJ
+908-787-8383  POW/MIA BBS               12/17/91 PORT MONMOUTH, NJ
+908-805-9196  Software House Int.       10/15/91 Somerset, NJ
+908-806-8856  Sophisticated Software BB 08/05/91 Flemington, NJ
+908-840-6921  H.E.S. BBS                12/14/91 HOWELL, NJ
+908-929-8593  Pennsylvania Avenue BBS   07/27/91 Lakehurst, NJ
+908-929-9431  Casablanca BBS            10/12/91 Toms River, NJ
+
+BBS Phone No. BBS Name                  Verified Location         page: 18
+ 
+912-264-5756  Malfunction Junction      10/03/91 Waverly, GA
+912-264-8326  Malfunction Junction      10/03/91 Waverly, GA
+912-265-6368  Malfunction Junction      10/03/91 Waverly, GA
+912-438-0591  Autofax Telephonics, Inc. 11/14/91 Albany, GA
+912-750-0724  The Office                12/12/91 Macon, GA
+912-752-4186  Mercer University BBS     08/05/91 Macon, GA
+912-788-5258  ZAP! BBS                  12/09/91 Macon, GA
+912-966-1814  CATHY'S CORNER BBS        09/14/91 SAVANNAH, GA
+913-271-2070  The Software Connection   10/31/91 Topeka, KS
+913-539-3605  TOUCH "N" GO BBS          09/13/91 Manhattan, KS
+914-236-3265  ACORN I BBS               12/14/91 Marlboro, NY
+914-255-8154  PC-Paradise Systems       10/19/91 New Paltz, NY
+914-365-6176  The Gain Share BBS        12/13/91 Orangeburg, NY
+914-376-5235  Lightning Computer Consul 12/14/91 Yonkers, NY
+914-476-9553  The BIONIC WORM BBS!      08/04/91 Yonkers, NY
+914-635-2712  Dental Information System 08/22/91 Pleasant Valley, NY
+914-635-9501  The Network BBS           07/25/91 Pleasant Valley, NY
+914-668-1635  Alex's Place BBS          08/03/91 Mount Vernon, NY
+914-747-4180  Micro Systems BBS         09/11/91 Thornwood, NY
+914-779-2708  Westcon BBS               10/17/91 Eastchester, NY
+914-889-8354  The Link BBS              10/01/91 Staatsburg, NY
+914-961-0399  Land of the Unicorns!     12/18/91 Bronxville, NY
+916-362-1901  The Dreaming City BBS     12/27/91 Rancho Cordova, CA
+916-364-1826  Xanth BBS                 09/21/91 Sacramento, CA
+916-368-7518  STAR BBS                  07/04/91 Sacramento, CA
+916-477-7943  Grass Valley Techinacal B 10/30/91 Grass Valley, CA
+916-652-5920  Kingmont Astro Observator 11/05/91 Loomis, CA
+916-661-6187  Cyclops BBS               07/13/91 Woodland, CA
+916-682-1655  Video ViSion BBS          11/04/91 Sacramento, CA
+916-722-7423  The Bear's Byte           10/06/91 Citrus Heights, CA
+916-756-5548  Outerworld BBS            07/01/91 Davis, CA
+918-438-6918  Hard Drive Cafe!          10/09/91 Tulsa, OK
+918-627-0923  The Hub! BBS              11/30/91 Tulsa, OK
+918-825-0181  STARBASE III              11/05/91 PRYOR, OK
+918-835-3020  Back Alley BBS!           11/02/91 Tulsa, OK
+919-292-1979  The BillBoard             12/13/91 Greensboro, NC
+919-349-9707  PCI-BBS                   12/15/91 Reidsville, NC
+919-395-4366  Bill's BBs                11/02/91 Wilmington, NC
+919-434-8664  ASSIGNMENT EARTH: BBS     09/08/91 Trinity, NC
+919-477-4240  Scout Keys BBS            11/16/91 Durham, NC
+919-535-4239  THE PYRAMID BBS           12/15/91 Roanoke rapids, NC
+919-623-8730  Starbase ][ BBS           07/04/91 Eden, NC
+919-721-0575  NOVAT Information System  12/19/91 Winston-Salem, NC
+919-895-0368  Terminal Entry BBS        12/05/91 Rockingham , NC
+919-965-4696  The Parole Board BBS      10/12/91 Clayton, NC
+
+The following BBS's are located outside of the U.S.A.
+ 
+BBS Phone No. BBS Name                  Verified Location         page: 19
+ 
+(+44)816699371 Centre Point BBS          10/20/91 London, England
+(0)705 875675 The Knowledge BBS         12/20/91 Portsmouth, England
+027-329-3664  Vila Velha BBS            12/27/91 Vila Velha, Brazil
+0425-46-9143  P.& A. BBS                12/09/91 Tokyo, Japan
+081 687 2156  ***** The BONA Board BBS  11/25/91 London, England
+0959540991    2 SPITS BBS               10/30/91 BIGGIN HILL,KEN, England
+115371        WFDF forum                12/06/91 Sundsvall, Sweden
+2/29518434    Wizard World BBS          12/24/91 Milano, Italy
+204-488-1560  Culloden BBS              11/20/91 Winnipeg, Canada
+204-489-2384  Culloden BBS              11/20/91 Winnipeg, Canada
+204-586-2979  Shifty's Speedway BBS     11/22/91 Winnipeg, Canada
+205-820-8316  The Dragon's Lair BBS     11/16/91 Anniston, USA
+25828         CASTLE BBS                08/05/91 OAKLEY, BEDFORD, England
+265003        INGRAM MICRO              12/23/91 MILTON KEYNES, England
+268-767365    SPooK BBS                 10/10/91 Wickford, England
+271-5737      /r/e/m/a/ Net (tm)        07/04/91 Zuerich , Switerland
+271-8099      Aardvark!                 08/27/91 Bedford, Australia
+29005579      EHEHEH! BBS               12/02/91 Milano, Italy
+306-545-0417  The Extreme Outerlimits!  09/19/91 Regina, Canada
+306-586-9571  The Billionaire Boys Club 12/16/91 Regina, Canada
+3282005       VK-INFOBOARD              09/10/91 DEN HAAG, Netherlands
+335-1243      Moor-Box-Berlin           12/07/91 Berlin, Germany, Fed. 
+335-7587      Moor-Box-Berlin           12/07/91 Berlin, Germany, Fed. 
+344258        NoName BBS Swizerland     07/06/91 Naefels, Switerland
+351-6071      JIX BBS                   08/14/91 Osaka, Japan
+382-62-99     User Network Service      08/25/91 Berlin, Germany, Germany, Fed. 
+382-63-86     User Network Service      08/25/91 Berlin, Germany, Fed. 
+403-221-9797  Online Computers          12/13/91 Calgary, Canada
+403-381-8674  REDEYE BBS                10/11/91 Lethbridge, Canada
+403-450-8432  The Shadow BBS            07/27/91 Edmonton, Canada
+403-459-1957  HACKERS HAVEN BBS         10/08/91 St.Albert,Alber, Canada
+403-758-6283  YE OLDE BBS               07/12/91 Magrath, Canada
+403-766-2737  NORTHERN LITES BBS        11/02/91 WEMBLEY, Canada
+403-962-5733  The Phoenix BBS           07/25/91 Spruce Grove, Canada
+410-8226438,25 The Atomic Comet BBS      12/06/91 Easton, USA
+416-358-0895  Burning Wolf BBS          09/20/91 Niagara Falls, , Canada
+416-575-1359  the drawing board BBS     08/14/91 Hamilton, Canada
+416-661-0899  Heaven (The Adult BBS)    07/03/91 Toronto, Canada
+416-684-4687  The Cutting Edge          08/15/91 St.Catharines, Canada
+416-767-8046  Info/Access BBS           10/02/91 Toronto, Canada
+416-884-4088  Platinum Express          09/24/91 Richmond Hill, Canada
+416-937-1907  Doctor On Board HST       12/10/91 St. Catharines,, Canada
+418-693-1616  Data Wyzard BBS           09/07/91 Chicoutimi, Canada
+418-836-4044  The Gates of Delirium     07/09/91 Quebec, Canada
+46-9143       P.& A. BBS                07/26/91 Tokyo, Japan
+4816873       AZCAD BBS                 09/18/91 Melbourne, Australia
+505-888-4372  THE GLITTER GULCH WILDCAT 12/06/91 ALBUQUERQUE, NM
+506-684-2368  Eagle ][                  10/19/91 Dalhousie, Canada
+506-735-3831  CompuBBS                  11/10/91 Edmundston, NB, Canada
+514-276-1568  Montreal Express          12/23/91 Montreal, Canada
+514-430-9932  Aux Confins de L'imaginai 12/23/91 Blainville, Canada
+514-473-9357  QWERTY bulletin board     09/17/91 St-Eustache, Canada
+514-521-6198  METROPOLIS BBS!           11/14/91 Montreal, Canada
+514-521-7808  METROPOLIS BBS!           11/14/91 Montreal, Canada
+514-521-8968  The Gates of Delirium BBS 11/01/91 Montreal, Canada
+514-525-5173  Le Bab! SBE               11/03/91 Montreal, Canada
+
+BBS Phone No. BBS Name                  Verified Location         page: 20
+ 
+514-527-9924  Alley Cat BBS             10/21/91 Montreal, Canada
+514-683-4505  The Jailhouse BBS.        12/14/91 Roxboro, Quebec, Canada
+514-733-5786  Powerphone BBS            08/26/91 Montreal, Canada
+514-767-4884  STANDARD (SBE)            12/05/91 Verdun, Qc, Canada
+514-922-6084  Le Nouveau                09/27/91 St-Amable, Canada
+514-962-4410  The Black Hole BBs        08/01/91 Laval,quebec, Canada
+519-736-3659  Essex Wildcat!            07/05/91 Amherstburg, Canada
+519-881-3875  Willy & Freddies Country  11/03/91 Walkerton Ontar, Canada
+519-925-0025  AMBASSADOR BOARD          11/14/91 Shelburne, Canada
+54074         Kurpfalz BBS              12/12/91 Lambsheim, W671, Germany, Fed. 
+5489-171      Sun City BBS Nelson       08/05/91 Nelson, New Zealand
+55087         Kurpfalz BBS              12/12/91 Lambsheim, Germany, Fed. 
+559 1801      !CRISPY!                  08/03/91 London, England
+580522        QEdit Support Germany     07/09/91 Gundelfingen, Germany, Fed. 
+604-357-9942  Salmon Siding Saloon      09/22/91 Salmo, Canada
+604-430-1747  HeadEnd BBS               12/14/91 Burnaby, Canada
+604-467-8652  Down-Link Communications  12/27/91 Maple Ridge, Canada
+604-485-7301  Discovery Passage         12/13/91 Powell River, Canada
+604-540-9596  Ship to Shore Online Info 12/26/91 Vancouver, Canada
+604-752-1178  Ed-Net 69                 12/17/91 Qualicum Beach, Canada
+604-888-6124  Morning Star BBS          10/24/91 Langley, Canada
+613-537-8344  The Tron BBS System       08/11/91 Ingleside, Canada
+654329        Mission Impossible        11/13/91 Nottingham, England
+6597333       EHEHEH! BBS               12/02/91 Milano, Italy
+672050        Albion BBS                12/15/91 Retie, Belgium
+675 981/2/3/4 Stray Cats BBS            08/07/91 Manama, Bahrain
+705-322-9607  The Tele-Exchange         08/01/91 Fergusonvale, O, Canada
+705-356-7138  Forgotten                 09/11/91 Blind River, Canada
+705-949-1137  THE COLLOSUS BBS          11/24/91 SAULT STE MARIE, Canada
+705744        The Red Dwarf             07/07/91 Northampton, England
+709-579-2666  The Data Hut BBS          11/17/91 St. John's, Canada
+755099        Abacus Vortex             10/14/91 Woking Surrey, England
+758-9978      Foundation BBS            08/11/91 Stockholm, Sweden
+7589978       Foundation BBS            12/11/91 Stockholm, Sweden
+76195         Hallunda BBS              07/09/91 Hallunda Sweden, Sweden
+770403        The Index Linked BBS      08/21/91 Whitstable, England
+778-5868      Amlink Computer Services  08/15/91 Birmingham, England
+7868178       Minonet-Berlin            07/28/91 Berlin, Germany, Fed. 
+809-541-2929  CIF-BBS                   08/22/91 Santo Domingo, Dominican Repu
+81-669-9371   Centre Point BBS          12/08/91 London, England
+811493        GSL BBs                   08/15/91 Langley, England
+819-689-5465  Gil's PC                  10/13/91 Chapeau, Canada
+842 2030      Direct-Line Multi Node    08/26/91 London, England
+902-443-6754  Millennia Wildcat!        08/03/91 Halifax, Canada
+903-364-5144  Small Town BBS            10/30/91 Whitewright, Texas
+947-4411      Centre Point BBS          06/30/91 London, England
+975219&964943 SCAN International BBS    10/08/91 Quezon, Philippines
+975219/964943 SCAN International BBS    07/04/91 Quezon City, Philippines
+ 
+End of Report

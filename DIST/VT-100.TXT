@@ -1,0 +1,35 @@
+             Qmodem  - VT-100 Key Definitions
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄ¿    PF1 - PF12          F1 - F12
+³ PF1       ³ PF2       ³
+³           ³           ³
+³ PA1       ³ PA2       ³    PA1                 Shift-F1
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄ´    PA2                 Shift-F2
+³ PF3       ³ PF4       ³    PA3                 Shift-F3
+³           ³           ³    Erase EOF           Shift-F4
+³ PA3       ³ ERASE EOF ³    Clear               Shift-F5
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄ´    Reset               Shift-F6
+³ PF5       ³ PF6       ³    Cursor Select       Shift-F7
+³           ³           ³    Tab                 Tab
+³ CLEAR     ³ RESET     ³    Back Tab            Backspace
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄ´    Delete              Ctrl-Backspace
+³ PF7       ³ PF8       ³    Cursor Keys         Up, Down, Left
+³           ³           ³                        and Right
+³ CRSR SLCT ³           ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄ´
+³ PF9       ³ PF10      ³
+³           ³           ³
+³           ³           ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄ´    ÚÄÄÄÄÄÄÄÄÄÄÄ¿
+³ PF11      ³ PF12      ³    ³ Normal    ³
+³           ³           ³    ³ Ctrl      ³
+³           ³           ³    ³ Shift     ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÙ    ÀÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+These key definitions were created to offer more compatibility with an
+MVS System being accessed through a 3708 protocol converter.  It offers
+twelve PF keys as well as other commonly used keys.  It has been tested
+on MVS/TSO and VM/IS.
+

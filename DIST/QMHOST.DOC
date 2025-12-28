@@ -1,0 +1,72 @@
+         Quick-Start Host Instructions.
+
+         You will use the following files:
+
+            QMHOST.DOC    (You're reading it)
+            QMHOST.BAT    Required file for Shell to DOS to work
+            PRELOG.HST    Sample Host opening file
+            MENU.HST      Sample Main Menu file
+            PROTS.HST     Sample Protocols available file
+            LOGOFF.HST    Sample Closing message file
+            HELP?.HST     Sample HELP files for each Host Command
+
+
+Step 1.  Place these files in your Qmodem directory.
+
+Step 2.  Verify that Alt-N has all the correct settings to answer the phone
+         and hang up.  This is best accomplished by running your modem
+         through Quick Modem Config in Qinstall (or from Alt-N in Qmodem)
+
+Step 3.  Verify you have defined subdirectories in the Alt-N/H/D and
+         Alt-N/H/U directory paths.  This will be where the Uploads and
+         Downloads reside.  Do NOT place your HST files in there!  These
+         should remain in your default QMODEM subdirectory.
+
+Step 4.  Verify the Alt-N/H settings.  Make sure the time online is set to
+         a reasonable value.  Note: Downloads are not compared to the time
+         remaining.  After a download has completed/aborted, the time
+         remaining is compared and the appropriate action is taken.
+
+Step 5.  Make sure your current directory is the Qmodem directory.
+
+Step 6.  Press Alt-V and Edit the QMHOST.PWD file and add your name to the
+         top.  The Alt-V command is:
+
+                 @FSE QMHOST.PWD
+
+         The Entry to be added to the PWD file looks like this:
+
+                 JOHN FRIEL PASSWORD 1 ; The Sysop!
+
+         The fields should be SPACE separated.  The '1' means you can
+         shut the system down from remote with the 'Z' command (provided
+         you remember the Shutdown Password).  All other users should
+         have a level 0.  (this is planned for future growth)   If you
+         have it set as an OPEN system, all new users will automatically
+         get a level 0 when they are added to the file.  If you have a
+         CLOSED system, then the users have to be pre-coded or it will
+         deny them access.
+
+Step 7.  Start Qmodem and press Alt-5.  You should then see the
+         'Waiting for Calls' message.  Then press F1 to log in locally.
+
+Step 8.  Log off.  Have a friend call and test your system out while you
+         watch.  Just for security sake.
+
+
+
+Setting up the 'Shell to DOS'
+
+
+Step 1.  Verify that the QMHOST.BAT file is in the current directory or in
+         the PATH= statement.  This BAT file should have the following
+         line in it:
+
+         DOORWAY PORT:%3:%4 /M:60 /S:* /K:0 /G:ON /A:ON /V:D^U /C:DOS
+
+         You can modify this BAT file to do additional commands before and
+         after the Drop-to-DOS if need be.  The DOORWAY line itself
+         should NOT be modified.
+
+
+Thats it!  Your Qmodem Host mode should be up and running!

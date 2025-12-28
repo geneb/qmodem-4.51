@@ -46,7 +46,8 @@ TOP:          cmp     Queue_Bytes,0     ; any more bytes available?
               jz      NoMore            ; no, so time to get out
 
               mov     al,byte ptr ringbuf[bx]    ; get char in AL
-              mov     es:di,al          ; store in block
+              ;;;mov     es:di,al          ; store in block (throws "operand types do not match" in TASM 3.2)
+              mov     byte ptr es:[di], al ; suggested fix for the above (GPT-4o)
               inc     di                ; inc pointer
               inc     bx                ; inc readptr
               and     bx,Buffer_Size    ; wrap buffer if necessary
@@ -94,7 +95,8 @@ TOP2:         cmp     Queue_Bytes,0     ; any more bytes available?
               jz      NoMore2           ; no, so time to get out
 
               mov     al,byte ptr ringbuf[bx]    ; get char in AL
-              mov     es:di,al          ; store in block
+              ;;;mov     es:di,al          ; store in block (throws "operand types do not match" in TASM 3.2)
+              mov     byte ptr es:[di], al ; suggested fix (GPT-4o)
               inc     di                ; inc pointer
               inc     bx                ; inc readptr
               and     bx,Buffer_Size    ; wrap buffer if necessary

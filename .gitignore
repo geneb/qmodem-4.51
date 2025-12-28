@@ -5,7 +5,10 @@ ignorecase = true
 # start up logo screens
 !screens/*.obj
 # these are items that no source code has been found.
-!nosrc/*.obj
+!src/nosrc/*.obj
+
+# original object files
+!src/oldobj/*.obj
 
 src/*.tpu
 src/tools/*.tpu
@@ -18,6 +21,7 @@ src/tools/*.exe
 src/*.com
 src/*.ovr
 src/*.map
+src/*.bak
 src/qmodem.log
 
 *.bak
